@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+{% block title %}{{ dish.name_bn }} · {{ dish.name_en }} · {{ site.title_en }}{% endblock %}
+{% block description %}{{ dish.name_en }}: {{ dish.tagline }}{% endblock %}
+{% block body_class %}dish{% endblock %}
+{% block main %}
+<article class="recipe">
+  <header class="recipe-head">
+    <a class="crumb" href="../index.html#{{ section.id }}"><span lang="bn">{{ section.name_bn }}</span> <span class="en">{{ section.gloss }}</span></a>
+    <h1 class="recipe-title"><span lang="bn">{{ dish.name_bn }}</span></h1>
+    <p class="recipe-en">{{ dish.name_en }}</p>
+    <p class="recipe-tagline">{{ dish.tagline }}</p>
+    <dl class="recipe-meta">
+      {% if dish.serves %}<div><dt>Makes</dt><dd>{{ dish.serves }}</dd></div>{% endif %}
+      {% if dish.time_minutes %}<div><dt>Time</dt><dd>{{ dish.time_minutes }} minutes</dd></div>{% endif %}
+      <div><dt>Steps</dt><dd>{{ dish.steps | length }}</dd></div>
+    </dl>
+    {% if dish.contributor %}
+    <p class="credit">Recipe from {{ dish.contributor.name }}{% if dish.contributor.credit %}, {{ dish.contributor.credit }}{% endif %}.</p>
+    {% endif %}
+  </header>
+
+  {% if dish.review.status == "draft" %}
+  <p class="draft-note" role="note">The chemistry on this page is a draft and hasn't been checked yet. Spotted a mistake? <a href="{{ issue_url }}">Tell us</a>.</p>
+  {% endif %}
+
+  {% if dish.golpo %}
+  <aside class="golpo" aria-labelledby="golpo-title">
+    <h2 id="golpo-title"><span lang="bn">গল্প</span> <span class="en">{{ dish.golpo.title }}</span></h2>
+    <p>{{ dish.golpo.body }}</p>
+    {% if dish.golpo.source %}<p class="source">Source: {{ dish.golpo.source }}</p>{% endif %}
+  </aside>
+  {% endif %}
+
+  {% if dish.quote %}
+  <figure class="quote">
+    <blockquote lang="bn">{{ dish.quote.text }}</blockquote>
+    <figcaption>{% if dish.quote.translation %}{{ dish.quote.translation }}{% endif %}<cite>{{ dish.quote.author }}{% if dish.quote.source %}, {{ dish.quote.source }}{% endif %}</cite></figcaption>
+  </figure>
+  {% endif %}
+
+  <section class="ingredients" aria-labelledby="ing-title">
+    <h2 id="ing-title"><span lang="bn">উপকরণ</span> <span class="en">Ingredients</span></h2>
+    <ul>
+      {% for ing in dish.ingredients %}
+      <li>
+        <span class="ing-name"><span lang="bn">{{ ing.item_bn }}</span> <span class="en">{{ ing.item_en }}</span></span>
+        <span class="ing-qty">{{ ing.qty or "" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="method" aria-labelledby="method-title">
+    <div class="method-head">
+      <h2 id="method-title"><span lang="bn">প্রণালী</span> <span class="en">Method</span></h2>
+      <button type="button" class="toggle-all" data-toggle-all aria-pressed="false" hidden>Show all the chemistry</button>
+    </div>
+    <ol class="steps">
+      {% for step in dish.steps %}
+      <li class="step">
+        <span class="step-num" lang="bn" aria-hidden="true">{{ loop.index | bn_digits }}</span>
+        <div class="step-body">
+          <p class="step-bn" lang="bn">{{ step.action_bn }}</p>
+          <p class="step-en">{{ step.action_en }}</p>
+          {% if step.maa_says %}
+          <p class="maa"><span class="maa-label" lang="bn">মা বলেন</span> <span lang="bn">{{ step.maa_says }}</span></p>
+          {% endif %}
+          {% if step.chemistry %}
+          {% set chem = step.chemistry %}
+          <details class="lab">
+            <summary><span class="lab-kicker" lang="bn">রসায়ন</span> {{ chem.title }}</summary>
+            <div class="lab-page">
+              <p>{{ chem.explanation }}</p>
+              {% if chem.molecules %}
+              <div class="molecules">
+                {% for m in chem.molecules %}
+                <figure class="molecule{% if m.wide %} wide{% endif %}">
+                  {% if m.svg %}{{ m.svg }}{% elif m.smiles %}<code class="smiles">{{ m.smiles }}</code>{% endif %}
+                  <figcaption>
+                    <strong>{{ m.name }}</strong>{% if m.formula_html %} <span class="formula">{{ m.formula_html }}</span>{% endif %}
+                    {% if m.note %}<span class="mol-note">{{ m.note }}</span>{% endif %}
+                  </figcaption>
+                </figure>
+                {% endfor %}
+              </div>
+              {% endif %}
+              {% if chem.energy_svg %}
+              <figure class="energy-fig">
+                {{ chem.energy_svg }}
+                {% if chem.energy_diagram.caption %}<figcaption>{{ chem.energy_diagram.caption }}</figcaption>{% endif %}
+              </figure>
+              {% endif %}
+            </div>
+          </details>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  {% if dish.trivia %}
+  <section class="trivia" aria-labelledby="trivia-title">
+    <h2 id="trivia-title"><span lang="bn">টুকরো কথা</span> <span class="en">Odds and ends</span></h2>
+    <ul>
+      {% for t in dish.trivia %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if dish.quiz %}
+  <section class="quiz" aria-labelledby="quiz-title">
+    <h2 id="quiz-title"><span lang="bn">শেষ পাতে প্রশ্ন</span> <span class="en">Test yourself</span></h2>
+    {% for q in dish.quiz %}
+    {% set qi = loop.index0 %}
+    <form class="q" data-answer="{{ q.answer }}" novalidate>
+      <fieldset>
+        <legend>{{ q.question }}</legend>
+        {% for opt in q.options %}
+        <label class="opt"><input type="radio" name="q{{ qi }}" value="{{ loop.index0 }}"> <span>{{ opt }}</span></label>
+        {% endfor %}
+      </fieldset>
+      <div class="q-actions">
+        <button type="submit" class="q-check" hidden>Check answer</button>
+        <p class="q-error" role="alert" hidden>Pick an answer first.</p>
+      </div>
+      <p class="q-result" aria-live="polite" hidden></p>
+      <details class="q-reveal">
+        <summary>Show the answer</summary>
+        <p><strong>{{ q.options[q.answer] }}</strong>. {{ q.explain }}</p>
+      </details>
+      <template class="q-explain">{{ q.explain }}</template>
+    </form>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if dish.further_reading or prev_dish or next_dish %}
+  <footer class="recipe-foot">
+    {% if dish.further_reading %}
+    <div class="reading">
+      <h2>Further reading</h2>
+      <ul>{% for r in dish.further_reading %}<li>{{ r }}</li>{% endfor %}</ul>
+    </div>
+    {% endif %}
+    <nav class="pager" aria-label="More from {{ section.gloss }}">
+      {% if prev_dish %}<a class="pager-prev" href="{{ prev_dish.id }}.html"><span class="en">Previous</span> <span lang="bn">{{ prev_dish.name_bn }}</span></a>{% endif %}
+      {% if next_dish %}<a class="pager-next" href="{{ next_dish.id }}.html"><span class="en">Next</span> <span lang="bn">{{ next_dish.name_bn }}</span></a>{% endif %}
+    </nav>
+  </footer>
+  {% endif %}
+</article>
+{% endblock %}

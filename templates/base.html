@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.title_bn }} · {{ site.title_en }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site.tagline_en }}{% endblock %}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍯</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Galada&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Tiro+Bangla:ital@0;1&display=swap">
+  <link rel="stylesheet" href="{{ root }}static/style.css">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="spine">
+    <a class="spine-brand" href="{{ root }}index.html" lang="bn">{{ site.title_bn }}</a>
+    <nav class="spine-nav" aria-label="Sections">
+      {% for s in sections %}
+      <a href="{{ root }}index.html#{{ s.id }}" lang="bn">{{ s.name_bn }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <main id="main">
+    {% block main %}{% endblock %}
+  </main>
+  <footer class="colophon">
+    <p lang="bn">{{ site.tagline_bn }}</p>
+    <p>Recipes from Bengali kitchens, chemistry checked by hand. <a href="{{ submit_url }}">Share your family's recipe</a>.</p>
+  </footer>
+  <script src="{{ root }}static/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block body_class %}home{% endblock %}
+{% block main %}
+<section class="cover" aria-labelledby="cover-title">
+  <h1 id="cover-title" class="cover-title" lang="bn">{{ site.title_bn }}</h1>
+  <p class="cover-sub" lang="bn">{{ site.tagline_bn }}</p>
+  <p class="cover-en">{{ site.tagline_en }}. Every recipe comes with what মা says at each step and what's actually happening in the pan.</p>
+</section>
+
+<section class="contents" aria-labelledby="contents-title">
+  <h2 id="contents-title" class="contents-title"><span lang="bn">সূচিপত্র</span> <span class="en">Contents</span></h2>
+
+  {% for s in sections %}
+  <section class="chapter" id="{{ s.id }}" aria-labelledby="{{ s.id }}-title">
+    <header class="chapter-head">
+      <h3 id="{{ s.id }}-title"><span lang="bn">{{ s.name_bn }}</span></h3>
+      <p class="chapter-gloss">{{ s.gloss }}. {{ s.blurb }}</p>
+    </header>
+    {% set items = by_section[s.id] %}
+    {% if items %}
+    <ul class="ledger">
+      {% for d in items %}
+      <li>
+        <a class="ledger-row" href="dishes/{{ d.id }}.html">
+          <span class="ledger-name"><span lang="bn">{{ d.name_bn }}</span> <span class="en">{{ d.name_en }}</span></span>
+          <span class="ledger-tag">{{ d.tagline }}</span>
+          <span class="ledger-time">{% if d.time_minutes %}{{ d.time_minutes }} min{% endif %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="ledger-empty">Nothing written here yet. <a href="{{ submit_url }}">Add the first recipe</a>.</p>
+    {% endif %}
+  </section>
+  {% endfor %}
+</section>
+{% endblock %}

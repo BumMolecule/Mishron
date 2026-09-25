@@ -1,0 +1,61 @@
+name: Share a family recipe
+description: Send in a Bengali recipe. We'll add the chemistry and credit you on the page.
+title: "Recipe: "
+labels: ["recipe submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Write the recipe the way it's cooked at home. You don't need to know any chemistry; we research and check that part before anything goes live.
+  - type: input
+    id: dish
+    attributes:
+      label: Dish name
+      description: In Bengali and English if you can.
+      placeholder: "ধোকার ডালনা / Dhokar dalna"
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Where does it belong?
+      options:
+        - পাতের শুরু (start of the meal: shukto, bhaja, daal)
+        - মুখরোচক (snacks and street food)
+        - কব্জি ডুবিয়ে (main course)
+        - শেষ পাতে (sweets and desserts)
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: ingredients
+    attributes:
+      label: Ingredients
+      description: One per line, with rough quantities.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: One step per line. Add what your মা, ঠাকুমা or whoever taught you says at each step, if you remember it.
+      placeholder: "1. Heat mustard oil till it smokes. (Ma: তেল না পাকলে কাঁচা গন্ধ থাকবে)"
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: A story, if there is one
+      description: A memory, a family tradition, or a bit of history about the dish.
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you?
+      placeholder: "Riya, from her ঠাকুমা in Shyambazar"
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: This is my own or my family's recipe, not copied from a book or website, and I agree it can be published on মিশ্রণ under CC BY-SA 4.0.
+          required: true

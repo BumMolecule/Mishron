@@ -1,0 +1,152 @@
+{
+  "id": "rosogolla",
+  "name_bn": "রসগোল্লা",
+  "name_en": "Rosogolla",
+  "section": "shesh-paate",
+  "tagline": "A sponge made of milk protein, cooked in sugar.",
+  "serves": "About 12 pieces",
+  "time_minutes": 90,
+  "golpo": {
+    "type": "history",
+    "title": "The sweet that went to court",
+    "body": "Ask in Kolkata and you'll hear that Nobin Chandra Das of Bagbazar created the rosogolla in 1868 by boiling balls of chhena in syrup. Odisha tells an older story: the rasagola offered at the Jagannath temple in Puri. The argument went all the way to India's Geographical Indication registry, which gave 'Banglar Rosogolla' a GI tag in 2017 and 'Odisha Rasagola' its own in 2019. Both sides declared victory.",
+    "source": "Geographical Indications Registry of India, 2017 and 2019"
+  },
+  "ingredients": [
+    { "item_bn": "ফুল-ক্রিম দুধ", "item_en": "Full-fat milk", "qty": "1 litre" },
+    { "item_bn": "লেবুর রস", "item_en": "Lemon juice, mixed with an equal amount of water", "qty": "2–3 tbsp" },
+    { "item_bn": "চিনি", "item_en": "Sugar", "qty": "1 cup" },
+    { "item_bn": "জল", "item_en": "Water, for the syrup", "qty": "4 cups" },
+    { "item_bn": "ঠান্ডা জল", "item_en": "Ice-cold water, for rinsing", "qty": "2 cups" }
+  ],
+  "steps": [
+    {
+      "action_bn": "দুধ ফুটিয়ে নাও, তারপর আঁচ বন্ধ করে এক-দু মিনিট ঠান্ডা হতে দাও।",
+      "action_en": "Bring the milk to a boil, turn off the heat and let it cool for a minute or two.",
+      "maa_says": "ফুটন্ত দুধে লেবু দিলে ছানা শক্ত হয়ে যায়।",
+      "chemistry": {
+        "title": "Why slightly cooled milk makes softer chhena",
+        "explanation": "Heating unfolds the whey proteins in milk, mainly β-lactoglobulin, and some of them stick to the casein. Curdling a little below boiling, around 70–80 °C, lets the casein clump gently into fine, moist curds. At a full boil the proteins tighten into a firmer, rubbery network that squeezes out water, which is exactly the hardness মা is warning about.",
+        "molecules": [
+          { "name": "β-lactoglobulin", "note": "A whey protein of about 160 amino acids, too large to draw as a skeletal structure." }
+        ],
+        "energy_diagram": {
+          "y_label": "Free energy",
+          "caption": "Heat pushes the whey protein over an unfolding barrier; once unfolded, it sticks to casein. Schematic, not to scale.",
+          "stages": [
+            { "label": "Folded whey protein", "energy": 0.35 },
+            { "label": "Unfolding", "energy": 0.9 },
+            { "label": "Unfolded", "energy": 0.6 },
+            { "label": "Bound to casein", "energy": 0.2 }
+          ]
+        }
+      }
+    },
+    {
+      "action_bn": "লেবুর রস একটু একটু করে দিয়ে আলতো করে নাড়ো, যতক্ষণ না সবুজাভ জল আলাদা হয়ে যায়।",
+      "action_en": "Add the diluted lemon juice a little at a time, stirring gently, until the curds separate from clear, greenish whey.",
+      "maa_says": "সব লেবু একবারে ঢেলো না, দুধ কেটে গেলেই থামো।",
+      "chemistry": {
+        "title": "Casein's isoelectric point",
+        "explanation": "Casein travels through milk in tiny clusters called micelles. Their surfaces carry a negative charge and a fuzzy outer layer of κ-casein, and both keep the micelles apart. Citric acid from the lemon pulls the pH down towards 4.6, the isoelectric point of casein, where its net charge is close to zero. With nothing pushing them apart, the micelles collapse and clump into curds. Stopping as soon as the milk splits keeps extra acid out of the chhena. The greenish tint of the leftover whey is riboflavin, vitamin B2.",
+        "molecules": [
+          { "name": "Citric acid", "smiles": "OC(=O)CC(O)(CC(=O)O)C(=O)O", "note": "The acid in lemon juice." },
+          { "name": "Riboflavin", "smiles": "CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(O)C(O)C(O)CO", "note": "Vitamin B2, which gives whey its yellow-green colour." }
+        ]
+      }
+    },
+    {
+      "action_bn": "ছানা মলমলের কাপড়ে ঢেলে ঠান্ডা জলে ধুয়ে নাও, তারপর পুঁটলি করে ৩০–৪৫ মিনিট ঝুলিয়ে রাখো।",
+      "action_en": "Pour the curds into muslin, rinse under cold water, then hang the bundle for 30–45 minutes.",
+      "maa_says": "ধুয়ে না নিলে রসগোল্লায় টক টক গন্ধ থাকবে।",
+      "chemistry": {
+        "title": "Rinsing stops the cooking and washes out the acid",
+        "explanation": "Cold water does two jobs. It drops the temperature so the proteins stop tightening, and it rinses away leftover citric acid so the finished sweet doesn't taste sour. Hanging then drains the extra whey. Moisture is the whole game from here: too wet and the balls fall apart in the syrup, too dry and they crack and turn dense."
+      }
+    },
+    {
+      "action_bn": "ছানা হাতের তালু দিয়ে ঘষে ঘষে ৮–১০ মিনিট মাখো, যতক্ষণ না একদম মসৃণ হয়।",
+      "action_en": "Knead the chhena with the heel of your palm for 8–10 minutes until it's completely smooth.",
+      "maa_says": "হাতের তালুতে একটু তেলতেলে ভাব এলে বুঝবে মাখা হয়েছে।",
+      "chemistry": {
+        "title": "Turning curds into one even dough",
+        "explanation": "Kneading crushes the curd granules and spreads the milk fat and trapped water evenly through the protein, leaving a smooth, continuous dough with no weak spots. The greasy feel on your palm is milk fat being pressed out as the granules break down, which is why it works as a signal. Keep going much longer and more fat leaks out, and the balls can turn hard or break in the syrup."
+      }
+    },
+    {
+      "action_bn": "ছোট ছোট মসৃণ গোল্লা পাকাও, যেন কোথাও ফাটল না থাকে।",
+      "action_en": "Roll small, smooth balls with no cracks.",
+      "maa_says": "ফাটা গোল্লা রসে দিলেই ভেঙে যাবে।",
+      "chemistry": {
+        "title": "A crack is where the ball fails",
+        "explanation": "In the syrup, each ball swells as heat expands the water and air inside it and syrup soaks into the protein network. A crack is a weak point where that expansion concentrates, so the ball splits instead of puffing evenly. Keep the balls small: they roughly double in size as they cook."
+      }
+    },
+    {
+      "action_bn": "পাতলা চিনির রস ফুটিয়ে গোল্লাগুলো ছাড়ো, ঢাকা দিয়ে জোর আঁচে ১৫–২০ মিনিট ফোটাও।",
+      "action_en": "Drop the balls into a thin, boiling sugar syrup, cover, and boil hard for 15–20 minutes.",
+      "maa_says": "রস যেন ঘন না হয়, মাঝে মাঝে একটু জল ছিটিয়ে দিও।",
+      "chemistry": {
+        "title": "Osmosis decides spongy or rubbery",
+        "explanation": "Water moves towards whichever side holds more dissolved sugar. In a thin syrup the ball keeps its water and can take in more as it swells, so it puffs into a sponge. In a thick syrup water is drawn out of the ball instead, and it shrinks into a dense, chewy lump. Sprinkling water keeps the syrup thin as it boils down. Long boiling with a trace of leftover acid also splits a little of the sucrose into glucose and fructose, a reaction called inversion.",
+        "molecules": [
+          { "name": "Sucrose", "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O", "note": "Table sugar." },
+          { "name": "Glucose", "smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O", "note": "One of the two halves released by inversion." }
+        ],
+        "energy_diagram": {
+          "y_label": "Free energy",
+          "caption": "Sucrose inversion. The high barrier is why plain syrup inverts slowly; acid and heat help it over. Schematic, not to scale.",
+          "stages": [
+            { "label": "Sucrose + water", "energy": 0.6 },
+            { "label": "Transition state", "energy": 0.95 },
+            { "label": "Glucose + fructose", "energy": 0.35 }
+          ]
+        }
+      }
+    },
+    {
+      "action_bn": "আঁচ বন্ধ করে রসের মধ্যেই ঠান্ডা হতে দাও।",
+      "action_en": "Turn off the heat and let them cool in the syrup.",
+      "maa_says": "গরম গরম রস থেকে তুললে চুপসে যাবে।",
+      "chemistry": {
+        "title": "Cooling in syrup keeps the sponge full",
+        "explanation": "As the balls cool, the hot air and steam trapped inside contract. Sitting in syrup, the pores draw syrup in to fill that space, the way a squeezed sponge refills in a bucket. Lifted out while hot, they draw in air instead and slump."
+      }
+    }
+  ],
+  "trivia": [
+    "Paneer is made with the same acid-curdling trick. The difference is that paneer is pressed firm, while chhena for rosogolla is kept moist and kneaded smooth.",
+    "Don't throw away the whey. It's good for kneading roti dough or cooking rice."
+  ],
+  "quiz": [
+    {
+      "question": "Why does lemon juice turn hot milk into chhena?",
+      "options": [
+        "It kills the bacteria in the milk",
+        "It lowers the pH until casein loses its charge and clumps",
+        "It adds sugar that glues the proteins together",
+        "It cools the milk down quickly"
+      ],
+      "answer": 1,
+      "explain": "At about pH 4.6, casein's net charge is close to zero, so the micelles stop repelling each other and clump into curds."
+    },
+    {
+      "question": "What happens to a rosogolla cooked in thick syrup?",
+      "options": [
+        "It puffs up even more",
+        "Water is drawn out of it and it turns dense",
+        "It dissolves completely",
+        "It turns brown"
+      ],
+      "answer": 1,
+      "explain": "Thick syrup has more dissolved sugar than the ball, so osmosis pulls water out and the sponge can't form."
+    }
+  ],
+  "further_reading": [
+    "Harold McGee, On Food and Cooking (2004), chapter on milk and dairy products"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Drafted with an LLM. Check the coagulation temperature range and the cooling-in-syrup explanation."
+  }
+}

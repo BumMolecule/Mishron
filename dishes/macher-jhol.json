@@ -1,0 +1,143 @@
+{
+  "id": "macher-jhol",
+  "name_bn": "মাছের ঝোল",
+  "name_en": "Macher jhol",
+  "section": "kobji-dubiye",
+  "tagline": "A thin fish curry, and a lesson in cooking protein gently.",
+  "serves": "4",
+  "time_minutes": 45,
+  "golpo": {
+    "type": "proverb",
+    "title": "Why it's always fish",
+    "body": "Bengal is a delta, laced with rivers and dotted with ponds, and freshwater fish like rui and katla have long been everyday food there. Unlike in much of India, many Bengali Brahmin families have eaten fish for generations. The old saying sums it up: fish and rice make a Bengali.",
+    "source": "Folk proverb"
+  },
+  "quote": {
+    "text": "মাছে ভাতে বাঙালি",
+    "translation": "Fish and rice make a Bengali.",
+    "author": "Bengali proverb"
+  },
+  "ingredients": [
+    { "item_bn": "রুই মাছ", "item_en": "Rui (rohu) fish steaks", "qty": "6 pieces" },
+    { "item_bn": "আলু", "item_en": "Potatoes, cut into wedges", "qty": "2" },
+    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric, plus extra for rubbing", "qty": "1 tsp" },
+    { "item_bn": "নুন", "item_en": "Salt", "qty": "To taste" },
+    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil", "qty": "4 tbsp" },
+    { "item_bn": "কালো জিরে", "item_en": "Nigella seeds", "qty": "½ tsp" },
+    { "item_bn": "কাঁচা লঙ্কা", "item_en": "Green chillies, slit", "qty": "4" },
+    { "item_bn": "জিরে গুঁড়ো", "item_en": "Ground cumin", "qty": "1 tsp" },
+    { "item_bn": "আদা বাটা", "item_en": "Ginger paste", "qty": "1 tsp" },
+    { "item_bn": "জল", "item_en": "Water", "qty": "2 cups" },
+    { "item_bn": "ধনেপাতা", "item_en": "Coriander leaves", "qty": "A handful" }
+  ],
+  "steps": [
+    {
+      "action_bn": "মাছে নুন-হলুদ মাখিয়ে ১০ মিনিট রেখে দাও।",
+      "action_en": "Rub the fish with salt and turmeric and set it aside for 10 minutes.",
+      "maa_says": "নুন-হলুদ না মাখালে ভাজার সময় মাছ ছিটবে আর ভেঙে যাবে।",
+      "chemistry": {
+        "title": "Salt firms the surface",
+        "explanation": "Salt draws water out of the surface of the fish by osmosis and loosens some of the muscle proteins there. When the fish hits hot oil, those proteins set into a firmer skin that holds the piece together. Less surface water also means less violent spitting in the pan."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে সর্ষের তেল গরম করো, যতক্ষণ না হালকা ধোঁয়া ওঠে।",
+      "action_en": "Heat the mustard oil until it just starts to smoke.",
+      "maa_says": "তেল ভালো করে গরম না হলে কাঁচা ঝাঁঝ থেকে যায়।",
+      "chemistry": {
+        "title": "Driving off the raw bite",
+        "explanation": "Mustard oil's sharp, nose-tingling bite comes from allyl isothiocyanate, the same compound that makes wasabi and mustard paste hot. It's volatile, boiling at about 150 °C, so heating the oil close to its smoke point drives much of it off and leaves a milder, nuttier oil behind.",
+        "molecules": [
+          { "name": "Allyl isothiocyanate", "smiles": "C=CCN=C=S", "note": "The source of mustard's heat." }
+        ]
+      }
+    },
+    {
+      "action_bn": "মাছ দুপিঠ হালকা সোনালি করে ভেজে তুলে রাখো।",
+      "action_en": "Fry the fish on both sides until lightly golden, then lift it out.",
+      "maa_says": "একপিঠ ভাজা না হলে উল্টিও না।",
+      "chemistry": {
+        "title": "The Maillard crust",
+        "explanation": "Once the surface dries out and climbs past roughly 140 °C, amino acids and traces of sugar in the fish react with each other. This is the Maillard reaction, and it creates brown colour and hundreds of savoury aroma compounds. The seared surface proteins also set into a shell that keeps each piece whole in the gravy. Flip too early and the fish tears before that shell forms.",
+        "molecules": [
+          { "name": "Glycine", "smiles": "NCC(=O)O", "note": "The simplest amino acid, standing in for the many that take part." }
+        ],
+        "energy_diagram": {
+          "y_label": "Free energy",
+          "caption": "The Maillard reaction needs a dry, hot surface to get over its barrier, which is why a wet fish steams instead of browning. Schematic, not to scale.",
+          "stages": [
+            { "label": "Amino acid + sugar", "energy": 0.5 },
+            { "label": "Dry heat, >140 °C", "energy": 0.95 },
+            { "label": "Brown flavour compounds", "energy": 0.3 }
+          ]
+        }
+      }
+    },
+    {
+      "action_bn": "ওই তেলেই কালো জিরে আর কাঁচা লঙ্কা ফোড়ন দাও।",
+      "action_en": "In the same oil, temper the nigella seeds and green chillies.",
+      "maa_says": "ফোড়ন পুড়ে গেলে পুরো ঝোলটাই তেতো হয়ে যাবে।",
+      "chemistry": {
+        "title": "Blooming aroma into fat",
+        "explanation": "Many aroma compounds in whole spices dissolve far better in fat than in water. A few seconds in hot oil cracks the seeds open and pulls those compounds into the oil, which then carries them through the whole curry. Part of nigella's flavour comes from thymoquinone. Seconds matter: leave them too long and the seeds scorch into bitter, burnt compounds.",
+        "molecules": [
+          { "name": "Thymoquinone", "smiles": "CC1=CC(=O)C(C(C)C)=CC1=O", "note": "A key aroma compound in nigella seeds." }
+        ]
+      }
+    },
+    {
+      "action_bn": "আলু, হলুদ, জিরে গুঁড়ো আর আদা বাটা দিয়ে একটু কষিয়ে নাও, তারপর জল দিয়ে আলু সেদ্ধ হওয়া পর্যন্ত ফোটাও।",
+      "action_en": "Add the potatoes, turmeric, cumin and ginger and sauté briefly, then add water and simmer until the potatoes are tender.",
+      "maa_says": "মশলা ভালো করে না কষালে কাঁচা গন্ধ যায় না।",
+      "chemistry": {
+        "title": "Curcumin needs fat",
+        "explanation": "Curcumin, the pigment in turmeric, barely dissolves in water but dissolves well in oil. Frying the turmeric before the water goes in spreads its colour and flavour evenly instead of leaving it raw and gritty. The potatoes release a little starch as they cook, which gives the jhol its light body without any thickener.",
+        "molecules": [
+          { "name": "Curcumin", "smiles": "COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O", "note": "The yellow pigment in turmeric." }
+        ]
+      }
+    },
+    {
+      "action_bn": "ভাজা মাছ ঝোলে ছেড়ে ৩–৪ মিনিট ফোটাও, ধনেপাতা ছড়িয়ে নামিয়ে নাও।",
+      "action_en": "Slide the fried fish into the gravy, simmer for 3–4 minutes and finish with coriander.",
+      "maa_says": "মাছ দেওয়ার পর আর বেশি ফোটাবে না, শক্ত হয়ে যাবে।",
+      "chemistry": {
+        "title": "Fish protein cooks fast",
+        "explanation": "Fish muscle proteins start to tighten at much lower temperatures than meat; myosin begins to change at around 40–50 °C. Fish also has far less connective tissue, and its collagen melts at lower temperatures. That's why fish goes from tender to dry and crumbly within minutes, and why it goes back in only at the end.",
+        "energy_diagram": {
+          "y_label": "Free energy",
+          "caption": "Once myosin unfolds, the protein network tightens and squeezes water out. Schematic, not to scale.",
+          "stages": [
+            { "label": "Native myosin", "energy": 0.4 },
+            { "label": "Unfolding, 40–50 °C", "energy": 0.8 },
+            { "label": "Tightened, water squeezed out", "energy": 0.25 }
+          ]
+        }
+      }
+    }
+  ],
+  "trivia": [
+    "Rui is a carp, and carp have fine bones running through the flesh. Picking them out neatly is a skill most Bengalis learn as children.",
+    "The vegetables change with the season: cauliflower in winter, potol (pointed gourd) in summer."
+  ],
+  "quiz": [
+    {
+      "question": "Why does the fried fish go back into the jhol only at the very end?",
+      "options": [
+        "So the spices don't burn",
+        "Fish proteins tighten at low temperatures, so long simmering makes it dry and crumbly",
+        "Because the potatoes need all the space in the pan",
+        "To keep the mustard oil from smoking"
+      ],
+      "answer": 1,
+      "explain": "Myosin in fish starts to change at around 40–50 °C, so a few minutes in simmering gravy is plenty."
+    }
+  ],
+  "further_reading": [
+    "Harold McGee, On Food and Cooking (2004), chapter on fish and shellfish"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Drafted with an LLM. Check the myosin temperature range and the allyl isothiocyanate boiling point."
+  }
+}

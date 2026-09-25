@@ -1,0 +1,106 @@
+{
+  "id": "beguni",
+  "name_bn": "বেগুনি",
+  "name_en": "Beguni",
+  "section": "mukhorochok",
+  "tagline": "A crisp fritter that turns red if you add too much soda.",
+  "serves": "4",
+  "time_minutes": 25,
+  "golpo": {
+    "type": "trivia",
+    "title": "Rain, muri and beguni",
+    "body": "In Bengal, the first heavy monsoon shower is practically an instruction to fry something. Beguni, thin slices of brinjal in besan batter, is the classic answer: eaten with muri and tea, bought hot from a telebhaja stall or fried at home, and served alongside khichuri on rainy days."
+  },
+  "ingredients": [
+    { "item_bn": "লম্বা বেগুন", "item_en": "Long brinjal (eggplant)", "qty": "1 large" },
+    { "item_bn": "বেসন", "item_en": "Besan (chickpea flour)", "qty": "1 cup" },
+    { "item_bn": "চালের গুঁড়ো", "item_en": "Rice flour", "qty": "2 tbsp" },
+    { "item_bn": "খাবার সোডা", "item_en": "Baking soda", "qty": "A pinch" },
+    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric", "qty": "½ tsp" },
+    { "item_bn": "লঙ্কা গুঁড়ো", "item_en": "Chilli powder", "qty": "½ tsp" },
+    { "item_bn": "নুন", "item_en": "Salt", "qty": "To taste" },
+    { "item_bn": "জল", "item_en": "Water", "qty": "About ¾ cup" },
+    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil, for frying", "qty": "As needed" }
+  ],
+  "steps": [
+    {
+      "action_bn": "বেগুন লম্বালম্বি পাতলা করে কাটো।",
+      "action_en": "Slice the brinjal lengthwise into thin slices.",
+      "maa_says": "মোটা করে কাটলে ভেতরটা কাঁচা থেকে যাবে।",
+      "chemistry": {
+        "title": "Thin slices cook through before the crust burns",
+        "explanation": "Heat travels slowly into brinjal, which is mostly water held in a spongy tissue. The batter browns in two or three minutes, so the slice has to be thin enough for its centre to cook in that same time. A thick slice gives you a dark crust around a raw middle."
+      }
+    },
+    {
+      "action_bn": "বেসন, চালের গুঁড়ো, নুন, হলুদ, লঙ্কা গুঁড়ো আর এক চিমটে সোডা জলে গুলে ঘন ব্যাটার বানাও।",
+      "action_en": "Whisk the besan, rice flour, salt, turmeric, chilli powder and a pinch of baking soda with water into a thick batter.",
+      "maa_says": "সোডা এক চিমটের বেশি দিও না, তেতো লাগবে।",
+      "chemistry": {
+        "title": "What the pinch of soda does",
+        "explanation": "Besan and rice flour don't form gluten, so the coating fries brittle and crisp rather than chewy. Baking soda (sodium bicarbonate) breaks down in the heat of the oil and releases carbon dioxide, puffing the batter into a light, crackly shell. It also makes the batter alkaline, which speeds up browning; too much leaves a soapy, bitter taste. Watch the colour: curcumin from the turmeric is a natural pH indicator. It's yellow in neutral or acidic food and turns orange-red when things get alkaline, so a reddish batter means too much soda.",
+        "molecules": [
+          { "name": "Sodium bicarbonate", "smiles": "[Na+].OC([O-])=O", "note": "Baking soda." },
+          { "name": "Curcumin", "smiles": "COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O", "note": "Turmeric's pigment, and a pH indicator." }
+        ],
+        "energy_diagram": {
+          "y_label": "Free energy",
+          "caption": "Baking soda breaking down at frying temperature. The reaction actually absorbs heat; it runs because releasing gas makes it favourable when hot. Schematic, not to scale.",
+          "stages": [
+            { "label": "2 NaHCO₃", "energy": 0.55 },
+            { "label": "Heat of the oil", "energy": 0.9 },
+            { "label": "Na₂CO₃ + H₂O + CO₂", "energy": 0.3 }
+          ]
+        }
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করো। এক ফোঁটা ব্যাটার ফেলে দেখো, সঙ্গে সঙ্গে ভেসে উঠলে তেল তৈরি।",
+      "action_en": "Heat the oil. Drop in a little batter: if it rises straight back up, the oil is ready.",
+      "maa_says": "ঠান্ডা তেলে ভাজলে বেগুনি তেল চুপচুপে হবে।",
+      "chemistry": {
+        "title": "The steam shield",
+        "explanation": "In properly hot oil, roughly 170–180 °C, water at the surface of the batter flashes into steam. That outward rush of steam keeps oil from soaking in while the crust sets. In oil that's too cool, the steam is weak, the crust sets slowly and the batter soaks up oil. The drop test works because the steam bubbles make the batter float almost instantly."
+      }
+    },
+    {
+      "action_bn": "বেগুনের টুকরো ব্যাটারে ডুবিয়ে তেলে ছাড়ো, দুপিঠ সোনালি হওয়া পর্যন্ত ভাজো।",
+      "action_en": "Dip each slice in batter, slide it into the oil and fry until golden on both sides.",
+      "maa_says": "একসঙ্গে বেশি বেগুনি ছেড়ো না, তেল ঠান্ডা হয়ে যাবে।",
+      "chemistry": {
+        "title": "Crust outside, custard inside",
+        "explanation": "Brinjal flesh is a sponge full of air pockets, which is why it drinks oil when fried bare. The batter seals it in, so inside, the flesh steams in its own water until the cells collapse into something soft and creamy. Outside, the crust browns through the Maillard reaction. Crowding the pan drops the oil temperature and brings back the greasy-batter problem."
+      }
+    },
+    {
+      "action_bn": "কাগজে তুলে তেল ঝরিয়ে গরম গরম খাও।",
+      "action_en": "Drain on paper and eat right away.",
+      "maa_says": "বেগুনি ঠান্ডা হলে আর মুচমুচে থাকে না।",
+      "chemistry": {
+        "title": "Why beguni goes soggy",
+        "explanation": "Out of the oil, water keeps moving from the moist brinjal into the dry crust. As the crust absorbs it, the glassy starch softens and the crunch fades within minutes. The only fix is eating fast."
+      }
+    }
+  ],
+  "trivia": [
+    "Curcumin's colour change is the basis of turmeric paper, an old chemistry test strip for alkalis.",
+    "Rice flour is the telebhaja stall's secret for extra crunch."
+  ],
+  "quiz": [
+    {
+      "question": "Your beguni batter has turned orange-red. What happened?",
+      "options": [
+        "Too much turmeric",
+        "Too much baking soda made the batter alkaline",
+        "The oil is too hot",
+        "The chilli powder reacted with the besan"
+      ],
+      "answer": 1,
+      "explain": "Curcumin turns from yellow to orange-red in alkaline conditions, and baking soda is alkaline."
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Drafted with an LLM. Check the oil temperature range and the curcumin colour-change claim."
+  }
+}

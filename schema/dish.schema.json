@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mishron dish",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name_bn", "name_en", "section", "tagline", "ingredients", "steps", "review"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name_bn": { "type": "string", "minLength": 1 },
+    "name_en": { "type": "string", "minLength": 1 },
+    "section": { "type": "string" },
+    "tagline": { "type": "string", "minLength": 1 },
+    "serves": { "type": "string" },
+    "time_minutes": { "type": "integer", "minimum": 1 },
+    "contributor": {
+      "type": "object", "additionalProperties": false, "required": ["name"],
+      "properties": { "name": { "type": "string" }, "credit": { "type": "string" } }
+    },
+    "golpo": {
+      "type": "object", "additionalProperties": false, "required": ["type", "title", "body"],
+      "properties": {
+        "type": { "enum": ["history", "literature", "proverb", "family", "trivia"] },
+        "title": { "type": "string" },
+        "body": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "quote": {
+      "type": "object", "additionalProperties": false, "required": ["text", "author"],
+      "properties": {
+        "text": { "type": "string" },
+        "translation": { "type": "string" },
+        "author": { "type": "string" },
+        "source": { "type": "string" }
+      }
+    },
+    "ingredients": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["item_bn", "item_en"],
+        "properties": { "item_bn": { "type": "string" }, "item_en": { "type": "string" }, "qty": { "type": "string" } }
+      }
+    },
+    "steps": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["action_bn", "action_en"],
+        "properties": {
+          "action_bn": { "type": "string" },
+          "action_en": { "type": "string" },
+          "maa_says": { "type": "string" },
+          "chemistry": { "$ref": "#/$defs/chemistry" }
+        }
+      }
+    },
+    "trivia": { "type": "array", "items": { "type": "string" } },
+    "quiz": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["question", "options", "answer", "explain"],
+        "properties": {
+          "question": { "type": "string" },
+          "options": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+          "answer": { "type": "integer", "minimum": 0 },
+          "explain": { "type": "string" }
+        }
+      }
+    },
+    "further_reading": { "type": "array", "items": { "type": "string" } },
+    "review": {
+      "type": "object", "additionalProperties": false, "required": ["status"],
+      "properties": { "status": { "enum": ["draft", "verified"] }, "notes": { "type": "string" } }
+    }
+  },
+  "$defs": {
+    "chemistry": {
+      "type": "object", "additionalProperties": false, "required": ["title", "explanation"],
+      "properties": {
+        "title": { "type": "string" },
+        "explanation": { "type": "string" },
+        "molecules": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["name"],
+            "properties": { "name": { "type": "string" }, "smiles": { "type": "string" }, "note": { "type": "string" } }
+          }
+        },
+        "energy_diagram": {
+          "type": "object", "additionalProperties": false, "required": ["stages"],
+          "properties": {
+            "y_label": { "type": "string" },
+            "caption": { "type": "string" },
+            "stages": {
+              "type": "array", "minItems": 2,
+              "items": {
+                "type": "object", "additionalProperties": false, "required": ["label", "energy"],
+                "properties": { "label": { "type": "string" }, "energy": { "type": "number", "minimum": 0, "maximum": 1 } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,371 @@
+/* মিশ্রণ — two notebooks on one page:
+   মা's ruled রান্নার খাতা (Sulekha ink, alta-red binding, haldi notes)
+   and the lab notebook's graph paper (graphite, grid green). */
+
+:root {
+  --paper: #FAF9F4;
+  --ink: #23336E;
+  --ink-soft: #56628F;
+  --alta: #B8192F;
+  --haldi: #E0A526;
+  --haldi-wash: #FAE9BC;
+  --graphite: #3A3F44;
+  --grid: #D7E4DA;
+  --grid-strong: #A9C4B0;
+  --lab-paper: #F5F9F5;
+  --rule: rgba(35, 51, 110, 0.055);
+  --ok: #2E6B3F;
+
+  --f-script: "Galada", "Tiro Bangla", serif;
+  --f-text: "Tiro Bangla", "Noto Serif Bengali", Georgia, serif;
+  --f-lab: "IBM Plex Sans", system-ui, sans-serif;
+
+  --measure: 44rem;
+  --margin-x: max(1.25rem, calc((100vw - var(--measure)) / 2));
+  --gutter: clamp(1rem, 3vw, 2rem);
+  --text-x: calc(var(--margin-x) + var(--gutter));
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #161B2E;
+    --ink: #E8E4D6;
+    --ink-soft: #AAB0C8;
+    --alta: #E4566A;
+    --haldi: #E8B64A;
+    --haldi-wash: rgba(232, 182, 74, 0.2);
+    --graphite: #D5DAD7;
+    --grid: rgba(140, 190, 160, 0.16);
+    --grid-strong: rgba(140, 190, 160, 0.4);
+    --lab-paper: #1B2334;
+    --rule: rgba(232, 228, 214, 0.04);
+    --ok: #7CC894;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--paper);
+  background-image: linear-gradient(var(--rule) 1px, transparent 1px);
+  background-size: 100% 2rem;
+  color: var(--ink);
+  font-family: var(--f-text);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  text-rendering: optimizeLegibility;
+}
+
+/* The red margin line of a school khata, running beside the text column. */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--margin-x);
+  border-left: 1.5px solid var(--alta);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+a { color: inherit; text-decoration-color: var(--haldi); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--alta); }
+:focus-visible { outline: 2px solid var(--haldi); outline-offset: 3px; border-radius: 2px; }
+
+h1, h2, h3 { font-weight: 400; line-height: 1.25; margin: 0; }
+p { margin: 0 0 1rem; }
+.en { font-family: var(--f-text); font-style: italic; color: var(--ink-soft); font-size: 0.8em; }
+
+.skip {
+  position: absolute; left: -999px; top: 0.5rem;
+  background: var(--ink); color: var(--paper); padding: 0.4rem 0.8rem; z-index: 10;
+}
+.skip:focus { left: 0.5rem; }
+
+main, .colophon { padding-left: var(--text-x); padding-right: var(--margin-x); }
+
+/* ---------------------------------------------------------- binding strip */
+
+.spine {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1.5rem;
+  padding: 0.55rem var(--margin-x) 0.55rem var(--text-x);
+  background: var(--alta);
+  color: #FFF6EC;
+}
+.spine-brand { font-family: var(--f-script); font-size: 1.6rem; text-decoration: none; line-height: 1.2; }
+.spine-nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; font-size: 0.95rem; }
+.spine-nav a { text-decoration: none; opacity: 0.85; }
+.spine-nav a:hover { opacity: 1; text-decoration: underline; text-decoration-color: currentColor; }
+
+/* ---------------------------------------------------------- home: cover */
+
+.cover { padding: 4rem 0 3rem; }
+.cover-title {
+  font-family: var(--f-script);
+  font-size: clamp(5rem, 18vw, 10rem);
+  line-height: 1;
+  color: var(--alta);
+  margin-left: -0.05em;
+}
+.cover-sub { font-size: clamp(1.3rem, 3.5vw, 1.75rem); margin: 1rem 0 0.75rem; }
+.cover-en { max-width: 34rem; color: var(--ink-soft); }
+
+/* ---------------------------------------------------------- home: contents ledger */
+
+.contents { padding-bottom: 4rem; }
+.contents-title { font-size: 1.1rem; color: var(--ink-soft); border-bottom: 2px solid var(--ink); padding-bottom: 0.25rem; margin-bottom: 2.5rem; }
+.contents-title span[lang="bn"] { color: var(--ink); font-size: 1.35rem; }
+
+.chapter { margin-bottom: 3rem; scroll-margin-top: 1rem; }
+.chapter-head h3 { font-family: var(--f-script); font-size: 2.2rem; color: var(--alta); }
+.chapter-gloss { color: var(--ink-soft); font-size: 0.95rem; margin: 0.25rem 0 0.75rem; }
+
+.ledger { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
+.ledger li { border-bottom: 1px solid var(--rule); border-bottom-color: color-mix(in srgb, var(--ink) 18%, transparent); }
+.ledger-row {
+  display: grid;
+  grid-template-columns: minmax(9rem, 13rem) 1fr auto;
+  gap: 0.25rem 1.25rem;
+  align-items: baseline;
+  padding: 0.7rem 0.5rem;
+  text-decoration: none;
+}
+.ledger-row:hover { background: var(--haldi-wash); }
+.ledger-name span[lang="bn"] { font-size: 1.35rem; }
+.ledger-name .en { display: block; font-size: 0.85rem; line-height: 1.3; }
+.ledger-tag { color: var(--ink-soft); font-size: 0.98rem; }
+.ledger-time { font-size: 0.9rem; color: var(--ink-soft); white-space: nowrap; border-left: 1px solid var(--alta); padding-left: 0.75rem; }
+.ledger-empty { color: var(--ink-soft); font-style: italic; padding: 0.7rem 0.5rem; border-top: 1px solid var(--ink); }
+
+/* ---------------------------------------------------------- dish page */
+
+.recipe { padding: 2.5rem 0 4rem; }
+.recipe > * + * { margin-top: 2.5rem; }
+
+.crumb { font-size: 0.95rem; text-decoration: none; color: var(--alta); }
+.crumb .en { color: var(--ink-soft); }
+.recipe-title { font-family: var(--f-script); font-size: clamp(3.5rem, 12vw, 6rem); line-height: 1.05; margin-top: 0.75rem; }
+.recipe-en { font-style: italic; color: var(--ink-soft); font-size: 1.2rem; margin: 0.25rem 0 0.5rem; }
+.recipe-tagline { font-size: 1.25rem; max-width: 32rem; }
+.recipe-meta { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; margin: 1.25rem 0 0; }
+.recipe-meta div { border-left: 1px solid var(--alta); padding-left: 0.6rem; }
+.recipe-meta dt { font-size: 0.8rem; color: var(--ink-soft); }
+.recipe-meta dd { margin: 0; font-size: 1.05rem; }
+.credit { font-style: italic; color: var(--ink-soft); margin-top: 1rem; }
+
+.draft-note {
+  border: 1px dashed var(--alta);
+  padding: 0.6rem 0.9rem;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+.recipe h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+.recipe h2 span[lang="bn"] { color: var(--alta); }
+
+.golpo { border-left: 3px solid var(--alta); border-radius: 0; padding: 0.25rem 0 0.25rem 1.25rem; max-width: 38rem; }
+.golpo .source { font-size: 0.88rem; color: var(--ink-soft); margin: 0; }
+
+.quote { margin-left: 0; margin-right: 0; }
+.quote blockquote { margin: 0; font-family: var(--f-script); font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.2; color: var(--alta); }
+.quote figcaption { color: var(--ink-soft); margin-top: 0.4rem; }
+.quote cite { display: block; font-style: normal; font-size: 0.9rem; }
+
+.ingredients ul { list-style: none; margin: 0; padding: 0; max-width: 36rem; }
+.ingredients li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.35rem 0;
+  border-bottom: 1px dotted var(--ink-soft);
+}
+.ing-name span[lang="bn"] { font-size: 1.1rem; }
+.ing-name .en { margin-left: 0.35rem; }
+.ing-qty { text-align: right; white-space: nowrap; }
+
+/* ---------------------------------------------------------- method */
+
+.method-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0.5rem 1rem; }
+.method-head h2 { margin-bottom: 0.5rem; }
+.toggle-all {
+  font-family: var(--f-lab);
+  font-size: 0.85rem;
+  color: var(--graphite);
+  background: var(--lab-paper);
+  border: 1px solid var(--grid-strong);
+  border-radius: 3px;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+}
+.toggle-all:hover { border-color: var(--graphite); }
+
+.steps { list-style: none; margin: 0; padding: 0; }
+.step {
+  display: grid;
+  grid-template-columns: 2.75rem 1fr;
+  gap: 0 0.75rem;
+  padding: 1.25rem 0 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+}
+.step-num { font-family: var(--f-text); font-size: 2rem; line-height: 1.2; color: var(--alta); }
+.step-bn { font-size: 1.3rem; line-height: 1.6; margin-bottom: 0.3rem; }
+.step-en { color: var(--ink-soft); margin-bottom: 0.9rem; }
+
+.maa {
+  font-family: var(--f-script);
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.maa span[lang="bn"]:last-child {
+  background: linear-gradient(transparent 58%, var(--haldi-wash) 58%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.maa-label { font-family: var(--f-text); font-size: 0.85rem; color: var(--alta); margin-right: 0.35rem; }
+
+/* The lab notebook: opening a chemistry note swaps ruled paper for graph paper. */
+.lab { font-family: var(--f-lab); color: var(--graphite); }
+.lab summary {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.8rem 0.4rem 0.7rem;
+  border: 1px solid var(--grid-strong);
+  border-radius: 3px;
+  background: var(--lab-paper);
+}
+.lab summary::-webkit-details-marker { display: none; }
+.lab summary::before { content: "+"; font-weight: 500; width: 0.7rem; }
+.lab[open] summary::before { content: "−"; }
+.lab[open] summary { border-bottom-left-radius: 0; border-bottom-right-radius: 0; border-bottom-color: transparent; }
+.lab summary:hover { border-color: var(--graphite); }
+.lab-kicker { font-family: var(--f-text); color: var(--alta); font-size: 1rem; }
+
+.lab-page {
+  margin-top: -1px;
+  padding: 1.25rem 1.25rem 1rem;
+  border: 1px solid var(--grid-strong);
+  border-radius: 0 3px 3px 3px;
+  background-color: var(--lab-paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 1rem 1rem;
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+.lab-page p { max-width: 36rem; }
+.lab-page > :last-child { margin-bottom: 0; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .lab[open] .lab-page { animation: lab-open 220ms ease-out; }
+  @keyframes lab-open { from { opacity: 0; transform: translateY(-4px); } }
+}
+
+.molecules { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1rem; margin: 1rem 0; }
+.molecule { margin: 0; }
+.molecule.wide { grid-column: span 2; }
+.molecule.wide svg.mol { max-height: none; }
+@media (max-width: 40rem) { .molecule.wide { grid-column: 1 / -1; } }
+.molecule svg.mol { display: block; width: 100%; height: auto; max-height: 14rem; color: var(--graphite); }
+.molecule figcaption { font-size: 0.85rem; line-height: 1.45; }
+.molecule strong { font-weight: 500; }
+.formula { margin-left: 0.3rem; }
+.mol-note { display: block; color: color-mix(in srgb, var(--graphite) 75%, transparent); }
+.molecule svg.protein { max-width: 11rem; margin: 1.5rem 0 1rem; }
+.smiles { font-size: 0.8rem; word-break: break-all; }
+
+.energy-fig { margin: 1.25rem 0 0.25rem; }
+.energy { display: block; width: 100%; max-width: 34rem; height: auto; color: var(--graphite); }
+.energy .axis { stroke: currentColor; stroke-width: 1; }
+.energy .curve { fill: none; stroke: var(--alta); stroke-width: 2.25; stroke-linecap: round; }
+.energy .dot { fill: var(--alta); }
+.energy text { fill: currentColor; font-family: var(--f-lab); font-size: 12.5px; }
+.energy .ylab { font-size: 12px; }
+.energy-fig figcaption { font-size: 0.85rem; max-width: 34rem; margin-top: 0.25rem; }
+
+/* ---------------------------------------------------------- trivia, quiz */
+
+.trivia ul { margin: 0; padding-left: 1.2rem; max-width: 38rem; }
+.trivia li { margin-bottom: 0.5rem; }
+.trivia li::marker { color: var(--alta); }
+
+.q { margin-bottom: 2rem; max-width: 36rem; }
+.q fieldset { border: 0; margin: 0; padding: 0; }
+.q legend { font-size: 1.15rem; margin-bottom: 0.6rem; padding: 0; }
+.opt {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid color-mix(in srgb, var(--ink) 22%, transparent);
+  border-radius: 3px;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+}
+.opt:hover { border-color: var(--ink); }
+.opt input { accent-color: var(--alta); }
+.opt.is-right { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 10%, transparent); }
+.opt.is-wrong { border-color: var(--alta); }
+.q-actions { display: flex; align-items: center; gap: 1rem; margin-top: 0.6rem; }
+.q-check {
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--paper);
+  background: var(--ink);
+  border: 0;
+  border-radius: 3px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+.q-error { color: var(--alta); font-size: 0.9rem; margin: 0; }
+.q-result { margin-top: 0.75rem; }
+.q-result.is-right { color: var(--ok); }
+.q-reveal { margin-top: 0.6rem; font-size: 0.95rem; }
+.q-reveal summary { cursor: pointer; color: var(--ink-soft); }
+
+/* ---------------------------------------------------------- footers */
+
+.recipe-foot { border-top: 2px solid var(--ink); padding-top: 1.5rem; }
+.reading h2 { font-size: 1.1rem; }
+.reading ul { padding-left: 1.2rem; color: var(--ink-soft); }
+.pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
+.pager a { text-decoration: none; }
+.pager span[lang="bn"] { font-size: 1.25rem; margin-left: 0.3rem; }
+.pager-next { margin-left: auto; text-align: right; }
+
+.colophon { border-top: 1px solid color-mix(in srgb, var(--ink) 18%, transparent); padding-top: 1.5rem; padding-bottom: 2.5rem; color: var(--ink-soft); font-size: 0.92rem; }
+.colophon p[lang="bn"] { font-family: var(--f-script); font-size: 1.3rem; color: var(--alta); margin-bottom: 0.3rem; }
+
+/* ---------------------------------------------------------- small screens */
+
+@media (max-width: 40rem) {
+  :root { --margin-x: 1.6rem; }
+  body::before { left: 0.8rem; }
+  .ledger-row { grid-template-columns: 1fr auto; }
+  .ledger-tag { grid-column: 1 / -1; grid-row: 2; }
+  .step { grid-template-columns: 2rem 1fr; }
+  .step-num { font-size: 1.6rem; }
+  .lab-page { padding: 1rem 0.85rem; }
+}
+
+@media print {
+  body { background: none; }
+  body::before, .spine, .toggle-all, .q-actions, .pager, .skip { display: none; }
+  .lab summary::before { content: ""; }
+  .step { break-inside: avoid; }
+}

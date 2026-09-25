@@ -1,0 +1,37 @@
+{
+  "title_bn": "মিশ্রণ",
+  "title_en": "Mishron",
+  "tagline_bn": "মায়ের রান্নার খাতা, রসায়নের চোখে",
+  "tagline_en": "A Bengali kitchen notebook, read through chemistry",
+  "repo_url": "https://github.com/BumMolecule/Mishron",
+  "sections": [
+    {
+      "id": "pater-shuru",
+      "name_bn": "পাতের শুরু",
+      "name_en": "Pater shuru",
+      "gloss": "Start of the plate",
+      "blurb": "The gentle, bitter openers of a Bengali meal: shukto, bhaja, daal."
+    },
+    {
+      "id": "mukhorochok",
+      "name_bn": "মুখরোচক",
+      "name_en": "Mukhorochok",
+      "gloss": "Tantalising to the tongue",
+      "blurb": "Fried, tangy and street-side: telebhaja, chop, jhalmuri."
+    },
+    {
+      "id": "kobji-dubiye",
+      "name_bn": "কব্জি ডুবিয়ে",
+      "name_en": "Kobji dubiye",
+      "gloss": "Eaten up to the wrist",
+      "blurb": "The main event: fish, meat and rice."
+    },
+    {
+      "id": "shesh-paate",
+      "name_bn": "শেষ পাতে",
+      "name_en": "Shesh paate",
+      "gloss": "On the last plate",
+      "blurb": "Sweets and doi to finish."
+    }
+  ]
+}
