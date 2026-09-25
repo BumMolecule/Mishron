@@ -41,6 +41,7 @@ site.json                 site title, tagline, repo URL, and the four sections
 schema/dish.schema.json   the shape every dish must follow
 dishes/*.json             one file per dish; the file name must match its id
 templates/                Jinja2 templates for the contents page and dish pages
+templates/art/            folk-style illustrations, one per dish or section id
 static/                   style.css and app.js (quiz, show-all toggle, print)
 tools/                    new-dish scaffolder and the LLM drafting prompt
 build.py                  validates, renders molecules and energy diagrams, writes site/
@@ -48,6 +49,12 @@ build.py                  validates, renders molecules and energy diagrams, writ
 
 Sections live in `site.json`, so adding one (say, পুজোর ভোগ) is a config change, not a
 code change.
+
+Each dish and section page shows the illustration in `templates/art/` whose file name
+matches its id (`rosogolla.svg`, `shesh-paate.svg`). A dish without its own drawing
+uses its section's. The drawings are inline SVG with fill classes (`r` crimson, `y`
+basanti, `c` cream, `w` rice white, `g` leaf, `o` terracotta, `v` aubergine) that
+`static/style.css` colours.
 
 ## Publishing on GitHub Pages
 

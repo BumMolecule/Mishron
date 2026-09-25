@@ -5,28 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ site.title_bn }} · {{ site.title_en }}{% endblock %}</title>
   <meta name="description" content="{% block description %}{{ site.tagline_en }}{% endblock %}">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍯</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23A3111E'/><circle cx='50' cy='50' r='30' fill='%23F2B51B'/><circle cx='50' cy='50' r='12' fill='%23A3111E'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Galada&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=Tiro+Bangla:ital@0;1&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atma:wght@500;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=Noto+Serif+Bengali:wght@400;600&family=Rozha+One&display=swap">
   <link rel="stylesheet" href="{{ root }}static/style.css">
 </head>
 <body class="{% block body_class %}{% endblock %}">
   <a class="skip" href="#main">Skip to content</a>
   <header class="spine">
-    <a class="spine-brand" href="{{ root }}index.html" lang="bn">{{ site.title_bn }}</a>
-    <nav class="spine-nav" aria-label="Sections">
-      {% for s in sections %}
-      <a href="{{ root }}index.html#{{ s.id }}" lang="bn">{{ s.name_bn }}</a>
-      {% endfor %}
-    </nav>
+    <div class="spine-inner">
+      <a class="spine-brand" href="{{ root }}index.html">{% include "art/lotus.svg" %}<span lang="bn">{{ site.title_bn }}</span></a>
+      <nav class="spine-nav" aria-label="Sections">
+        {% for s in sections %}
+        <a href="{{ root }}index.html#{{ s.id }}" lang="bn">{{ s.name_bn }}</a>
+        {% endfor %}
+      </nav>
+    </div>
   </header>
+  <div class="alpona" aria-hidden="true"></div>
   <main id="main">
     {% block main %}{% endblock %}
   </main>
   <footer class="colophon">
-    <p lang="bn">{{ site.tagline_bn }}</p>
-    <p>Recipes from Bengali kitchens, chemistry checked by hand. <a href="{{ submit_url }}">Share your family's recipe</a>.</p>
+    <div class="alpona" aria-hidden="true"></div>
+    <div class="colophon-inner">
+      {% include "art/lotus.svg" %}
+      <p lang="bn">{{ site.tagline_bn }}</p>
+      <p>Recipes from Bengali kitchens, chemistry checked by hand. <a href="{{ submit_url }}">Share your family's recipe</a>.</p>
+    </div>
   </footer>
   <script src="{{ root }}static/app.js" defer></script>
 </body>

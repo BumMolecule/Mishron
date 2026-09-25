@@ -1,0 +1,89 @@
+<svg class="art" viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+
+<circle class="r" cx="120" cy="120" r="114"/>
+<circle class="y" cx="120.0" cy="16.0" r="2.4"/>
+<circle class="y" cx="136.3" cy="17.3" r="2.4"/>
+<circle class="y" cx="152.1" cy="21.1" r="2.4"/>
+<circle class="y" cx="167.2" cy="27.3" r="2.4"/>
+<circle class="y" cx="181.1" cy="35.9" r="2.4"/>
+<circle class="y" cx="193.5" cy="46.5" r="2.4"/>
+<circle class="y" cx="204.1" cy="58.9" r="2.4"/>
+<circle class="y" cx="212.7" cy="72.8" r="2.4"/>
+<circle class="y" cx="218.9" cy="87.9" r="2.4"/>
+<circle class="y" cx="222.7" cy="103.7" r="2.4"/>
+<circle class="y" cx="224.0" cy="120.0" r="2.4"/>
+<circle class="y" cx="222.7" cy="136.3" r="2.4"/>
+<circle class="y" cx="218.9" cy="152.1" r="2.4"/>
+<circle class="y" cx="212.7" cy="167.2" r="2.4"/>
+<circle class="y" cx="204.1" cy="181.1" r="2.4"/>
+<circle class="y" cx="193.5" cy="193.5" r="2.4"/>
+<circle class="y" cx="181.1" cy="204.1" r="2.4"/>
+<circle class="y" cx="167.2" cy="212.7" r="2.4"/>
+<circle class="y" cx="152.1" cy="218.9" r="2.4"/>
+<circle class="y" cx="136.3" cy="222.7" r="2.4"/>
+<circle class="y" cx="120.0" cy="224.0" r="2.4"/>
+<circle class="y" cx="103.7" cy="222.7" r="2.4"/>
+<circle class="y" cx="87.9" cy="218.9" r="2.4"/>
+<circle class="y" cx="72.8" cy="212.7" r="2.4"/>
+<circle class="y" cx="58.9" cy="204.1" r="2.4"/>
+<circle class="y" cx="46.5" cy="193.5" r="2.4"/>
+<circle class="y" cx="35.9" cy="181.1" r="2.4"/>
+<circle class="y" cx="27.3" cy="167.2" r="2.4"/>
+<circle class="y" cx="21.1" cy="152.1" r="2.4"/>
+<circle class="y" cx="17.3" cy="136.3" r="2.4"/>
+<circle class="y" cx="16.0" cy="120.0" r="2.4"/>
+<circle class="y" cx="17.3" cy="103.7" r="2.4"/>
+<circle class="y" cx="21.1" cy="87.9" r="2.4"/>
+<circle class="y" cx="27.3" cy="72.8" r="2.4"/>
+<circle class="y" cx="35.9" cy="58.9" r="2.4"/>
+<circle class="y" cx="46.5" cy="46.5" r="2.4"/>
+<circle class="y" cx="58.9" cy="35.9" r="2.4"/>
+<circle class="y" cx="72.8" cy="27.3" r="2.4"/>
+<circle class="y" cx="87.9" cy="21.1" r="2.4"/>
+<circle class="y" cx="103.7" cy="17.3" r="2.4"/>
+<circle class="y" cx="120" cy="120" r="92"/>
+<circle class="n t" cx="120" cy="120" r="80"/>
+<circle class="o" cx="120.0" cy="34.0" r="2"/>
+<circle class="o" cx="136.8" cy="35.7" r="2"/>
+<circle class="o" cx="152.9" cy="40.5" r="2"/>
+<circle class="o" cx="167.8" cy="48.5" r="2"/>
+<circle class="o" cx="180.8" cy="59.2" r="2"/>
+<circle class="o" cx="191.5" cy="72.2" r="2"/>
+<circle class="o" cx="199.5" cy="87.1" r="2"/>
+<circle class="o" cx="204.3" cy="103.2" r="2"/>
+<circle class="o" cx="206.0" cy="120.0" r="2"/>
+<circle class="o" cx="204.3" cy="136.8" r="2"/>
+<circle class="o" cx="199.5" cy="152.9" r="2"/>
+<circle class="o" cx="191.5" cy="167.8" r="2"/>
+<circle class="o" cx="180.8" cy="180.8" r="2"/>
+<circle class="o" cx="167.8" cy="191.5" r="2"/>
+<circle class="o" cx="152.9" cy="199.5" r="2"/>
+<circle class="o" cx="136.8" cy="204.3" r="2"/>
+<circle class="o" cx="120.0" cy="206.0" r="2"/>
+<circle class="o" cx="103.2" cy="204.3" r="2"/>
+<circle class="o" cx="87.1" cy="199.5" r="2"/>
+<circle class="o" cx="72.2" cy="191.5" r="2"/>
+<circle class="o" cx="59.2" cy="180.8" r="2"/>
+<circle class="o" cx="48.5" cy="167.8" r="2"/>
+<circle class="o" cx="40.5" cy="152.9" r="2"/>
+<circle class="o" cx="35.7" cy="136.8" r="2"/>
+<circle class="o" cx="34.0" cy="120.0" r="2"/>
+<circle class="o" cx="35.7" cy="103.2" r="2"/>
+<circle class="o" cx="40.5" cy="87.1" r="2"/>
+<circle class="o" cx="48.5" cy="72.2" r="2"/>
+<circle class="o" cx="59.2" cy="59.2" r="2"/>
+<circle class="o" cx="72.2" cy="48.5" r="2"/>
+<circle class="o" cx="87.1" cy="40.5" r="2"/>
+<circle class="o" cx="103.2" cy="35.7" r="2"/>
+<path class="w" d="M60,130 C56,96 80,76 106,80 C132,84 142,110 136,136 C114,148 78,148 60,130 Z"/>
+<circle class="c t" cx="80" cy="100" r="4"/><circle class="c t" cx="96" cy="92" r="4"/><circle class="c t" cx="114" cy="98" r="4"/><circle class="c t" cx="88" cy="116" r="4"/><circle class="c t" cx="106" cy="112" r="4"/><circle class="c t" cx="122" cy="120" r="4"/><circle class="c t" cx="76" cy="126" r="4"/>
+<circle class="o" cx="166" cy="96" r="26"/>
+<circle class="r" cx="166" cy="96" r="18"/>
+<path class="y" d="M156,92 C160,84 176,84 178,94 C176,104 160,104 156,92 Z"/>
+<circle class="o" cx="160" cy="154" r="20"/>
+<circle class="y" cx="160" cy="154" r="13"/>
+<path class="g" d="M104,166 C114,154 130,152 138,160 C130,172 114,176 104,166 Z"/>
+<path class="w" d="M84,164 a8,8 0 1,0 0.1,0 Z"/>
+<path class="g" d="M130,62 C146,58 162,62 170,70 L166,76 C156,70 144,68 132,70 Z"/>
+
+</svg>

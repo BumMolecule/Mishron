@@ -3,8 +3,12 @@
 {% block description %}{{ dish.name_en }}: {{ dish.tagline }}{% endblock %}
 {% block body_class %}dish{% endblock %}
 {% block main %}
-<article class="recipe">
-  <header class="recipe-head">
+<article class="recipe sheet">
+  <header class="recipe-hero">
+    <figure class="pat recipe-art">
+      {% include ["art/" ~ dish.id ~ ".svg", "art/" ~ section.id ~ ".svg", "art/lotus.svg"] %}
+    </figure>
+    <div class="recipe-titles">
     <a class="crumb" href="../index.html#{{ section.id }}"><span lang="bn">{{ section.name_bn }}</span> <span class="en">{{ section.gloss }}</span></a>
     <h1 class="recipe-title"><span lang="bn">{{ dish.name_bn }}</span></h1>
     <p class="recipe-en">{{ dish.name_en }}</p>
@@ -17,12 +21,15 @@
     {% if dish.contributor %}
     <p class="credit">Recipe from {{ dish.contributor.name }}{% if dish.contributor.credit %}, {{ dish.contributor.credit }}{% endif %}.</p>
     {% endif %}
+    </div>
   </header>
 
   {% if dish.review.status == "draft" %}
   <p class="draft-note" role="note">The chemistry on this page is a draft and hasn't been checked yet. Spotted a mistake? <a href="{{ issue_url }}">Tell us</a>.</p>
   {% endif %}
 
+  {% if dish.golpo or dish.quote %}
+  <div class="story">
   {% if dish.golpo %}
   <aside class="golpo" aria-labelledby="golpo-title">
     <h2 id="golpo-title"><span lang="bn">গল্প</span> <span class="en">{{ dish.golpo.title }}</span></h2>
@@ -37,7 +44,10 @@
     <figcaption>{% if dish.quote.translation %}{{ dish.quote.translation }}{% endif %}<cite>{{ dish.quote.author }}{% if dish.quote.source %}, {{ dish.quote.source }}{% endif %}</cite></figcaption>
   </figure>
   {% endif %}
+  </div>
+  {% endif %}
 
+  <div class="recipe-body">
   <section class="ingredients" aria-labelledby="ing-title">
     <h2 id="ing-title"><span lang="bn">উপকরণ</span> <span class="en">Ingredients</span></h2>
     <ul>
@@ -98,7 +108,10 @@
       {% endfor %}
     </ol>
   </section>
+  </div>
 
+  {% if dish.trivia or dish.quiz %}
+  <div class="extras">
   {% if dish.trivia %}
   <section class="trivia" aria-labelledby="trivia-title">
     <h2 id="trivia-title"><span lang="bn">টুকরো কথা</span> <span class="en">Odds and ends</span></h2>
@@ -133,6 +146,8 @@
     </form>
     {% endfor %}
   </section>
+  {% endif %}
+  </div>
   {% endif %}
 
   {% if dish.further_reading or prev_dish or next_dish %}

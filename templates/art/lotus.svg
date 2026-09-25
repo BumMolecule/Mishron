@@ -1,0 +1,22 @@
+<svg class="art" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+
+<g transform="rotate(0.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(45.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(90.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(135.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(180.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(225.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(270.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(315.00 60 60)"><path class="r" d="M60,57.1 C50,45.2 56.0,18 60,18 C64.0,18 70,45.2 60,57.1 Z"/></g>
+<g transform="rotate(22.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(67.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(112.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(157.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(202.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(247.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(292.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<g transform="rotate(337.50 60 60)"><path class="y" d="M60,59.3 C53,51.6 57.2,34 60,34 C62.8,34 67,51.6 60,59.3 Z"/></g>
+<circle class="y" cx="60" cy="60" r="10"/>
+<circle class="k" cx="60" cy="60" r="3.5"/>
+
+</svg>
