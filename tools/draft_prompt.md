@@ -27,4 +27,4 @@ Rules:
   least sure about.
 
 Schema: see `schema/dish.schema.json`. Example: see `dishes/beguni.json`.
-Section must be one of: `pater-shuru`, `mukhorochok`, `kobji-dubiye`, `shesh-paate`.
+Section must be one of: `pater-shuru`, `mukhorochok`, `kobji-dubiye`, `mishti-mukh`.

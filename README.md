@@ -51,7 +51,7 @@ Sections live in `site.json`, so adding one (say, পুজোর ভোগ) is 
 code change.
 
 Each dish and section page shows the illustration in `templates/art/` whose file name
-matches its id (`rosogolla.svg`, `shesh-paate.svg`). A dish without its own drawing
+matches its id (`rosogolla.svg`, `mishti-mukh.svg`). A dish without its own drawing
 uses its section's. The drawings are inline SVG with fill classes (`r` crimson, `y`
 basanti, `c` cream, `w` rice white, `g` leaf, `o` terracotta, `v` aubergine) that
 `static/style.css` colours.

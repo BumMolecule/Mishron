@@ -1,6 +1,7 @@
 <svg class="art" viewBox="0 0 240 240" aria-hidden="true" focusable="false">
 
 <circle class="y" cx="120" cy="120" r="114"/>
+<g class="spin-rev">
 <g transform="rotate(0.00 120 120)"><path class="r" d="M120,25.0 C107,18.0 114.8,2 120,2 C125.2,2 133,18.0 120,25.0 Z"/></g>
 <g transform="rotate(22.50 120 120)"><path class="r" d="M120,25.0 C107,18.0 114.8,2 120,2 C125.2,2 133,18.0 120,25.0 Z"/></g>
 <g transform="rotate(45.00 120 120)"><path class="r" d="M120,25.0 C107,18.0 114.8,2 120,2 C125.2,2 133,18.0 120,25.0 Z"/></g>
@@ -17,6 +18,7 @@
 <g transform="rotate(292.50 120 120)"><path class="r" d="M120,25.0 C107,18.0 114.8,2 120,2 C125.2,2 133,18.0 120,25.0 Z"/></g>
 <g transform="rotate(315.00 120 120)"><path class="r" d="M120,25.0 C107,18.0 114.8,2 120,2 C125.2,2 133,18.0 120,25.0 Z"/></g>
 <g transform="rotate(337.50 120 120)"><path class="r" d="M120,25.0 C107,18.0 114.8,2 120,2 C125.2,2 133,18.0 120,25.0 Z"/></g>
+</g>
 <circle class="c" cx="120" cy="120" r="96"/>
 <circle class="r" cx="120.0" cy="32.0" r="2.6"/>
 <circle class="r" cx="135.3" cy="33.3" r="2.6"/>
@@ -55,6 +57,7 @@
 <circle class="r" cx="89.9" cy="37.3" r="2.6"/>
 <circle class="r" cx="104.7" cy="33.3" r="2.6"/>
 <circle class="n t" cx="120" cy="120" r="80"/>
+<g class="spin">
 <g transform="translate(122 92) rotate(-8) scale(0.82)">
   <path class="y" d="M-68,0 L-100,-32 Q-90,0 -100,32 Z"/>
   <path class="y" d="M-24,-30 Q-4,-56 26,-30 Z"/>
@@ -116,4 +119,5 @@
   <path class="n t" d="M64,6 Q58,10 52,8"/>
 </g>
 
+</g>
 </svg>

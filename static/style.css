@@ -107,6 +107,24 @@ p { margin: 0 0 1rem; }
 }
 .pat figcaption { color: var(--on-band); font-size: 0.95rem; text-align: center; margin-top: 0.6rem; font-style: italic; }
 
+/* The logo: মিশ্রণ in a brush hand, printed from a carved block, with the ink
+   slightly out of register. */
+.logo { display: block; width: 100%; height: auto; overflow: visible; }
+.logo-block { fill: var(--logo-bg, var(--band)); stroke: var(--ink); stroke-width: 5; }
+.logo-stitch { fill: none; stroke: var(--logo-trim, var(--basanti)); stroke-width: 2.5; stroke-dasharray: 7 6; stroke-linecap: round; }
+.logo-corner { fill: var(--logo-trim, var(--basanti)); stroke: var(--ink); stroke-width: 3; stroke-linejoin: round; }
+.logo text { font-family: "Galada", var(--f-display); font-size: 118px; }
+.logo-shadow { fill: var(--ink); }
+.logo-word { fill: var(--logo-fg, var(--basanti)); stroke: var(--ink); stroke-width: 3; paint-order: stroke; }
+
+/* The paired fish circle each other; the lotus ring turns the other way. */
+.art .spin, .art .spin-rev { transform-box: view-box; transform-origin: 120px 120px; }
+@media (prefers-reduced-motion: no-preference) {
+  .art .spin { animation: turn 36s linear infinite; }
+  .art .spin-rev { animation: turn 90s linear infinite reverse; }
+  @keyframes turn { to { transform: rotate(360deg); } }
+}
+
 .alpona { height: 18px; background: var(--band) var(--alpona) repeat-x center / 40px 18px; }
 
 .ornament { display: flex; align-items: center; gap: 1rem; }
@@ -126,9 +144,8 @@ p { margin: 0 0 1rem; }
   justify-content: space-between;
   gap: 0.4rem 1.5rem;
 }
-.spine-brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
-.spine-brand .art { width: 2.1rem; }
-.spine-brand span { font-family: var(--f-display); font-weight: 700; font-size: 1.9rem; line-height: 1; color: var(--basanti); }
+.spine-brand { display: block; width: 7.5rem; text-decoration: none; --logo-bg: var(--basanti); --logo-fg: var(--band); --logo-trim: var(--band); }
+.spine-brand:hover { transform: rotate(-2deg); }
 .spine-nav { display: flex; flex-wrap: wrap; gap: 0.2rem 0.4rem; }
 .spine-nav a {
   font-family: var(--f-display);
@@ -161,14 +178,7 @@ p { margin: 0 0 1rem; }
   padding: 0.1rem 0.9rem;
 }
 .kicker { margin-bottom: 1rem; }
-.hero-title {
-  font-family: var(--f-display);
-  font-weight: 700;
-  font-size: clamp(5rem, 15vw, 9.5rem);
-  line-height: 0.95;
-  color: var(--crimson);
-  text-shadow: 4px 4px 0 var(--basanti);
-}
+.hero-title { width: min(27rem, 100%); transform: rotate(-2deg); margin: 0.25rem 0 0 -0.25rem; }
 .hero-latin { font-family: var(--f-latin); font-size: clamp(1.6rem, 4vw, 2.3rem); letter-spacing: 0.04em; margin: 0.5rem 0 1rem; }
 .hero-sub { font-family: var(--f-display); font-size: clamp(1.3rem, 3vw, 1.7rem); color: var(--crimson); margin-bottom: 0.6rem; }
 .hero-en { max-width: 32rem; color: var(--ink-soft); font-size: 1.2rem; }

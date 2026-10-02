@@ -9,7 +9,7 @@
       "id": "pater-shuru",
       "name_bn": "পাতের শুরু",
       "name_en": "Pater shuru",
-      "gloss": "Start of the plate",
+      "gloss": "Meal openers",
       "blurb": "The gentle, bitter openers of a Bengali meal: shukto, bhaja, daal."
     },
     {
@@ -27,10 +27,10 @@
       "blurb": "The main event: fish, meat and rice."
     },
     {
-      "id": "shesh-paate",
-      "name_bn": "শেষ পাতে",
-      "name_en": "Shesh paate",
-      "gloss": "On the last plate",
+      "id": "mishti-mukh",
+      "name_bn": "মিষ্টিমুখ",
+      "name_en": "Mishti mukh",
+      "gloss": "Sweet tooth",
       "blurb": "Sweets and doi to finish."
     }
   ]

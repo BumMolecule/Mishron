@@ -23,7 +23,7 @@ body:
         - পাতের শুরু (start of the meal: shukto, bhaja, daal)
         - মুখরোচক (snacks and street food)
         - কব্জি ডুবিয়ে (main course)
-        - শেষ পাতে (sweets and desserts)
+        - মিষ্টিমুখ (sweets and desserts)
         - Not sure
     validations:
       required: true

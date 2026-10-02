@@ -1,0 +1,16 @@
+<svg class="logo" viewBox="0 0 400 170" role="img" aria-label="মিশ্রণ">
+  <defs>
+    <!-- Roughens every edge a little, like ink pressed from a carved wooden block. -->
+    <filter id="logo-ink" x="-4%" y="-4%" width="108%" height="108%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" seed="11" result="grain"/>
+      <feDisplacementMap in="SourceGraphic" in2="grain" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#logo-ink)">
+    <rect class="logo-block" x="8" y="8" width="384" height="154" rx="7"/>
+    <rect class="logo-stitch" x="21" y="21" width="358" height="128" rx="3"/>
+    <path class="logo-corner" d="M21 9 l12 12 -12 12 -12 -12 Z M379 9 l12 12 -12 12 -12 -12 Z M21 137 l12 12 -12 12 -12 -12 Z M379 137 l12 12 -12 12 -12 -12 Z"/>
+    <text class="logo-shadow" x="205" y="123" text-anchor="middle">মিশ্রণ</text>
+    <text class="logo-word" x="200" y="118" text-anchor="middle">মিশ্রণ</text>
+  </g>
+</svg>

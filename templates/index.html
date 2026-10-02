@@ -4,12 +4,12 @@
 <section class="hero" aria-labelledby="cover-title">
   <div class="hero-text">
     <p class="kicker" lang="bn">রান্নাঘর · রসায়ন</p>
-    <h1 id="cover-title" class="hero-title" lang="bn">{{ site.title_bn }}</h1>
+    <h1 id="cover-title" class="hero-title" lang="bn">{% include "logo.svg" %}</h1>
     <p class="hero-latin">{{ site.title_en }}</p>
     <p class="hero-sub" lang="bn">{{ site.tagline_bn }}</p>
     <p class="hero-en">{{ site.tagline_en }}. Every recipe comes with what মা says at each step and what's actually happening in the pan.</p>
     <div class="hero-actions">
-      <a class="btn" href="#contents"><span lang="bn">খাতা খুলুন</span> Open the khata</a>
+      <a class="btn" href="#contents" lang="bn">খাতার পাতা ওল্টান</a>
       <a class="btn ghost" href="{{ submit_url }}">Share a recipe</a>
     </div>
   </div>
