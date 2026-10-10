@@ -6,11 +6,11 @@
   "diet": "veg",
   "tagline": "Mashed tomatoes cooked down with mustard and sugar, finished with lime once it's cool.",
   "serves": "4",
-  "time_minutes": 25,
+  "time_minutes": 20,
   "golpo": {
     "type": "trivia",
     "title": "The everyday chutney",
-    "body": "Green mango has a season. Tomatoes are there all year, which is why টমেটোর চাটনি is the chutney of ordinary weekday lunches and the one most often found at the end of a wedding feast. It's sweet first, then sour, with a savoury depth that a mango chutney doesn't have, and that last squeeze of lime once it's cool is what makes it taste fresh."
+    "body": "Since green mangoes have a season, tomatoes could present you similar flavours. No wonder it's the chutney of ordinary weekday lunches and the one most often found at the end of a wedding feast. It's sweet first, then sour, with a savoury depth that a mango chutney doesn't have, and that last squeeze of lime once it's cool is what makes it taste fresh."
   },
   "ingredients": [
     {
@@ -56,12 +56,12 @@
   ],
   "steps": [
     {
-      "action_bn": "টমেটো কেটে হাত দিয়ে ভালো করে চটকে নাও, যতক্ষণ না রস বেরিয়ে আসে।",
+      "action_bn": "কাটা টমেটো হাত দিয়ে চটকে নাও যতক্ষণ না রস বেরিয়ে আসছে।",
       "action_en": "Chop the tomatoes and mash them well with your hands until their juice runs out.",
-      "maa_says": "টমেটোর বিচি আর শাঁস ফেলো না, ওতেই আসল স্বাদ।",
+      "maa_says": "টমেটোর বিচি আর শাঁস ফেলো না।",
       "chemistry": {
         "title": "Keep the pulp and seeds",
-        "explanation": "Most of a tomato's flavour is in the jelly and seeds, which are rich in glutamates, the molecules that taste savoury, or umami. Mashing breaks the cells open so the juice and pulp come out and cook down together. That glutamate is what gives tomato chutney its moreish depth, something a fruit chutney like mango doesn't have.",
+        "explanation": "Most of a tomato's flavour is in the jelly and seeds, which are rich in glutamates, the molecules that taste savoury, or **umami**. Mashing breaks the cells open so the juice and pulp come out and cook down together. That glutamate is what gives tomato chutney its moreish depth, something a fruit chutney like mango doesn't have.",
         "molecules": [
           {
             "name": "Glutamic acid",
@@ -72,8 +72,8 @@
       }
     },
     {
-      "action_bn": "কড়াইতে তেল গরম করে সর্ষে, শুকনো লঙ্কা আর পাঁচফোড়ন দাও। ফোড়নের গন্ধ উঠলে চটকানো টমেটো ঢেলে দাও।",
-      "action_en": "Heat the oil and add the mustard seeds, dried chilli and panch phoron. When the spices smell toasty, pour in the mashed tomatoes.",
+      "action_bn": "কড়াইতে তেল গরম করে সর্ষে, শুকনো লঙ্কা আর পাঁচফোড়ন দাও। ফোড়নের গন্ধ উঠলে টমেটোর পেস্ট ঢেলে দাও।",
+      "action_en": "Heat the oil and add the mustard seeds, dried chilli and panch phoron. When the spices smell toasty, pour in the tomato paste.",
       "maa_says": "ফোড়ন পুড়িয়ে ফেলো না, তেতো হয়ে যাবে।",
       "chemistry": {
         "title": "Spices first, in fat",
@@ -114,9 +114,9 @@
     }
   ],
   "trivia": [
-    "Tomatoes arrived in India from the Americas with the Portuguese, only a few centuries ago. Bengali chutney adopted them fast.",
-    "Many Bengali kitchens add dates (খেজুর) and dried mango (আমসত্ত্ব) to tomato chutney for a richer, festive version.",
-    "Because tomato is rich in glutamates, its chutney tastes savoury as well as sweet and sour: all three in one spoonful."
+    "Tomatoes arrived in India from the Americas with the Portuguese, only a few centuries ago.",
+    "We can add dates (খেজুর) and dried mango (আমসত্ত্ব) to tomato chutney for a richer, festive version.",
+    "The street filled with tomatoes midday, summer, light is halved like a tomato, its juice runs through the streets. - Pablo Neruda, from 'Ode to Tomatoes'"
   ],
   "quiz": [
     {

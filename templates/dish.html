@@ -35,7 +35,7 @@
   {% if dish.golpo %}
   <aside class="golpo" aria-labelledby="golpo-title">
     <h2 id="golpo-title"><span lang="bn">গল্প</span> <span class="en">{{ dish.golpo.title }}</span></h2>
-    <p>{{ dish.golpo.body }}</p>
+    <p>{{ dish.golpo.body | rich }}</p>
     {% if dish.golpo.source %}<p class="source">Source: {{ dish.golpo.source }}</p>{% endif %}
   </aside>
   {% endif %}
@@ -82,7 +82,7 @@
           <details class="lab">
             <summary><span class="lab-kicker" lang="bn">রসায়ন</span> {{ chem.title }}</summary>
             <div class="lab-page">
-              <p>{{ chem.explanation }}</p>
+              <p>{{ chem.explanation | rich }}</p>
               {% if chem.molecules %}
               <div class="molecules">
                 {% for m in chem.molecules %}
@@ -118,7 +118,7 @@
   <section class="trivia" aria-labelledby="trivia-title">
     <h2 id="trivia-title"><span lang="bn">টুকরো কথা</span> <span class="en">Odds and ends</span></h2>
     <ul>
-      {% for t in dish.trivia %}<li>{{ t }}</li>{% endfor %}
+      {% for t in dish.trivia %}<li>{{ t | rich }}</li>{% endfor %}
     </ul>
   </section>
   {% endif %}

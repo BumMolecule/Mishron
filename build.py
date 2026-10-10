@@ -349,6 +349,8 @@ def build(strict: bool, include_drafts: bool) -> int:
         lstrip_blocks=True,
     )
     env.filters["bn_digits"] = lambda v: str(v).translate(BN_DIGITS)
+    # **bold** in dish text renders as <strong>; everything else stays escaped.
+    env.filters["rich"] = lambda v: Markup(re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", str(escape(v))))
 
     if OUT_DIR.exists():
         shutil.rmtree(OUT_DIR)
