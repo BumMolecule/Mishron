@@ -1,0 +1,179 @@
+{
+  "id": "kanchkolar-borar-torkari",
+  "name_bn": "কাঁচকলার বড়ার তরকারি",
+  "name_en": "Kanchkolar borar torkari",
+  "section": "pater-shuru",
+  "diet": "veg",
+  "tagline": "Green banana mashed into soft fritters, then simmered in a gingery gravy just long enough to drink it in.",
+  "serves": "4",
+  "time_minutes": 60,
+  "golpo": {
+    "type": "family",
+    "title": "The humble banana, dressed up",
+    "body": "কাঁচকলা, green cooking banana, is the most modest vegetable in a Bengali kitchen: boiled for the sick, mashed into a quick bhaate. Turn it into boras and simmer them in a gravy, though, and it becomes a dish for guests. These are niramish koftas: no onion and no garlic, just ginger, cumin and garam masala, which is why kanchkolar borar torkari turns up so often on pujo days and niramish tables."
+  },
+  "ingredients": [
+    {
+      "item_bn": "কাঁচকলা",
+      "item_en": "Green cooking bananas",
+      "qty": "3"
+    },
+    {
+      "item_bn": "আদা বাটা",
+      "item_en": "Ginger paste: 1 tsp for the boras, the rest for the gravy",
+      "qty": "1½ tbsp"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা কুচি",
+      "item_en": "Green chillies, chopped",
+      "qty": "2"
+    },
+    {
+      "item_bn": "বেসন",
+      "item_en": "Besan (gram flour)",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "নারকেল কোরা (ঐচ্ছিক)",
+      "item_en": "Grated coconut (optional)",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "আলু",
+      "item_en": "Potato, cut into cubes",
+      "qty": "1 medium"
+    },
+    {
+      "item_bn": "টমেটো",
+      "item_en": "Tomato, chopped",
+      "qty": "1"
+    },
+    {
+      "item_bn": "গোটা জিরে ও তেজপাতা",
+      "item_en": "Cumin seeds and bay leaves",
+      "qty": "1 tsp, 2"
+    },
+    {
+      "item_bn": "জিরে গুঁড়ো",
+      "item_en": "Ground cumin",
+      "qty": "1½ tsp"
+    },
+    {
+      "item_bn": "হলুদ ও লঙ্কা গুঁড়ো",
+      "item_en": "Turmeric and red chilli powder",
+      "qty": "1 tsp each"
+    },
+    {
+      "item_bn": "গরম মশলা গুঁড়ো",
+      "item_en": "Garam masala powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "ঘি",
+      "item_en": "Ghee",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil, for frying and the gravy",
+      "qty": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "কাঁচকলা খোসাসমেত দু'টুকরো করে জলে সেদ্ধ করো, যতক্ষণ না একদম নরম হয়। খোসা ছাড়িয়ে গরম থাকতেই মিহি করে চটকে নাও।",
+      "action_en": "Cut the green bananas in half, skin on, and boil them until completely soft. Peel and mash them smooth while they're still warm.",
+      "maa_says": "কাঁচকলা কাটার সময় হাতে তেল মেখো, কষে হাত কালো হয়।",
+      "chemistry": {
+        "title": "Boiling turns hard starch soft",
+        "explanation": "Green banana is packed with tightly bound starch and tannins, which is why it's hard, astringent and stains your fingers when raw. Boiling gelatinises the starch: the granules swell with water and soften, so the flesh mashes smoothly. Cooking it in its skin keeps it from soaking up water and turning soggy, and mashing it warm gives a smoother result than mashing it cold."
+      }
+    },
+    {
+      "action_bn": "চটকানো কলায় এক চামচ আদা বাটা, কাঁচা লঙ্কা, বেসন, নারকেল, নুন আর এক চিমটে চিনি মিশিয়ে ছোট ছোট বড়া গড়ো।",
+      "action_en": "Mix the mashed banana with a teaspoon of ginger paste, the green chillies, besan, coconut, salt and a pinch of sugar. Shape into small balls or flat boras.",
+      "maa_says": "বেসন বেশি দিও না, বড়া শক্ত হয়ে যাবে।",
+      "chemistry": {
+        "title": "Besan binds",
+        "explanation": "The mashed banana holds together reasonably well on its own, but besan absorbs extra moisture and, as it cooks, its starch and protein set to glue everything in place. Too much makes the boras dense and floury, so add only enough that the mixture holds its shape when rolled."
+      }
+    },
+    {
+      "action_bn": "তেলে বড়াগুলো অল্প অল্প করে সোনালি করে ভেজে তুলে রাখো। ওই তেলেই আলুর টুকরো হালকা ভেজে নাও।",
+      "action_en": "Fry the boras a few at a time in hot oil until golden, and set them aside. Lightly fry the potato cubes in the same oil.",
+      "maa_says": "বড়া ঘন ঘন উল্টিও না, ভেঙে যাবে।",
+      "chemistry": {
+        "title": "A crust to survive the gravy",
+        "explanation": "Frying dries and browns the outside of each bora into a crust through the Maillard reaction. That crust is what lets it sit in a gravy later without dissolving. Turn them gently and only once the underside has set, because a soft bora breaks easily before its crust forms."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে গোটা জিরে আর তেজপাতা ফোড়ন দাও। বাকি আদা বাটা, জিরে গুঁড়ো, হলুদ আর লঙ্কা গুঁড়ো দিয়ে আঁচ কমিয়ে কষাও, তারপর টমেটো দিয়ে নরম হওয়া পর্যন্ত রাঁধো।",
+      "action_en": "Heat oil and add the cumin seeds and bay leaves. Add the remaining ginger paste with the ground cumin, turmeric and chilli powder, and cook on low heat. Then add the tomato and cook until it softens and the oil separates.",
+      "maa_says": "মশলা কষানোর সময় একটু জলের ছিটে দিলে পুড়বে না।",
+      "chemistry": {
+        "title": "Building a gravy without onion",
+        "explanation": "Without onion and garlic, the gravy's depth comes from ginger, well-cooked cumin and tomato. Tomato brings acidity and glutamates, which taste savoury, and cooking it down concentrates both. Ground spices go in on low heat because they scorch quickly in hot oil. When the oil separates from the masala, its water has cooked off."
+      }
+    },
+    {
+      "action_bn": "ভাজা আলু আর জল দিয়ে নুন-চিনি মিশিয়ে ফোটাও। আলু সেদ্ধ হলে বড়াগুলো ছেড়ে ৩–৪ মিনিট ফুটিয়ে নাও।",
+      "action_en": "Add the fried potatoes, water, salt and a pinch of sugar, and simmer until the potatoes are cooked. Then slip in the boras and simmer for just 3–4 minutes.",
+      "maa_says": "বড়া দেওয়ার পর বেশি নাড়বে না, তাহলেই গোটা থাকবে।",
+      "chemistry": {
+        "title": "Boras go in last",
+        "explanation": "Once in the gravy, the boras start soaking up liquid, which is the point, since that's how they take on the flavour. Left too long, they soak up too much and fall apart. A few minutes is enough to soften the crust and flavour the inside while they keep their shape."
+      }
+    },
+    {
+      "action_bn": "গরম মশলা গুঁড়ো আর ঘি ছড়িয়ে নামিয়ে নাও। কিছুক্ষণ ঢেকে রেখে ভাতের সঙ্গে দাও।",
+      "action_en": "Finish with the garam masala and ghee, and take it off the heat. Let it rest covered for a few minutes, then serve with rice.",
+      "maa_says": "একটু রেখে দিলে বড়া ঝোল টেনে নেয়, তখন আরও ভালো লাগে।",
+      "chemistry": {
+        "title": "Resting lets the boras drink",
+        "explanation": "Off the heat, the boras keep absorbing the gravy, and the gravy itself thickens a little as the potato and banana starches settle. Garam masala and ghee go in at the end, so their aroma is still there when the lid comes off."
+      }
+    }
+  ],
+  "trivia": [
+    "Green banana is rich in resistant starch, which behaves more like fibre than sugar, especially once it has been cooked and cooled.",
+    "Like mocha, green banana sap blackens hands and knives: Bengali cooks oil their palms before peeling.",
+    "The same banana boras, without the gravy, are a snack on their own: কাঁচকলার বড়া."
+  ],
+  "quiz": [
+    {
+      "question": "Why are the boras added to the gravy only at the end?",
+      "options": [
+        "They'd burn otherwise",
+        "They soak up liquid and would fall apart if they simmered long",
+        "So the besan cooks",
+        "To keep the colour"
+      ],
+      "answer": 1,
+      "explain": "A few minutes is enough to flavour them without breaking them."
+    },
+    {
+      "question": "Why is raw green banana hard and astringent?",
+      "options": [
+        "It's full of sugar",
+        "Tightly bound starch and tannins",
+        "Too much water",
+        "Its acidity"
+      ],
+      "answer": 1,
+      "explain": "Boiling gelatinises the starch and softens it."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, frying and spices"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Quantities are estimates. Check the resistant-starch trivia and the niramish table reference."
+  }
+}

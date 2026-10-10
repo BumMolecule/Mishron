@@ -13,27 +13,111 @@
     "body": "For generations of Bengali households, Sunday lunch meant মাংস-ভাত: an early queue at the butcher's for খাসির মাংস, then a morning of slow frying until the whole lane smelled of it. কষা comes from কষানো, to fry something slowly in its own masala until the oil separates and the colour turns deep and dark. Kolkata's old cabins, like Golbari in Shyambazar, made their names on kosha mangsho eaten with paratha, and they serve it without potatoes. At home, the potato is non-negotiable."
   },
   "ingredients": [
-    { "item_bn": "খাসির মাংস (হাড় ও চর্বিসহ)", "item_en": "Goat meat (khashi), with bone and some fat", "qty": "1 kg" },
-    { "item_bn": "কাঁচা পেঁপে বাটা", "item_en": "Raw papaya, grated", "qty": "½ cup" },
-    { "item_bn": "টক দই", "item_en": "Sour yoghurt, divided", "qty": "200 g" },
-    { "item_bn": "পেঁয়াজ", "item_en": "Onions: 2 made into a paste, 6 chopped", "qty": "8" },
-    { "item_bn": "আলু", "item_en": "Potatoes, halved", "qty": "4 medium" },
-    { "item_bn": "আদা বাটা", "item_en": "Ginger paste", "qty": "1½ tbsp + 1 tsp" },
-    { "item_bn": "রসুন বাটা", "item_en": "Garlic paste", "qty": "2 tbsp + 1 tsp" },
-    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric", "qty": "2½ tsp" },
-    { "item_bn": "জিরে গুঁড়ো", "item_en": "Ground cumin", "qty": "2½ tsp" },
-    { "item_bn": "ধনে গুঁড়ো", "item_en": "Ground coriander", "qty": "2½ tsp" },
-    { "item_bn": "লঙ্কা গুঁড়ো", "item_en": "Red chilli powder", "qty": "2 tsp" },
-    { "item_bn": "গরম মশলা গুঁড়ো", "item_en": "Bengali garam masala powder", "qty": "2½ tsp" },
-    { "item_bn": "চিনি", "item_en": "Sugar", "qty": "1 tbsp + ½ tsp" },
-    { "item_bn": "হিং", "item_en": "Asafoetida", "qty": "½ tsp" },
-    { "item_bn": "তেজপাতা ও শুকনো লঙ্কা", "item_en": "Bay leaves and dried red chillies", "qty": "4 each" },
-    { "item_bn": "গোটা গরম মশলা", "item_en": "Whole spices: 4 cloves, 4 green and 2 black cardamom, 1 cinnamon stick", "qty": "" },
-    { "item_bn": "কাঁচা লঙ্কা", "item_en": "Green chillies", "qty": "3" },
-    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil, plus extra for the potatoes", "qty": "150 ml" },
-    { "item_bn": "ঘি", "item_en": "Ghee", "qty": "2 tbsp" },
-    { "item_bn": "নুন", "item_en": "Salt", "qty": "To taste" },
-    { "item_bn": "গরম জল", "item_en": "Boiling water", "qty": "About 1 cup" }
+    {
+      "item_bn": "খাসির মাংস (হাড় ও চর্বিসহ)",
+      "item_en": "Goat meat (khashi), with bone and some fat",
+      "qty": "1 kg"
+    },
+    {
+      "item_bn": "কাঁচা পেঁপে বাটা",
+      "item_en": "Raw papaya, grated",
+      "qty": "½ cup"
+    },
+    {
+      "item_bn": "টক দই",
+      "item_en": "Sour yoghurt, divided",
+      "qty": "200 g"
+    },
+    {
+      "item_bn": "পেঁয়াজ",
+      "item_en": "Onions: 2 made into a paste, 6 chopped",
+      "qty": "8"
+    },
+    {
+      "item_bn": "আলু",
+      "item_en": "Potatoes, halved",
+      "qty": "4 medium"
+    },
+    {
+      "item_bn": "আদা বাটা",
+      "item_en": "Ginger paste",
+      "qty": "1½ tbsp + 1 tsp"
+    },
+    {
+      "item_bn": "রসুন বাটা",
+      "item_en": "Garlic paste",
+      "qty": "2 tbsp + 1 tsp"
+    },
+    {
+      "item_bn": "হলুদ গুঁড়ো",
+      "item_en": "Turmeric",
+      "qty": "2½ tsp"
+    },
+    {
+      "item_bn": "জিরে গুঁড়ো",
+      "item_en": "Ground cumin",
+      "qty": "2½ tsp"
+    },
+    {
+      "item_bn": "ধনে গুঁড়ো",
+      "item_en": "Ground coriander",
+      "qty": "2½ tsp"
+    },
+    {
+      "item_bn": "লঙ্কা গুঁড়ো",
+      "item_en": "Red chilli powder",
+      "qty": "2 tsp"
+    },
+    {
+      "item_bn": "গরম মশলা গুঁড়ো",
+      "item_en": "Bengali garam masala powder",
+      "qty": "2½ tsp"
+    },
+    {
+      "item_bn": "চিনি",
+      "item_en": "Sugar",
+      "qty": "1 tbsp + ½ tsp"
+    },
+    {
+      "item_bn": "হিং",
+      "item_en": "Asafoetida",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "তেজপাতা ও শুকনো লঙ্কা",
+      "item_en": "Bay leaves and dried red chillies",
+      "qty": "4 each"
+    },
+    {
+      "item_bn": "গোটা গরম মশলা",
+      "item_en": "Whole spices: 4 cloves, 4 green and 2 black cardamom, 1 cinnamon stick",
+      "qty": ""
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies",
+      "qty": "3"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil, plus extra for the potatoes",
+      "qty": "150 ml"
+    },
+    {
+      "item_bn": "ঘি",
+      "item_en": "Ghee",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "গরম জল",
+      "item_en": "Boiling water",
+      "qty": "About 1 cup"
+    }
   ],
   "steps": [
     {
@@ -62,7 +146,11 @@
         "title": "Caramel is where the colour starts",
         "explanation": "Table sugar caramelises at around 160 °C, breaking apart into hundreds of brown, toasty, slightly bitter molecules. A spoonful melted in the oil at the start is the Bengali trick for kosha mangsho's deep mahogany colour. Push it too far and it turns acrid. The whole spices go straight into the hot oil because their flavour molecules dissolve in fat, so the oil becomes the carrier for everything that follows.",
         "molecules": [
-          { "name": "Sucrose", "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O", "note": "Table sugar, before it caramelises." }
+          {
+            "name": "Sucrose",
+            "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+            "note": "Table sugar, before it caramelises."
+          }
         ]
       }
     },
@@ -152,11 +240,10 @@
     }
   ],
   "further_reading": [
-    "Kitchen of Debjani, “Kosha Mangsho”: kitchenofdebjani.com/2014/11/kosha-mangsho/",
     "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on meat, the Maillard reaction and spices"
   ],
   "review": {
     "status": "draft",
-    "notes": "Method and quantities follow Kitchen of Debjani. Potatoes are a home-style addition (neither Debjani nor the cabin-style versions use them), and marination is shortened from her 6–8 hours to 2–4, following Masala Lab's point that marinades only coat the surface. Check: the niramish mangsho bhog tradition, the Wajid Ali Shah potato story (flagged as disputed), and the claim that frying the potatoes helps them keep their shape."
+    "notes": "Potatoes are a home-style addition (cabin-style kosha mangsho has none), and marination is kept to 2–4 hours, following Masala Lab's point that marinades only coat the surface. Check: the niramish mangsho bhog tradition, the Wajid Ali Shah potato story (flagged as disputed), and the claim that frying the potatoes helps them keep their shape."
   }
 }

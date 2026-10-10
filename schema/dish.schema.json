@@ -10,6 +10,7 @@
     "name_en": { "type": "string", "minLength": 1 },
     "section": { "type": "string" },
     "diet": { "enum": ["veg", "non-veg"] },
+    "order": { "type": "integer", "description": "Position within its section; lower comes first (default 50)." },
     "tagline": { "type": "string", "minLength": 1 },
     "serves": { "type": "string" },
     "time_minutes": { "type": "integer", "minimum": 1 },

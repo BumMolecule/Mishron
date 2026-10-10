@@ -1,0 +1,182 @@
+{
+  "id": "dimer-devil",
+  "name_bn": "ডিমের ডেভিল",
+  "name_en": "Dimer devil",
+  "section": "mukhorochok",
+  "diet": "non-veg",
+  "tagline": "A whole boiled egg in a jacket of spiced potato, crumbed and fried: Kolkata's party snack.",
+  "serves": "6 (one devil each)",
+  "time_minutes": 60,
+  "golpo": {
+    "type": "history",
+    "title": "A devil from the British table",
+    "body": "In 18th- and 19th-century English cooking, to devil something meant to make it hot and spicy: devilled kidneys, devilled eggs. Kolkata kept the word and made the dish its own. ডিমের ডেভিল is a whole hard-boiled egg wrapped in mashed potato spiced with fried onion, ginger and bhaja moshla, sometimes with mince, then crumbed and fried until it's golden. It turns up at birthday parties, Christmas tables, old para cabins and wedding snack counters, always cut in half to show the egg, always with kasundi."
+  },
+  "ingredients": [
+    {
+      "item_bn": "ডিম",
+      "item_en": "Eggs, plus 1 more for coating",
+      "qty": "6 + 1"
+    },
+    {
+      "item_bn": "আলু",
+      "item_en": "Potatoes, boiled and peeled",
+      "qty": "4 medium (about 500 g)"
+    },
+    {
+      "item_bn": "পেঁয়াজ কুচি",
+      "item_en": "Onion, finely chopped",
+      "qty": "1 large"
+    },
+    {
+      "item_bn": "আদা বাটা",
+      "item_en": "Ginger paste",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা কুচি",
+      "item_en": "Green chillies, chopped",
+      "qty": "2"
+    },
+    {
+      "item_bn": "ভাজা মশলা",
+      "item_en": "Bhaja moshla (roasted cumin, coriander and chilli powder)",
+      "qty": "1½ tsp"
+    },
+    {
+      "item_bn": "গরম মশলা গুঁড়ো",
+      "item_en": "Garam masala powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "কিমা (ঐচ্ছিক)",
+      "item_en": "Mutton or chicken mince, cooked (optional)",
+      "qty": "150 g"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "বিস্কুটের গুঁড়ো",
+      "item_en": "Breadcrumbs",
+      "qty": "1 cup"
+    },
+    {
+      "item_bn": "ময়দা",
+      "item_en": "Maida (plain flour)",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "তেল",
+      "item_en": "Oil, for frying",
+      "qty": "As needed"
+    },
+    {
+      "item_bn": "কাসুন্দি",
+      "item_en": "Kasundi and a sliced onion-cucumber salad, to serve",
+      "qty": ""
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "ফুটন্ত জলে ডিম ছেড়ে আঁচ বন্ধ করে ঢাকা দিয়ে ১২ মিনিট রাখো। তারপর ঠান্ডা জলে ফেলে খোসা ছাড়াও।",
+      "action_en": "Lower the eggs into boiling water, turn off the heat, cover and leave them for 12 minutes. Then cool them in cold water and peel.",
+      "maa_says": "ডিম বেশিক্ষণ ফোটালে কুসুমের চারপাশে সবুজ দাগ পড়ে।",
+      "chemistry": {
+        "title": "Hard-boiled, without the green ring",
+        "explanation": "Egg white sets at around 62 °C and the yolk a little higher. Cooking them in water that's cooling down from a boil sets both gently. Boil an egg too long and the white releases hydrogen sulphide, which reacts with iron in the yolk to make the greyish-green ring and the eggy smell. A pinch of baking soda in the water raises its pH and makes the shell easier to peel.",
+        "molecules": [
+          {
+            "name": "Hydrogen sulphide",
+            "smiles": "S",
+            "note": "Released by overcooked egg white; it reacts with iron from the yolk."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "অল্প তেলে পেঁয়াজ লালচে করে ভাজো, আদা বাটা আর কাঁচা লঙ্কা দিয়ে নাড়ো। সেদ্ধ আলু চটকে এতে মেশাও, সঙ্গে ভাজা মশলা, গরম মশলা, নুন আর এক চিমটে চিনি। কিমা দিলে এখনই দাও। ঠান্ডা হতে দাও।",
+      "action_en": "Fry the onion in a little oil until golden, then add the ginger paste and green chillies. Mash the boiled potatoes into it with the bhaja moshla, garam masala, salt and a pinch of sugar. If you're using mince, mix it in now. Let the mash cool completely.",
+      "maa_says": "আলুর পুর একদম ঠান্ডা না হলে ডিমের গায়ে লাগবে না।",
+      "chemistry": {
+        "title": "Why the mash must be cold",
+        "explanation": "Hot mashed potato is soft and sticky because its starch is swollen with water. As it cools, the starch partly re-sets, a process called retrogradation, and the mash firms up enough to mould and hold its shape around the egg. The browned onion brings sweetness and savoury depth from the Maillard reaction, and bhaja moshla's spices were roasted before grinding, which releases far more of their aroma."
+      }
+    },
+    {
+      "action_bn": "হাতে একটু তেল মেখে আলুর পুর চ্যাপ্টা করে ডিমটা মুড়ে নাও, যাতে কোথাও ফাঁক না থাকে। ডিমের আকারে গোল করে গড়ো।",
+      "action_en": "Oil your hands, flatten a portion of the mash, and wrap it all the way around an egg with no gaps. Shape it into a smooth oval.",
+      "maa_says": "ফাঁক থাকলে ভাজার সময় ফেটে যাবে।",
+      "chemistry": {
+        "title": "No gaps, no bursting",
+        "explanation": "In hot oil, any trapped moisture turns to steam and expands. A crack or a thin spot in the potato jacket is where that steam escapes, splitting the devil open. An even layer about a centimetre thick holds together, and the oil on your hands stops the mash from sticking to your palms."
+      }
+    },
+    {
+      "action_bn": "ময়দা আর একটা ডিম অল্প জল দিয়ে ফেটিয়ে নাও। প্রতিটা ডেভিল এতে ডুবিয়ে বিস্কুটের গুঁড়োয় গড়িয়ে নাও। আধ ঘণ্টা ফ্রিজে রাখো।",
+      "action_en": "Whisk the flour and the remaining egg with a little water. Dip each devil in it, then roll it in breadcrumbs. Chill for half an hour.",
+      "maa_says": "দুবার ডুবিয়ে বিস্কুটের গুঁড়ো লাগালে আরও মুচমুচে হয়।",
+      "chemistry": {
+        "title": "Egg glue and a crumb jacket",
+        "explanation": "Breadcrumbs won't stick to potato on their own, so the beaten egg acts as glue: its proteins set in the hot oil and lock the crumbs in place. The crumbs are dry and full of tiny air pockets, which is what turns into a crunchy crust. Chilling firms everything up so the coating doesn't slide off in the oil."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে (প্রায় ১৭০ °সে) ডেভিলগুলো অল্প অল্প করে ছেড়ে চারদিক ঘুরিয়ে সোনালি করে ভাজো।",
+      "action_en": "Heat the oil to about 170 °C and fry the devils a few at a time, turning them, until golden all over.",
+      "maa_says": "তেল খুব গরম হলে বাইরে পুড়ে যাবে, ভেতর ঠান্ডা থাকবে।",
+      "chemistry": {
+        "title": "Golden outside, warm inside",
+        "explanation": "The filling is already cooked, so the frying only has to brown the crust and warm the centre. At about 170 °C, surface moisture flashes off and the crumbs brown through the Maillard reaction in a few minutes. Oil that's too hot browns the crust before the heat can reach the egg; oil that's too cool soaks into the crumbs and makes them greasy."
+      }
+    },
+    {
+      "action_bn": "কাগজে তেল ঝরিয়ে মাঝখান থেকে দু'ভাগ করে কেটে কাসুন্দি আর পেঁয়াজ-শসার স্যালাডের সঙ্গে দাও।",
+      "action_en": "Drain on paper, cut each devil in half to show the egg, and serve with kasundi and an onion and cucumber salad.",
+      "maa_says": "কাসুন্দি ছাড়া ডেভিল অসম্পূর্ণ।",
+      "chemistry": {
+        "title": "Kasundi cuts the richness",
+        "explanation": "A fried, starchy snack feels rich and heavy, and both sourness and pungency lighten it. Kasundi brings both at once: the vinegar or mango in it is sour, and its mustard has the sharp, nose-tingling kick of allyl isothiocyanate. Salted raw onion and cucumber add crunch and a fresh contrast."
+      }
+    }
+  ],
+  "trivia": [
+    "To devil food meant to make it spicy in 18th-century English cooking. The term survives in devilled eggs, though Kolkata's devil is a different dish entirely.",
+    "Chop shops and cabins in north Kolkata sell devils alongside chops, cutlets and fish fries.",
+    "A mince-filled version, sometimes called a meat devil or kobiraji devil, wraps the egg in spiced keema instead of potato."
+  ],
+  "quiz": [
+    {
+      "question": "What causes the green ring around an overcooked yolk?",
+      "options": [
+        "Too much salt",
+        "Hydrogen sulphide from the white reacting with iron in the yolk",
+        "Old eggs",
+        "Cold water"
+      ],
+      "answer": 1,
+      "explain": "Overcooking releases hydrogen sulphide, which forms iron sulphide where it meets the yolk."
+    },
+    {
+      "question": "Why must the potato mash be completely cold before wrapping?",
+      "options": [
+        "Hot mash cooks the egg",
+        "Cooled starch firms up and holds its shape",
+        "It absorbs less oil",
+        "It tastes saltier"
+      ],
+      "answer": 1,
+      "explain": "As it cools, the starch re-sets (retrogradation) and the mash becomes mouldable."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on eggs, rice and starch, and frying",
+    "Harold McGee, On Food and Cooking (2004): the chapter on eggs (setting temperatures, and the green ring of an overcooked yolk)"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Quantities are estimates. Check the history of the word devil, and the mince-filled variant's name."
+  }
+}

@@ -13,22 +13,86 @@
     "body": "At home it's মুড়ি মাখা, mixed muri: a big bowl tossed together for the evening cup of tea, for a rainy afternoon, or for an adda that won't end. On the street it's ঝালমুড়ি, spicy muri, shaken in a tin by vendors at stations, ferry ghats and on local trains, finished with a drizzle of raw mustard oil and handed over in a paper cone. Same dish, two names, and in both places it has to be eaten the minute it's made."
   },
   "ingredients": [
-    { "item_bn": "মুড়ি", "item_en": "Muri (puffed rice), very crisp", "qty": "60 g (about 3 cups)" },
-    { "item_bn": "চানাচুর", "item_en": "Chanachur", "qty": "50 g" },
-    { "item_bn": "ঝুরিভাজা", "item_en": "Plain bhujiya", "qty": "30 g" },
-    { "item_bn": "ভাজা মশলা", "item_en": "Bhaja moshla (roasted spice powder)", "qty": "1 tsp" },
-    { "item_bn": "বিটনুন", "item_en": "Black salt", "qty": "½ tsp" },
-    { "item_bn": "সেদ্ধ মটর", "item_en": "Boiled dried yellow peas", "qty": "30 g" },
-    { "item_bn": "অঙ্কুরিত ছোলা", "item_en": "Sprouted whole Bengal gram, raw", "qty": "20 g" },
-    { "item_bn": "সেদ্ধ আলু", "item_en": "Boiled potato, cubed and cooled", "qty": "50 g" },
-    { "item_bn": "নারকেল কুচি", "item_en": "Fresh coconut, in thin slivers", "qty": "15 g" },
-    { "item_bn": "পেঁয়াজ কুচি", "item_en": "Onion, finely chopped", "qty": "30 g" },
-    { "item_bn": "টমেটো", "item_en": "Tomato, pulp removed, diced", "qty": "20 g" },
-    { "item_bn": "কাঁচা লঙ্কা", "item_en": "Green chillies, chopped, plus ½ tsp green chilli paste", "qty": "2" },
-    { "item_bn": "আদা কুচি", "item_en": "Ginger, minced", "qty": "½ tsp" },
-    { "item_bn": "আমের আচারের তেল", "item_en": "Oil from a green-mango pickle", "qty": "2 tsp" },
-    { "item_bn": "কাঁচা সর্ষের তেল", "item_en": "Mustard oil, raw", "qty": "1 tsp" },
-    { "item_bn": "পাতিলেবুর রস", "item_en": "Lime juice", "qty": "2 tsp" }
+    {
+      "item_bn": "মুড়ি",
+      "item_en": "Muri (puffed rice), very crisp",
+      "qty": "60 g (about 3 cups)"
+    },
+    {
+      "item_bn": "চানাচুর",
+      "item_en": "Chanachur",
+      "qty": "50 g"
+    },
+    {
+      "item_bn": "ঝুরিভাজা",
+      "item_en": "Plain bhujiya",
+      "qty": "30 g"
+    },
+    {
+      "item_bn": "ভাজা মশলা",
+      "item_en": "Bhaja moshla (roasted spice powder)",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "বিটনুন",
+      "item_en": "Black salt",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "সেদ্ধ মটর",
+      "item_en": "Boiled dried yellow peas",
+      "qty": "30 g"
+    },
+    {
+      "item_bn": "অঙ্কুরিত ছোলা",
+      "item_en": "Sprouted whole Bengal gram, raw",
+      "qty": "20 g"
+    },
+    {
+      "item_bn": "সেদ্ধ আলু",
+      "item_en": "Boiled potato, cubed and cooled",
+      "qty": "50 g"
+    },
+    {
+      "item_bn": "নারকেল কুচি",
+      "item_en": "Fresh coconut, in thin slivers",
+      "qty": "15 g"
+    },
+    {
+      "item_bn": "পেঁয়াজ কুচি",
+      "item_en": "Onion, finely chopped",
+      "qty": "30 g"
+    },
+    {
+      "item_bn": "টমেটো",
+      "item_en": "Tomato, pulp removed, diced",
+      "qty": "20 g"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies, chopped, plus ½ tsp green chilli paste",
+      "qty": "2"
+    },
+    {
+      "item_bn": "আদা কুচি",
+      "item_en": "Ginger, minced",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "আমের আচারের তেল",
+      "item_en": "Oil from a green-mango pickle",
+      "qty": "2 tsp"
+    },
+    {
+      "item_bn": "কাঁচা সর্ষের তেল",
+      "item_en": "Mustard oil, raw",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "পাতিলেবুর রস",
+      "item_en": "Lime juice",
+      "qty": "2 tsp"
+    }
   ],
   "steps": [
     {
@@ -66,8 +130,16 @@
         "title": "Raw mustard oil bites; lime makes it bite harder",
         "explanation": "The sinus-clearing kick of raw mustard oil comes from allyl isothiocyanate, the molecule mustard makes to stop animals from eating it. Like the capsaicin in chilli, it sets off the same heat and pain sensors in your mouth and nose. It's volatile and fades when the oil is heated, which is why jhalmuri uses the oil raw. The lime goes in last and raw, because cooked citrus turns bitter. Acid also makes chilli heat feel stronger. Sourness from three places, pickle, lime and tomato, layers the way a chaat does: each one hits a little differently.",
         "molecules": [
-          { "name": "Allyl isothiocyanate", "smiles": "C=CCN=C=S", "note": "The pungency of raw mustard oil." },
-          { "name": "Capsaicin", "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O", "note": "The heat of the green chillies." }
+          {
+            "name": "Allyl isothiocyanate",
+            "smiles": "C=CCN=C=S",
+            "note": "The pungency of raw mustard oil."
+          },
+          {
+            "name": "Capsaicin",
+            "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O",
+            "note": "The heat of the green chillies."
+          }
         ]
       }
     },
@@ -112,11 +184,11 @@
     }
   ],
   "further_reading": [
-    "Bong Eats, “Jhal Muri”: bongeats.com/recipe/jhal-muri/",
-    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on spice, flavour and acids"
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on spice, flavour and acids",
+    "Harold McGee, On Food and Cooking (2004): the chapters on seeds and grains, and on herbs and spices (why crisp things go soft, and mustard's pungency)"
   ],
   "review": {
     "status": "draft",
-    "notes": "Recipe from Bong Eats, scaled from one serving to two. Science mostly from Masala Lab. Check: muri going leathery as it absorbs humid air, allyl isothiocyanate fading when mustard oil is heated, and muri being puffed in hot sand."
+    "notes": "Scaled to two servings. Science mostly from Masala Lab. Check: muri going leathery as it absorbs humid air, allyl isothiocyanate fading when mustard oil is heated, and muri being puffed in hot sand."
   }
 }

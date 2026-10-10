@@ -1,0 +1,145 @@
+{
+  "id": "dim-porota",
+  "name_bn": "ডিম পরোটা",
+  "name_en": "Dim porota",
+  "section": "mukhorochok",
+  "diet": "non-veg",
+  "tagline": "A flaky paratha with a spiced egg cooked right onto it, folded into a square on a hot tawa.",
+  "serves": "4 porotas",
+  "time_minutes": 50,
+  "golpo": {
+    "type": "trivia",
+    "title": "Breakfast, tiffin, or two in the morning",
+    "body": "ডিম পরোটা is Kolkata's anytime food: a home breakfast, a school tiffin box, and a late-night stop at a roadside stall where the paratha is slapped onto a huge tawa and a beaten egg poured over it. It's the simple cousin of mughlai porota, which wraps egg and mince inside a sealed parcel. Here the egg is cooked onto one side of the paratha, then folded into a square so it stays soft inside while the outside crisps."
+  },
+  "ingredients": [
+    {
+      "item_bn": "ময়দা",
+      "item_en": "Maida (plain flour)",
+      "qty": "2 cups (about 250 g)"
+    },
+    {
+      "item_bn": "ঘি বা তেল",
+      "item_en": "Ghee or oil, for the dough",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "½ tsp, plus more for the eggs"
+    },
+    {
+      "item_bn": "জল",
+      "item_en": "Water",
+      "qty": "About ¾ cup"
+    },
+    {
+      "item_bn": "ডিম",
+      "item_en": "Eggs",
+      "qty": "4"
+    },
+    {
+      "item_bn": "পেঁয়াজ কুচি",
+      "item_en": "Onion, finely chopped",
+      "qty": "1 medium"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা কুচি",
+      "item_en": "Green chillies, chopped",
+      "qty": "2"
+    },
+    {
+      "item_bn": "ধনেপাতা কুচি",
+      "item_en": "Coriander leaves, chopped",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "তেল",
+      "item_en": "Oil, for the tawa",
+      "qty": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "ময়দায় নুন আর ঘি মিশিয়ে ময়ান দাও, তারপর অল্প অল্প জল দিয়ে নরম ময়দা মেখে আধ ঘণ্টা ঢেকে রাখো।",
+      "action_en": "Rub the ghee and salt into the flour, then add water a little at a time to make a soft dough. Cover and rest it for half an hour.",
+      "maa_says": "ময়ান ঠিক হলে পরোটা খাস্তা হয়।",
+      "chemistry": {
+        "title": "Fat shortens, rest relaxes",
+        "explanation": "When water meets flour, two wheat proteins link into stretchy gluten. Maida forms stronger gluten than atta, which is good for a pliable paratha, but too much makes it chewy. Rubbing in fat first coats some of the flour and shortens the gluten strands, which is what makes the paratha tender and flaky. The rest lets the gluten form and relax by itself, so the dough rolls out easily without springing back."
+      }
+    },
+    {
+      "action_bn": "ডিম ফেটিয়ে পেঁয়াজ, কাঁচা লঙ্কা, ধনেপাতা আর নুন মিশিয়ে ১৫ মিনিট রেখে দাও।",
+      "action_en": "Beat the eggs with the onion, green chillies, coriander and salt, and let the mixture sit for 15 minutes.",
+      "maa_says": "ডিমে আগে নুন দিয়ে রাখলে পরোটার ভেতরটা নরম থাকে।",
+      "chemistry": {
+        "title": "Salt the egg early",
+        "explanation": "Salt added to beaten egg a while before cooking loosens the egg proteins, so when heat hits they set more gently and stay soft instead of turning rubbery. It's the same trick that makes a better omelette or bhurji. The onion softens a little in the salted egg too."
+      }
+    },
+    {
+      "action_bn": "লেচি কেটে বড় চৌকো বা গোল করে পাতলা বেলে নাও।",
+      "action_en": "Divide the dough into four balls and roll each one out thin and wide.",
+      "maa_says": "পাতলা বেললে ডিম ভালো ছড়াবে।",
+      "chemistry": {
+        "title": "Thin dough cooks fast",
+        "explanation": "A thin sheet cooks through in the same few minutes it takes the egg to set and the outside to brown, so nothing ends up raw or burnt. Use as little dusting flour as you can: loose flour scorches on the hot tawa and tastes bitter."
+      }
+    },
+    {
+      "action_bn": "গরম চাটুতে পরোটা দিয়ে এক পিঠ অল্প সেঁকে উল্টে দাও। ওপরে ডিমের মিশ্রণ ঢেলে চারদিক থেকে মুড়ে চৌকো করো, তারপর তেল দিয়ে দুপিঠ সোনালি করে ভাজো।",
+      "action_en": "Lay the paratha on a hot tawa and cook one side briefly, then flip it. Pour a quarter of the egg mixture over the top, fold the edges in to make a square parcel, and fry both sides in a little oil until golden.",
+      "maa_says": "ডিম ঢেলে তাড়াতাড়ি মুড়ে ফেলো, নইলে গড়িয়ে পড়বে।",
+      "chemistry": {
+        "title": "Two kinds of cooking at once",
+        "explanation": "The tawa does two jobs here. Its hot metal browns the paratha's surface through the Maillard reaction, giving those golden, toasty spots. Inside the fold, the egg is cut off from direct heat and cooks more gently in the trapped steam, setting soft at around 62–70 °C. The oil fills the gaps between dough and tawa so heat reaches every part evenly."
+      }
+    },
+    {
+      "action_bn": "পেঁয়াজ-শসা আর টমেটো সস বা কাসুন্দির সঙ্গে গরম গরম দাও।",
+      "action_en": "Serve hot with sliced onion and cucumber, and tomato ketchup or kasundi.",
+      "maa_says": "পরোটা ঠান্ডা হলে শক্ত হয়ে যায়, গরম থাকতেই খাও।",
+      "chemistry": {
+        "title": "Why it toughens as it cools",
+        "explanation": "As a paratha cools, its gelatinised starch slowly re-sets and steam escapes, so the soft crumb firms and the crust loses its crispness. Fried breads are at their best within minutes. If you have to wait, wrap them in a cloth to keep the steam in."
+      }
+    }
+  ],
+  "trivia": [
+    "Mughlai porota is the deluxe version: egg and minced meat sealed inside a folded paratha and shallow-fried.",
+    "Kolkata's roadside paratha stalls cook on tawas more than a metre wide.",
+    "Tomato ketchup is the classic dip at a dim porota stall, but kasundi is the Bengali upgrade."
+  ],
+  "quiz": [
+    {
+      "question": "What does rubbing ghee into the flour do?",
+      "options": [
+        "Makes it rise",
+        "Shortens the gluten strands, so the paratha is flaky and tender",
+        "Makes it sweeter",
+        "Stops it browning"
+      ],
+      "answer": 1,
+      "explain": "Fat coats the flour and limits gluten development."
+    },
+    {
+      "question": "Why is the egg salted 15 minutes before cooking?",
+      "options": [
+        "To make it salty",
+        "Salt loosens the proteins, so the egg sets softer",
+        "To kill bacteria",
+        "To thicken it"
+      ],
+      "answer": 1,
+      "explain": "Pre-salting gives softer, fluffier cooked egg."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on wheat, eggs and the bread algorithm"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Quantities are estimates."
+  }
+}

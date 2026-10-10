@@ -20,8 +20,8 @@ Rules:
 - Keep sources few and trustworthy. Many recipe sites copy each other, so base the recipe
   on one or two good sources you have actually read, not a pile of search results. For the
   science, Krish Ashok's *Masala Lab: The Science of Indian Cooking* (Penguin, 2020) is
-  the preferred reference where it covers the topic; other sound sources are fine where
-  it doesn't. List what you used in `further_reading`, paraphrase rather than copy, and
+  the preferred reference where it covers the topic. Other food-science books (for example
+  Harold McGee's *On Food and Cooking*) may be credited where they genuinely support a claim. List what you used in `further_reading`, paraphrase rather than copy, and
   say in `review.notes` wherever the method departs from the recipe source.
 - Only include a molecule if you are confident its SMILES string is correct. For
   proteins and other large molecules, omit `smiles` and explain in `note`.

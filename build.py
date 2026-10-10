@@ -338,7 +338,7 @@ def build(strict: bool, include_drafts: bool) -> int:
     for dish in dishes:
         by_section[dish["section"]].append(dish)
     for items in by_section.values():
-        items.sort(key=lambda d: d["name_en"].lower())
+        items.sort(key=lambda d: (d.get("order", 50), d["name_en"].lower()))  # "order" lets sweets follow chutneys
     section_lookup = {s["id"]: s for s in sections}
 
     env = Environment(
