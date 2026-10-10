@@ -17,6 +17,11 @@ Rules:
   wisdom for that step, not an instruction repeated.
 - `chemistry.explanation` should be 3–5 plain sentences for a curious non-scientist.
   Name the actual molecules and processes. Don't overstate health claims.
+- Build each dish from at most two references: Krish Ashok's *Masala Lab: The Science
+  of Indian Cooking* (Penguin, 2020) for every chemistry claim, and one recipe source for
+  ingredients and proportions. List both in `further_reading`. Paraphrase the book in
+  your own words; never copy its text. If the book doesn't support a claim, leave the
+  claim out, and say in `review.notes` wherever the method departs from the recipe source.
 - Only include a molecule if you are confident its SMILES string is correct. For
   proteins and other large molecules, omit `smiles` and explain in `note`.
 - Add an `energy_diagram` only where a reaction genuinely has a barrier worth showing.

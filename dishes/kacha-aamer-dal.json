@@ -1,0 +1,127 @@
+{
+  "id": "kacha-aamer-dal",
+  "name_bn": "কাঁচা আমের ডাল",
+  "name_en": "Kacha aamer dal",
+  "section": "pater-shuru",
+  "tagline": "A sour summer dal, and a lesson in why acid keeps lentils firm.",
+  "serves": "2–3",
+  "time_minutes": 35,
+  "golpo": {
+    "type": "trivia",
+    "title": "Sour without tamarind",
+    "body": "All over India, raw mango is a seasonal souring agent: it sharpens avial and fish curry in the south and dal in the west, and once the season ends it's sun-dried and ground into amchoor. Bengal's summer answer is টকের ডাল, a thin, sour masoor dal with green mango, tempered in mustard oil. It belongs at the start of a hot afternoon lunch, when nobody wants anything heavy."
+  },
+  "ingredients": [
+    { "item_bn": "মুসুর ডাল", "item_en": "Masoor dal (split red lentils)", "qty": "100 g" },
+    { "item_bn": "কাঁচা আম", "item_en": "Green (raw) mangoes", "qty": "2" },
+    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric", "qty": "1 tsp" },
+    { "item_bn": "নুন", "item_en": "Salt", "qty": "About 1 tsp" },
+    { "item_bn": "চিনি", "item_en": "Sugar, or less, depending on the mangoes", "qty": "3 tsp" },
+    { "item_bn": "জল", "item_en": "Water", "qty": "2½ cups" },
+    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil", "qty": "2 tbsp" },
+    { "item_bn": "সর্ষে", "item_en": "Mustard seeds", "qty": "1 tsp" },
+    { "item_bn": "শুকনো লঙ্কা", "item_en": "Dried red chilli", "qty": "1" },
+    { "item_bn": "কাঁচা লঙ্কা", "item_en": "Green chilli, slit", "qty": "1" }
+  ],
+  "steps": [
+    {
+      "action_bn": "ডাল কয়েকবার জলে ধুয়ে নাও, যতক্ষণ না জল পরিষ্কার হয়।",
+      "action_en": "Rinse the dal several times, until the water runs clear.",
+      "maa_says": "ডাল ভালো করে না ধুলে ফেনা বেশি ওঠে, স্বাদটাও কেমন ঘোলাটে লাগে।",
+      "chemistry": {
+        "title": "Washing off loose starch",
+        "explanation": "The cloudy water is loose starch and dust from the surface of the lentils. It's the same reason rice is rinsed until the water runs clear: surface starch turns gluey when it's cooked and adds to the froth. Think of it as dusting a shelf before you lay the cloth. Nothing changes chemically, you just start clean."
+      }
+    },
+    {
+      "action_bn": "আড়াই কাপ জলে ডাল, হলুদ আর এক চামচ সর্ষের তেল দিয়ে ফোটাও। নুন এখন দিও না। ডাল গলে যাওয়া পর্যন্ত রাঁধো, প্রায় ১৫ মিনিট।",
+      "action_en": "Boil the dal in 2½ cups of water with the turmeric and a teaspoon of the mustard oil. Don't add salt yet. Cook until the lentils break down, about 15 minutes.",
+      "maa_says": "এক চামচ তেল দিয়ে দাও, ডাল আর উথলে পড়বে না।",
+      "chemistry": {
+        "title": "Oil stops the froth, and salt waits",
+        "explanation": "Cooking lentils throw up a foam that climbs over the rim, and a spoonful of fat in the water calms it a great deal. Salt waits until later because salt in the pot from the start makes legumes take longer to soften. Meanwhile the starch inside each lentil gelatinises somewhere between 55 and 85 °C: its long chains loosen and bond with water, so the dal swells and softens, much like a dry sponge drinking up water."
+      }
+    },
+    {
+      "action_bn": "আমের খোসা ছাড়িয়ে আঁটি বাদ দাও, শাঁস লম্বা ফালি করে কাটো। ডাল গলে গেলে আম, নুন আর কাঁচা লঙ্কা দিয়ে আম নরম হওয়া পর্যন্ত ফোটাও।",
+      "action_en": "Peel the mangoes, cut the flesh away from the stone and slice it into long strips. Once the dal has broken down, add the mango, salt and green chilli, and simmer until the mango is soft, 5–7 minutes.",
+      "maa_says": "আম আগে দিলে ডাল সহজে গলবে না। আগে ডাল সেদ্ধ, তারপর আম।",
+      "chemistry": {
+        "title": "Acid keeps lentils firm",
+        "explanation": "Plant cell walls are held together by pectin, and heat slowly breaks it down, which is what softens lentils. Acids do the opposite: they bond with the pectin and toughen the walls, so lentils simmered in something sour take longer to cook. Think of the lentil as a brick wall and pectin as its mortar: hot water slowly loosens the mortar, while acid sets it again. That's why acids in a dal usually go in once the lentils are soft. Many cooks, Debjani's recipe among them, pressure-cook the mango and dal together, and that works too: the hotter, faster pressure cooker gets the lentils soft regardless."
+      }
+    },
+    {
+      "action_bn": "চিনি দিয়ে নেড়ে চেখে দেখো। টক, মিষ্টি আর নুন যেন তিনজনে মিলেমিশে থাকে।",
+      "action_en": "Stir in the sugar and taste. Adjust until sour, sweet and salt sit together.",
+      "maa_says": "আম যত টক, চিনি তত। না চেখে কোনোদিন ডাল নামিও না।",
+      "chemistry": {
+        "title": "Sugar softens sour, it doesn't cancel it",
+        "explanation": "Sweetness mutes the perception of sourness, and so does a little salt, but neither removes the acid: the dal stays just as sour chemically. Sugar starts to register as sweet at roughly 0.75% of a dish's weight, yet even below that it rounds things off. The aim is a three-way balance of salt, sweet and sour, which also makes the other flavours stand out. Think of sourness as the bass line in a song: you barely notice it, but take it away and everything sounds thin.",
+        "molecules": [
+          { "name": "Sucrose", "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O", "note": "Table sugar: one glucose and one fructose joined together." }
+        ]
+      }
+    },
+    {
+      "action_bn": "ছোট কড়াইতে বাকি সর্ষের তেল খুব গরম করো। সর্ষে আর শুকনো লঙ্কা ফোড়ন দাও, সর্ষে চিড়বিড় করে উঠলেই আঁচ বন্ধ করে পুরোটা ডালে ঢেলে দাও।",
+      "action_en": "Heat the rest of the mustard oil in a small pan until very hot. Add the mustard seeds and dried chilli, and as soon as the seeds splutter, turn off the heat and pour everything over the dal.",
+      "maa_says": "ফোড়ন ঢেলেই ঢাকা চাপা দাও, গন্ধটা ডালের ভেতরেই থাকুক।",
+      "chemistry": {
+        "title": "A tempering is a whiff, not a shout",
+        "explanation": "Most flavour molecules in spices dissolve in fat rather than water, so hot oil is how spices reach the dal at all. High heat for a few seconds destroys most of a spice's aroma and leaves just a trace behind, which is the point of a tempering: a hint of flavour and some texture on top, not a takeover. Whole mustard seeds add a nutty crunch rather than sharpness, because mustard's pungency only appears when the seeds are soaked and ground. And the chilli's heat, capsaicin, dissolves in oil rather than water, so the oil carries it through the pot.",
+        "molecules": [
+          { "name": "Capsaicin", "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O", "note": "The heat of chilli. It dissolves in fat, not water." }
+        ]
+      }
+    },
+    {
+      "action_bn": "নামিয়ে গরম ভাতের সঙ্গে দাও। একটু ঠান্ডা হলে আরেকবার চেখে দেখো, নুন-টক ঠিক আছে কি না।",
+      "action_en": "Take it off the heat and serve with hot rice. Once it has cooled a little, taste it again for salt and sourness.",
+      "maa_says": "এই গরমে দুপুরবেলা এক থালা ভাত আর আমের ডাল, প্রাণটা জুড়িয়ে যায়।",
+      "chemistry": {
+        "title": "Why to taste it twice",
+        "explanation": "Taste buds work best between about 20 and 30 °C, so piping-hot food tastes milder than it really is. That's why cold coffee tastes more bitter than hot. The dal you seasoned at a boil will taste sharper and saltier on the plate, so check it again once it's warm rather than scalding. And most of what we call flavour is really smell, which sits right next to memory in the brain. That's why nobody's dal ever beats the one from their own mother's kitchen."
+      }
+    }
+  ],
+  "trivia": [
+    "টকের ডাল simply means sour dal.",
+    "The word sugar goes back to the Sanskrit sharkara, and the trail of sugar-making starts in what is today Bengal.",
+    "Gobindobhog, Bengal's fragrant short-grain rice, is about 18% amylose, so it cooks slightly sticky: just right for soaking up a thin dal.",
+    "Acid makes chilli taste hotter, so a sour dal with one green chilli can feel spicier than you'd expect.",
+    "Out of mango season, sun-dried and powdered raw mango (amchoor) brings the same sourness without the water."
+  ],
+  "quiz": [
+    {
+      "question": "Why does মা add the green mango only after the dal has softened?",
+      "options": [
+        "The mango would burn on the bottom of the pot",
+        "Acid bonds with the pectin in the lentils' cell walls, so they'd take longer to soften",
+        "The sugar would caramelise too early",
+        "Turmeric reacts badly with mango"
+      ],
+      "answer": 1,
+      "explain": "Heat softens lentils by breaking down pectin; acid toughens it again."
+    },
+    {
+      "question": "Adding sugar makes the dal taste less sour. What happens to the acid?",
+      "options": [
+        "Sugar neutralises it",
+        "Nothing: the acid is still there, but sweetness changes how sour it tastes",
+        "Sugar turns the acid into salt",
+        "The acid boils away"
+      ],
+      "answer": 1,
+      "explain": "Sweetness mutes the perception of sourness without removing the acid."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the science of lentils, sugar, spice and flavour, and the chapter on acids",
+    "Debjani, “Tok Dal (Kancha Aam diye Toker Dal)”, Kitchen of Debjani (2019): kitchenofdebjani.com/2019/06/tok-dal-kancha-aam-diye-toker-dal/"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from two references only: Kitchen of Debjani for ingredients and proportions, and Masala Lab (Krish Ashok) for the method changes and all the science. Method differs from Debjani: dal is cooked first in an open pot, mango is added after it softens, and the tempering goes on at the end. Check the step 3 note that pressure-cooking everything together still works."
+  }
+}
