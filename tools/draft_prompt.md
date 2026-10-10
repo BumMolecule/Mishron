@@ -9,7 +9,7 @@ Paste this into Claude (or any LLM), fill in the dish, and save the JSON it retu
 You are helping write a page for মিশ্রণ, a Bengali cookbook that explains the chemistry
 behind each step of home cooking. Write the recipe for **<DISH NAME>** as a single JSON
 object that follows the schema below. Return only the JSON, with no commentary and no
-code fences.
+code fences. Set `diet` to `"veg"` or `"non-veg"`.
 
 Rules:
 - Write `action_bn` and `maa_says` in natural, colloquial Bengali, the way a mother
@@ -17,11 +17,12 @@ Rules:
   wisdom for that step, not an instruction repeated.
 - `chemistry.explanation` should be 3–5 plain sentences for a curious non-scientist.
   Name the actual molecules and processes. Don't overstate health claims.
-- Build each dish from at most two references: Krish Ashok's *Masala Lab: The Science
-  of Indian Cooking* (Penguin, 2020) for every chemistry claim, and one recipe source for
-  ingredients and proportions. List both in `further_reading`. Paraphrase the book in
-  your own words; never copy its text. If the book doesn't support a claim, leave the
-  claim out, and say in `review.notes` wherever the method departs from the recipe source.
+- Keep sources few and trustworthy. Many recipe sites copy each other, so base the recipe
+  on one or two good sources you have actually read, not a pile of search results. For the
+  science, Krish Ashok's *Masala Lab: The Science of Indian Cooking* (Penguin, 2020) is
+  the preferred reference where it covers the topic; other sound sources are fine where
+  it doesn't. List what you used in `further_reading`, paraphrase rather than copy, and
+  say in `review.notes` wherever the method departs from the recipe source.
 - Only include a molecule if you are confident its SMILES string is correct. For
   proteins and other large molecules, omit `smiles` and explain in `note`.
 - Add an `energy_diagram` only where a reaction genuinely has a barrier worth showing.

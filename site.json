@@ -6,18 +6,18 @@
   "repo_url": "https://github.com/BumMolecule/Mishron",
   "sections": [
     {
-      "id": "pater-shuru",
-      "name_bn": "পাতের শুরু",
-      "name_en": "Pater shuru",
-      "gloss": "Meal openers",
-      "blurb": "The gentle, bitter openers of a Bengali meal: shukto, bhaja, daal."
-    },
-    {
       "id": "mukhorochok",
       "name_bn": "মুখরোচক",
       "name_en": "Mukhorochok",
       "gloss": "Tantalising to the tongue",
       "blurb": "Fried, tangy and street-side: telebhaja, chop, jhalmuri."
+    },
+    {
+      "id": "pater-shuru",
+      "name_bn": "পাতের শুরু",
+      "name_en": "Pater shuru",
+      "gloss": "Meal openers",
+      "blurb": "The gentle, bitter openers of a Bengali meal: shukto, bhaja, daal."
     },
     {
       "id": "kobji-dubiye",

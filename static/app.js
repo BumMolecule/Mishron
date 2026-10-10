@@ -68,6 +68,27 @@
 
   enhance(document);
 
+  // Veg / non-veg filter on each section of the contents. Every recipe shows by default.
+  document.querySelectorAll(".diet-filter").forEach(function (group) {
+    var section = group.closest(".pata");
+    var rows = Array.prototype.slice.call(section.querySelectorAll(".menu li[data-diet]"));
+    var none = section.querySelector(".menu-none");
+    var buttons = Array.prototype.slice.call(group.querySelectorAll("button[data-diet]"));
+    group.hidden = false;
+    group.addEventListener("click", function (e) {
+      var btn = e.target.closest("button[data-diet]");
+      if (!btn) return;
+      var want = btn.dataset.diet;
+      buttons.forEach(function (b) { b.setAttribute("aria-pressed", String(b === btn)); });
+      var shown = 0;
+      rows.forEach(function (li) {
+        li.hidden = want !== "all" && li.dataset.diet !== want;
+        if (!li.hidden) shown++;
+      });
+      if (none) none.hidden = shown > 0;
+    });
+  });
+
   // Printing a recipe should include its chemistry.
   var printOpened = [];
   window.addEventListener("beforeprint", function () {

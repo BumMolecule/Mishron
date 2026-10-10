@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_marks.html" import diet_mark %}
 {% block title %}{{ dish.name_bn }} · {{ dish.name_en }} · {{ site.title_en }}{% endblock %}
 {% block description %}{{ dish.name_en }}: {{ dish.tagline }}{% endblock %}
 {% block body_class %}dish{% endblock %}
@@ -14,6 +15,7 @@
     <p class="recipe-en">{{ dish.name_en }}</p>
     <p class="recipe-tagline">{{ dish.tagline }}</p>
     <dl class="recipe-meta">
+      <div class="meta-diet"><dt>Type</dt><dd>{{ diet_mark(dish.diet) }} {{ 'Veg' if dish.diet == 'veg' else 'Non-veg' }}</dd></div>
       {% if dish.serves %}<div><dt>Makes</dt><dd>{{ dish.serves }}</dd></div>{% endif %}
       {% if dish.time_minutes %}<div><dt>Time</dt><dd>{{ dish.time_minutes }} minutes</dd></div>{% endif %}
       <div><dt>Steps</dt><dd>{{ dish.steps | length }}</dd></div>

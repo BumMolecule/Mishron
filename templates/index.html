@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_marks.html" import diet_mark %}
 {% block body_class %}home{% endblock %}
 {% block main %}
 <section class="hero" aria-labelledby="cover-title">
@@ -29,6 +30,11 @@
   <div class="ornament" aria-hidden="true">{% include "art/lotus.svg" %}</div>
   <h2 id="contents-title" class="contents-title"><span lang="bn">সূচিপত্র</span> <span class="en">Contents: a Bengali meal, in the order it's eaten</span></h2>
 
+  <aside class="diet-key" aria-label="Veg and non-veg marks">
+    <p class="diet-key-marks"><span>{{ diet_mark('veg') }} <span lang="bn">নিরামিষ</span> <span class="en">Veg</span></span> <span>{{ diet_mark('non-veg') }} <span lang="bn">আমিষ</span> <span class="en">Non-veg</span></span></p>
+    <p class="diet-key-note">These are the marks on Indian food packets. Under the food regulator FSSAI's 2020 labelling rules, the non-veg mark changed from a brown dot to a brown triangle, so that colour-blind shoppers can tell the two apart by shape, not just by colour.</p>
+  </aside>
+
   <div class="pata-grid">
   {% for s in sections %}
   <section class="pata" id="{{ s.id }}" aria-labelledby="{{ s.id }}-title">
@@ -42,18 +48,24 @@
       <p class="pata-blurb">{{ s.blurb }}</p>
       {% set items = by_section[s.id] %}
       {% if items %}
+      <div class="diet-filter" role="group" aria-label="Show recipes in {{ s.name_en }}" hidden>
+        <button type="button" data-diet="all" aria-pressed="true"><span lang="bn">সব</span> <span class="en">All</span></button>
+        <button type="button" data-diet="veg" aria-pressed="false">{{ diet_mark('veg') }} <span lang="bn">নিরামিষ</span></button>
+        <button type="button" data-diet="non-veg" aria-pressed="false">{{ diet_mark('non-veg') }} <span lang="bn">আমিষ</span></button>
+      </div>
       <ul class="menu">
         {% for d in items %}
-        <li>
+        <li data-diet="{{ d.diet }}">
           <a class="menu-row" href="dishes/{{ d.id }}.html">
             <span class="menu-thumb">{% include ["art/" ~ d.id ~ ".svg", "art/" ~ s.id ~ ".svg", "art/lotus.svg"] %}</span>
-            <span class="menu-name"><span lang="bn">{{ d.name_bn }}</span> <span class="en">{{ d.name_en }}</span></span>
+            <span class="menu-name">{{ diet_mark(d.diet) }} <span lang="bn">{{ d.name_bn }}</span> <span class="en">{{ d.name_en }}</span></span>
             {% if d.time_minutes %}<span class="menu-time">{{ d.time_minutes }} min</span>{% endif %}
             <span class="menu-tag">{{ d.tagline }}</span>
           </a>
         </li>
         {% endfor %}
       </ul>
+      <p class="menu-none" hidden>None of this kind here yet.</p>
       {% else %}
       <p class="menu-empty">Nothing written here yet. <a href="{{ submit_url }}">Add the first recipe</a>.</p>
       {% endif %}

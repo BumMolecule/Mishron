@@ -374,6 +374,53 @@ html:has(.sheet-window[open]) { overflow: hidden; }
   @keyframes fade-in { from { opacity: 0; } }
 }
 
+/* ---------------------------------------------------------- veg / non-veg */
+
+/* The marks printed on Indian food packets: green dot for veg, brown triangle for non-veg. */
+.diet { display: inline-block; width: 0.95em; height: 0.95em; vertical-align: -0.08em; flex: none; }
+.diet svg { display: block; width: 100%; height: 100%; }
+.diet rect { fill: #FFFFFF; stroke: currentColor; stroke-width: 1.7; }
+.diet circle, .diet path { fill: currentColor; }
+.diet-veg { color: #1F8A3B; }
+.diet-non-veg { color: #7A3A12; }
+
+.diet-key {
+  max-width: 40rem;
+  margin: -1.25rem auto 2.25rem;
+  padding: 0.8rem 1.1rem;
+  text-align: center;
+  background: var(--paper-2);
+  border: 2px dashed var(--stitch);
+  border-radius: 6px;
+}
+.diet-key-marks { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.4rem 1.6rem; margin: 0 0 0.35rem; font-size: 1.1rem; }
+.diet-key-marks > span { display: inline-flex; align-items: center; gap: 0.4rem; }
+.diet-key-note { margin: 0; font-size: 0.95rem; color: var(--ink-soft); }
+
+.diet-filter { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 0.9rem; }
+.diet-filter button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font: inherit;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  color: var(--ink);
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+  cursor: pointer;
+}
+.diet-filter button .en { font-size: 0.85rem; }
+.diet-filter button:hover { background: var(--basanti-wash); }
+.diet-filter button[aria-pressed="true"] { background: var(--band); color: var(--on-band); }
+.diet-filter button[aria-pressed="true"] .en { color: inherit; opacity: 0.85; }
+.menu-none { margin: 0; padding: 0.9rem 0.4rem 0; color: var(--ink-soft); font-style: italic; }
+
+.menu-name .diet { margin-right: 0.15rem; }
+.recipe-meta .diet { margin-right: 0.15rem; }
+
 /* ---------------------------------------------------------- dish page */
 
 .recipe > * + * { margin-top: clamp(2.5rem, 5vw, 3.5rem); }

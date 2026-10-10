@@ -1,0 +1,5 @@
+{# The Indian food-label marks: a green dot in a square for vegetarian, a brown
+   triangle in a square for non-vegetarian. #}
+{% macro diet_mark(diet) -%}
+<span class="diet diet-{{ diet }}" role="img" aria-label="{{ 'Vegetarian' if diet == 'veg' else 'Non-vegetarian' }}" title="{{ 'Vegetarian' if diet == 'veg' else 'Non-vegetarian' }}"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><rect x="1" y="1" width="14" height="14" rx="1.5"/>{% if diet == 'veg' %}<circle cx="8" cy="8" r="3.8"/>{% else %}<path d="M8 3.8 12.3 11.5H3.7Z"/>{% endif %}</svg></span>
+{%- endmacro %}

@@ -1,0 +1,122 @@
+{
+  "id": "jhalmuri",
+  "name_bn": "ঝালমুড়ি",
+  "name_en": "Jhalmuri",
+  "section": "mukhorochok",
+  "diet": "veg",
+  "tagline": "Muri makha, the way it's tossed at home and on every station platform, and a race against moisture.",
+  "serves": "2",
+  "time_minutes": 20,
+  "golpo": {
+    "type": "trivia",
+    "title": "Muri makha at home, jhalmuri on the street",
+    "body": "At home it's মুড়ি মাখা, mixed muri: a big bowl tossed together for the evening cup of tea, for a rainy afternoon, or for an adda that won't end. On the street it's ঝালমুড়ি, spicy muri, shaken in a tin by vendors at stations, ferry ghats and on local trains, finished with a drizzle of raw mustard oil and handed over in a paper cone. Same dish, two names, and in both places it has to be eaten the minute it's made."
+  },
+  "ingredients": [
+    { "item_bn": "মুড়ি", "item_en": "Muri (puffed rice), very crisp", "qty": "60 g (about 3 cups)" },
+    { "item_bn": "চানাচুর", "item_en": "Chanachur", "qty": "50 g" },
+    { "item_bn": "ঝুরিভাজা", "item_en": "Plain bhujiya", "qty": "30 g" },
+    { "item_bn": "ভাজা মশলা", "item_en": "Bhaja moshla (roasted spice powder)", "qty": "1 tsp" },
+    { "item_bn": "বিটনুন", "item_en": "Black salt", "qty": "½ tsp" },
+    { "item_bn": "সেদ্ধ মটর", "item_en": "Boiled dried yellow peas", "qty": "30 g" },
+    { "item_bn": "অঙ্কুরিত ছোলা", "item_en": "Sprouted whole Bengal gram, raw", "qty": "20 g" },
+    { "item_bn": "সেদ্ধ আলু", "item_en": "Boiled potato, cubed and cooled", "qty": "50 g" },
+    { "item_bn": "নারকেল কুচি", "item_en": "Fresh coconut, in thin slivers", "qty": "15 g" },
+    { "item_bn": "পেঁয়াজ কুচি", "item_en": "Onion, finely chopped", "qty": "30 g" },
+    { "item_bn": "টমেটো", "item_en": "Tomato, pulp removed, diced", "qty": "20 g" },
+    { "item_bn": "কাঁচা লঙ্কা", "item_en": "Green chillies, chopped, plus ½ tsp green chilli paste", "qty": "2" },
+    { "item_bn": "আদা কুচি", "item_en": "Ginger, minced", "qty": "½ tsp" },
+    { "item_bn": "আমের আচারের তেল", "item_en": "Oil from a green-mango pickle", "qty": "2 tsp" },
+    { "item_bn": "কাঁচা সর্ষের তেল", "item_en": "Mustard oil, raw", "qty": "1 tsp" },
+    { "item_bn": "পাতিলেবুর রস", "item_en": "Lime juice", "qty": "2 tsp" }
+  ],
+  "steps": [
+    {
+      "action_bn": "মুড়ি মুচমুচে কি না দেখে নাও। মিইয়ে গেলে শুকনো কড়াইতে বা মাইক্রোওয়েভে একটু গরম করে ঠান্ডা করো।",
+      "action_en": "Check that the muri is properly crisp. If it has gone soft, warm it briefly in a dry pan or the microwave, then let it cool.",
+      "maa_says": "মিইয়ে যাওয়া মুড়িতে মুড়ি মাখা হয় না।",
+      "chemistry": {
+        "title": "Crisp is a state, and humid air undoes it",
+        "explanation": "Muri is rice starch puffed into a dry, brittle foam. Left open on a humid day it slowly drinks water from the air, and the brittle starch turns leathery, the way a biscuit tin left open in the monsoon goes soft. A little heat drives that water back out. The crunch matters more than you'd think: crisp, crackling food reads to us as fresh, and much of a crunch's sound is too high to hear but travels through the bones of your jaw, so you feel it as much as hear it."
+      }
+    },
+    {
+      "action_bn": "আলু সেদ্ধ করে কিউব করে ঠান্ডা করো। পেঁয়াজ, লঙ্কা, আদা কুচিয়ে নাও, নারকেল সরু করে কাটো। টমেটোর ভেতরের শাঁস ফেলে শুধু বাইরের অংশটা কুচি করো।",
+      "action_en": "Boil, cube and cool the potato. Chop the onion, chillies and ginger, and cut the coconut into slivers. Scoop out the tomato's watery pulp and dice only the firm outer flesh.",
+      "maa_says": "টমেটোর শাঁস ফেলে দাও, নইলে মুড়ি নেতিয়ে যাবে।",
+      "chemistry": {
+        "title": "Every drop of water is the enemy",
+        "explanation": "In a curry, the tomato's jelly and seeds are where most of its flavour is. In muri makha they're simply water, and water is what kills the crunch, so out they go. Chop the onion just before you mix: cutting it starts the enzyme reactions that make its sharp, tear-jerking compounds, and they keep changing the longer it sits. The green chilli's heat lives mostly in the white pith that holds the seeds, not the seeds themselves, so leave the pith in for a properly jhal muri."
+      }
+    },
+    {
+      "action_bn": "বড় বাটিতে মুড়ি, চানাচুর, ঝুরিভাজা, ভাজা মশলা আর বিটনুন মেশাও। তারপর মটর, ছোলা, লঙ্কা, আদা, আলু আর নারকেল দাও।",
+      "action_en": "In a big bowl, toss the muri with the chanachur, bhujiya, bhaja moshla and black salt. Then add the peas, gram, chillies, ginger, potato and coconut.",
+      "maa_says": "শুকনো জিনিস আগে, ভেজা জিনিস একদম শেষে।",
+      "chemistry": {
+        "title": "Salt the dry part, never the wet",
+        "explanation": "Salt pulls water out of plant cells. Sprinkle it over chopped onion or tomato and they start weeping juice that goes straight into the muri, so the salt and spices go onto the dry ingredients first. Bhaja moshla is made from spices that are dry-roasted before grinding, which wakes up far more of their aroma than the raw spices give. Black salt adds that eggy, sulphurous note, from the traces of hydrogen sulphide and other sulphur salts it carries."
+      }
+    },
+    {
+      "action_bn": "এবার লঙ্কা বাটা, আচারের তেল, কাঁচা সর্ষের তেল, পেঁয়াজ, টমেটো আর লেবুর রস দিয়ে চটপট হাত চালিয়ে মেখে ফেলো।",
+      "action_en": "Now add the green chilli paste, pickle oil, raw mustard oil, onion, tomato and lime juice, and toss quickly with your hands.",
+      "maa_says": "সর্ষের তেলের ঝাঁজ না থাকলে আবার ঝালমুড়ি!",
+      "chemistry": {
+        "title": "Raw mustard oil bites; lime makes it bite harder",
+        "explanation": "The sinus-clearing kick of raw mustard oil comes from allyl isothiocyanate, the molecule mustard makes to stop animals from eating it. Like the capsaicin in chilli, it sets off the same heat and pain sensors in your mouth and nose. It's volatile and fades when the oil is heated, which is why jhalmuri uses the oil raw. The lime goes in last and raw, because cooked citrus turns bitter. Acid also makes chilli heat feel stronger. Sourness from three places, pickle, lime and tomato, layers the way a chaat does: each one hits a little differently.",
+        "molecules": [
+          { "name": "Allyl isothiocyanate", "smiles": "C=CCN=C=S", "note": "The pungency of raw mustard oil." },
+          { "name": "Capsaicin", "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O", "note": "The heat of the green chillies." }
+        ]
+      }
+    },
+    {
+      "action_bn": "কাগজের ঠোঙায় ভরে সঙ্গে সঙ্গে খাও।",
+      "action_en": "Pack it into paper cones and eat it straight away.",
+      "maa_says": "মাখার পর এক মিনিটও ফেলে রেখো না।",
+      "chemistry": {
+        "title": "Why jhalmuri can't wait",
+        "explanation": "Once the wet ingredients go in, water starts moving from the onion, tomato and lime into the dry, thirsty muri, the way a sponge pulls water off a wet counter. Within minutes the crisp puffs turn soft and chewy, and nothing will bring them back. That's why the vendor mixes each cone to order, and why a bowl of muri makha at home is always eaten standing around the bowl."
+      }
+    }
+  ],
+  "trivia": [
+    "ঝাল means spicy-hot and মুড়ি is puffed rice, so jhalmuri is simply spicy puffed rice.",
+    "Bhelpuri is jhalmuri's cousin from Mumbai's beaches. It's the same puffed rice with sev, potato and onion, but its flavour comes from sweet tamarind and green chutneys instead of mustard oil, so it's wetter, sweeter and tangier.",
+    "The street vendor's secret ingredient is the oil from a jar of green-mango pickle: it's sour, spiced and already full of mustard.",
+    "Proper Bengal muri is puffed by tossing parboiled rice in a pan of very hot sand."
+  ],
+  "quiz": [
+    {
+      "question": "Why does মা scoop the pulp out of the tomato?",
+      "options": [
+        "The seeds are bitter",
+        "The pulp is mostly water, and water turns the muri soggy",
+        "The pulp reacts with the mustard oil",
+        "It makes the tomato easier to chop"
+      ],
+      "answer": 1,
+      "explain": "In a curry the pulp is the best part. In jhalmuri its water is the enemy of crunch."
+    },
+    {
+      "question": "Why is the mustard oil in jhalmuri used raw, not heated?",
+      "options": [
+        "Heated mustard oil turns bitter in muri",
+        "Raw oil keeps its pungent allyl isothiocyanate, which fades with heat",
+        "Raw oil has fewer calories",
+        "Heat would burn the chanachur"
+      ],
+      "answer": 1,
+      "explain": "The kick of mustard oil is volatile. Raw oil keeps it; heating drives it off."
+    }
+  ],
+  "further_reading": [
+    "Bong Eats, “Jhal Muri”: bongeats.com/recipe/jhal-muri/",
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on spice, flavour and acids"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Recipe from Bong Eats, scaled from one serving to two. Science mostly from Masala Lab. Check: muri going leathery as it absorbs humid air, allyl isothiocyanate fading when mustard oil is heated, and muri being puffed in hot sand."
+  }
+}
