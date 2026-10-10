@@ -1,0 +1,162 @@
+{
+  "id": "kosha-mangsho",
+  "name_bn": "কষা মাংস",
+  "name_en": "Kosha mangsho",
+  "section": "kobji-dubiye",
+  "diet": "non-veg",
+  "tagline": "Sunday's slow-fried mutton, with the potato everyone fights over, and a lesson in patience and browning.",
+  "serves": "5–6",
+  "time_minutes": 120,
+  "golpo": {
+    "type": "history",
+    "title": "Sunday, and the queue at the butcher's",
+    "body": "For generations of Bengali households, Sunday lunch meant মাংস-ভাত: an early queue at the butcher's for খাসির মাংস, then a morning of slow frying until the whole lane smelled of it. কষা comes from কষানো, to fry something slowly in its own masala until the oil separates and the colour turns deep and dark. Kolkata's old cabins, like Golbari in Shyambazar, made their names on kosha mangsho eaten with paratha, and they serve it without potatoes. At home, the potato is non-negotiable."
+  },
+  "ingredients": [
+    { "item_bn": "খাসির মাংস (হাড় ও চর্বিসহ)", "item_en": "Goat meat (khashi), with bone and some fat", "qty": "1 kg" },
+    { "item_bn": "কাঁচা পেঁপে বাটা", "item_en": "Raw papaya, grated", "qty": "½ cup" },
+    { "item_bn": "টক দই", "item_en": "Sour yoghurt, divided", "qty": "200 g" },
+    { "item_bn": "পেঁয়াজ", "item_en": "Onions: 2 made into a paste, 6 chopped", "qty": "8" },
+    { "item_bn": "আলু", "item_en": "Potatoes, halved", "qty": "4 medium" },
+    { "item_bn": "আদা বাটা", "item_en": "Ginger paste", "qty": "1½ tbsp + 1 tsp" },
+    { "item_bn": "রসুন বাটা", "item_en": "Garlic paste", "qty": "2 tbsp + 1 tsp" },
+    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric", "qty": "2½ tsp" },
+    { "item_bn": "জিরে গুঁড়ো", "item_en": "Ground cumin", "qty": "2½ tsp" },
+    { "item_bn": "ধনে গুঁড়ো", "item_en": "Ground coriander", "qty": "2½ tsp" },
+    { "item_bn": "লঙ্কা গুঁড়ো", "item_en": "Red chilli powder", "qty": "2 tsp" },
+    { "item_bn": "গরম মশলা গুঁড়ো", "item_en": "Bengali garam masala powder", "qty": "2½ tsp" },
+    { "item_bn": "চিনি", "item_en": "Sugar", "qty": "1 tbsp + ½ tsp" },
+    { "item_bn": "হিং", "item_en": "Asafoetida", "qty": "½ tsp" },
+    { "item_bn": "তেজপাতা ও শুকনো লঙ্কা", "item_en": "Bay leaves and dried red chillies", "qty": "4 each" },
+    { "item_bn": "গোটা গরম মশলা", "item_en": "Whole spices: 4 cloves, 4 green and 2 black cardamom, 1 cinnamon stick", "qty": "" },
+    { "item_bn": "কাঁচা লঙ্কা", "item_en": "Green chillies", "qty": "3" },
+    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil, plus extra for the potatoes", "qty": "150 ml" },
+    { "item_bn": "ঘি", "item_en": "Ghee", "qty": "2 tbsp" },
+    { "item_bn": "নুন", "item_en": "Salt", "qty": "To taste" },
+    { "item_bn": "গরম জল", "item_en": "Boiling water", "qty": "About 1 cup" }
+  ],
+  "steps": [
+    {
+      "action_bn": "মাংসে কাঁচা পেঁপে বাটা, পেঁয়াজ বাটা, এক চামচ আদা-রসুন বাটা, আধ চামচ করে হলুদ, জিরে, ধনে, গরম মশলা, আধ চামচ চিনি, এক চামচ সর্ষের তেল, অর্ধেক দই আর নুন মাখিয়ে ২–৪ ঘণ্টা রেখে দাও।",
+      "action_en": "Rub the meat with the papaya, onion paste, a teaspoon each of ginger and garlic paste, half a teaspoon each of turmeric, cumin, coriander and garam masala, half a teaspoon of sugar, a tablespoon of mustard oil, half the yoghurt and salt. Leave it for 2–4 hours.",
+      "maa_says": "কাঁচা পেঁপে দিলে খাসির মাংসও মাখনের মতো নরম হয়।",
+      "chemistry": {
+        "title": "Papaya does the tenderising, not the yoghurt",
+        "explanation": "Raw papaya carries papain, an enzyme that snips proteins apart, which is real tenderising. Yoghurt's acid does the opposite to muscle: it tightens the proteins on the surface into a mesh that grips the spices, so its job here is flavour and colour, not softness. Neither soaks in very far. A marinade coats the outside, which is why a few hours does almost everything an overnight soak would."
+      }
+    },
+    {
+      "action_bn": "আলু অল্প সর্ষের তেলে নুন-হলুদ মাখিয়ে লালচে করে ভেজে তুলে রাখো।",
+      "action_en": "Toss the potatoes with a little salt and turmeric, fry them in a little mustard oil until golden at the edges, and set them aside.",
+      "maa_says": "আলু না ভেজে দিলে ঝোলে গলে যায়, আর রংও ধরে না।",
+      "chemistry": {
+        "title": "A crust that holds the potato together",
+        "explanation": "Most Indian potatoes are waxy and wet, so they don't brown easily: as long as there's water on the surface, the pan can't get past 100 °C. Fry them in hot oil and the surface dries out and crisps through the Maillard reaction. That fried skin also keeps the potato in one piece during the long braise, so it soaks up the gravy without falling apart, like a sponge with a raincoat on."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে বাকি সর্ষের তেল গরম করে এক চামচ চিনি দাও। চিনি গলে লালচে হলে তেজপাতা, শুকনো লঙ্কা, হিং আর গোটা গরম মশলা ফোড়ন দাও।",
+      "action_en": "Heat the rest of the mustard oil and add a tablespoon of sugar. When the sugar melts and turns amber, add the bay leaves, dried chillies, asafoetida and whole spices.",
+      "maa_says": "চিনি পোড়ালে তেতো, কম পোড়ালে রং আসে না। লালচে হলেই ফোড়ন।",
+      "chemistry": {
+        "title": "Caramel is where the colour starts",
+        "explanation": "Table sugar caramelises at around 160 °C, breaking apart into hundreds of brown, toasty, slightly bitter molecules. A spoonful melted in the oil at the start is the Bengali trick for kosha mangsho's deep mahogany colour. Push it too far and it turns acrid. The whole spices go straight into the hot oil because their flavour molecules dissolve in fat, so the oil becomes the carrier for everything that follows.",
+        "molecules": [
+          { "name": "Sucrose", "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O", "note": "Table sugar, before it caramelises." }
+        ]
+      }
+    },
+    {
+      "action_bn": "কুচোনো পেঁয়াজ দিয়ে বাদামি না হওয়া পর্যন্ত ভাজো। তারপর আদা আর রসুন বাটা দিয়ে কষাও, যতক্ষণ না তেল ছাড়ে।",
+      "action_en": "Add the chopped onions and fry until properly brown, not just soft. Then add the ginger and garlic paste and fry until the oil separates, 4–5 minutes.",
+      "maa_says": "পেঁয়াজ যত ধৈর্য ধরে ভাজবে, মাংস তত স্বাদ হবে।",
+      "chemistry": {
+        "title": "Brown onions, then garlic",
+        "explanation": "Onions go from limp to translucent to brown, and only the brown stage brings real depth: their sugars and amino acids react in the Maillard reaction to make savoury, meaty flavour molecules. The garlic goes in after the onions for a reason: garlic is drier and sweeter, so on its own it would scorch, but the onions' remaining moisture keeps it from burning. 'Until the oil separates' is the cook's sign that the water has cooked off and the masala is now frying in fat."
+      }
+    },
+    {
+      "action_bn": "আঁচ কমিয়ে বাকি দই আর সব গুঁড়ো মশলা দিয়ে এক মিনিট নাড়ো, যাতে তলায় না ধরে।",
+      "action_en": "Lower the heat, add the rest of the yoghurt and all the ground spices, and stir for a minute so nothing catches.",
+      "maa_says": "গুঁড়ো মশলা দিয়েই আঁচ কমাও, নইলে পুড়ে তেতো হবে।",
+      "chemistry": {
+        "title": "Powders burn fast",
+        "explanation": "Ground spices have a huge surface area and very little water, so in hot oil they scorch in seconds and turn bitter. Lowering the heat lets them toast gently in the fat instead, releasing their aroma into the oil. Turmeric and chilli are there mostly for colour and heat, so they can take a little more cooking than the delicate ones."
+      }
+    },
+    {
+      "action_bn": "এবার মাংস দিয়ে বড় আঁচে ৫–৭ মিনিট ঘন ঘন নেড়ে কষাও। জল দিও না।",
+      "action_en": "Add the marinated meat and fry on high heat for 5–7 minutes, stirring often. Don't add water.",
+      "maa_says": "কষানোতেই মাংসের আসল স্বাদ, তাড়াহুড়ো কোরো না।",
+      "chemistry": {
+        "title": "Koshano is browning",
+        "explanation": "Browning only happens above about 110 °C, and water can't get hotter than 100 °C, so the meat has to fry, not stew, for this stage. High heat with no added water lets the surface of every piece brown in the masala and builds the dark, roasted flavour that gives the dish its name. Stir often, because the sugars in the onion and the caramel are one step from burning."
+      }
+    },
+    {
+      "action_bn": "আঁচ একদম কমিয়ে ঢেকে প্রায় এক ঘণ্টা রাঁধো, মাঝে মাঝে নেড়ে দাও। মাংস থেকেই জল বেরোবে।",
+      "action_en": "Turn the heat right down, cover, and cook for about an hour, stirring now and then. The meat will release its own juices.",
+      "maa_says": "খাসির মাংস ঢিমে আঁচেই নরম হয়, আঁচ বাড়িয়ে লাভ নেই।",
+      "chemistry": {
+        "title": "Low and slow melts the connective tissue",
+        "explanation": "Goat meat, especially from the leg and shoulder, is full of collagen, the tough connective tissue that wraps the muscle. Held at a gentle simmer for an hour, collagen slowly turns into gelatin, which is what makes the meat tender and the gravy glossy and clinging. Blast it with heat and the muscle fibres squeeze out their water and go dry long before the collagen gives up. A pressure cooker saves time, but the slow pot gives the better texture."
+      }
+    },
+    {
+      "action_bn": "শেষ ২০–২৫ মিনিট বাকি থাকতে ভাজা আলু দিয়ে দাও, যাতে আলু মশলা টেনে নেয় কিন্তু ভেঙে না যায়।",
+      "action_en": "With 20–25 minutes to go, add the fried potatoes so they take in the masala without breaking.",
+      "maa_says": "আলুটা কিন্তু সবার আগে শেষ হয়, দুটো বেশি দিও।",
+      "chemistry": {
+        "title": "The potato drinks the gravy",
+        "explanation": "A potato is mostly starch and water. As it simmers in the gravy, its starch swells and softens, and it soaks up the fat-rich masala, which carries most of the dish's flavour. Added too early, it turns to mush and thickens the gravy; added too late, it stays bland in the middle. Twenty-odd minutes in a covered pot is the sweet spot."
+      }
+    },
+    {
+      "action_bn": "কাঁচা লঙ্কা, দরকার মতো ফুটন্ত জল, ঘি আর গরম মশলা গুঁড়ো দিয়ে আরও দু-এক মিনিট ফুটিয়ে নামাও।",
+      "action_en": "Add the green chillies, as much boiling water as you want for the gravy, the ghee and the garam masala powder. Simmer for a minute or two and take it off the heat.",
+      "maa_says": "ঘি আর গরম মশলা শেষে দিলে তবেই গন্ধটা নাকে আসে।",
+      "chemistry": {
+        "title": "Finishing spices for the nose",
+        "explanation": "Spice aroma is volatile: the longer a spice cooks, the more of its scent escapes into the air. Garam masala stirred in at the very end keeps its top notes, and the ghee, being fat, catches and carries them to your nose as you eat. Boiling water rather than cold keeps the pot from dropping off the simmer and seizing the meat."
+      }
+    }
+  ],
+  "trivia": [
+    "In Bengal, মাংস almost always means খাসির মাংস: the meat of a castrated male goat, preferred for its flavour and fat. Lamb and mutton from sheep (ভেড়া) are much less common. Butchers prize a young রেওয়াজি খাসি.",
+    "নিরামিষ মাংস, vegetarian meat, sounds like a contradiction but is a real dish. At Kali Puja and Durga Puja, the goat offered as বলি is cooked as bhog without onion or garlic, which many households keep out of offerings. Ginger, cumin, asafoetida and ghee carry the flavour instead.",
+    "The potato in Kolkata biryani is often credited to the cooks of Wajid Ali Shah, the exiled Nawab of Awadh who settled in Metiabruz. It's a much-loved story, though historians still argue about it.",
+    "Kosha mangsho is drier than a jhol on purpose: the gravy should cling to the meat rather than pool around it."
+  ],
+  "quiz": [
+    {
+      "question": "In the marinade, which ingredient actually tenderises the meat?",
+      "options": [
+        "The yoghurt's acid",
+        "The papain enzyme in raw papaya",
+        "The salt",
+        "The mustard oil"
+      ],
+      "answer": 1,
+      "explain": "Papain breaks proteins apart. Acid tightens the surface proteins, which helps flavour stick but doesn't soften the meat."
+    },
+    {
+      "question": "Why does মা cook the mutton on a low flame for an hour instead of on high heat?",
+      "options": [
+        "To save gas",
+        "So the collagen slowly turns into gelatin while the muscle stays juicy",
+        "So the onions can caramelise",
+        "Because the potatoes need it"
+      ],
+      "answer": 1,
+      "explain": "Collagen needs time at a gentle temperature. High heat dries the muscle out first."
+    }
+  ],
+  "further_reading": [
+    "Kitchen of Debjani, “Kosha Mangsho”: kitchenofdebjani.com/2014/11/kosha-mangsho/",
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on meat, the Maillard reaction and spices"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Method and quantities follow Kitchen of Debjani. Potatoes are a home-style addition (neither Debjani nor the cabin-style versions use them), and marination is shortened from her 6–8 hours to 2–4, following Masala Lab's point that marinades only coat the surface. Check: the niramish mangsho bhog tradition, the Wajid Ali Shah potato story (flagged as disputed), and the claim that frying the potatoes helps them keep their shape."
+  }
+}

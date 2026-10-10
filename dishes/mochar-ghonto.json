@@ -1,0 +1,172 @@
+{
+  "id": "mochar-ghonto",
+  "name_bn": "মোচার ঘণ্ট",
+  "name_en": "Mochar ghonto",
+  "section": "pater-shuru",
+  "diet": "veg",
+  "tagline": "Banana flower, potato, chickpeas and coconut, cooked slowly together until they become one.",
+  "serves": "4",
+  "time_minutes": 75,
+  "golpo": {
+    "type": "family",
+    "title": "Nothing on the banana plant is wasted",
+    "body": "A Bengali kitchen uses every part of the banana plant: the leaf as a plate, the green fruit for kacha kolar kofta, the inner stem for thor, and the deep-red flower, মোচা, for this. Cleaning a mocha is an afternoon's patient work, floret by floret, which is why it's so often a dish made with someone beside you. ঘণ্ট means things cooked down together until they blend, and মোচার ঘণ্ট is the quiet, fragrant start to a niramish lunch."
+  },
+  "ingredients": [
+    { "item_bn": "মোচা", "item_en": "Banana flower", "qty": "1 medium" },
+    { "item_bn": "আলু", "item_en": "Potatoes, cut into small pieces", "qty": "2 medium" },
+    { "item_bn": "লাল ছোলা", "item_en": "Whole Bengal gram (kala chana), soaked overnight", "qty": "¼ cup" },
+    { "item_bn": "নারকেল কোরা", "item_en": "Coconut, grated or finely sliced", "qty": "½ cup" },
+    { "item_bn": "গোটা জিরে", "item_en": "Cumin seeds, for the tempering", "qty": "1 tsp" },
+    { "item_bn": "তেজপাতা", "item_en": "Bay leaves", "qty": "2" },
+    { "item_bn": "গোটা গরম মশলা", "item_en": "Whole spices: 2 green cardamom, 2 cloves, a small piece of cinnamon", "qty": "" },
+    { "item_bn": "আদা বাটা", "item_en": "Ginger paste", "qty": "1 tbsp" },
+    { "item_bn": "জিরে গুঁড়ো বা বাটা", "item_en": "Ground cumin, or cumin paste", "qty": "2 tsp" },
+    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric, plus extra for the soaking water", "qty": "1 tsp" },
+    { "item_bn": "আটা", "item_en": "Atta (wholewheat flour), for the soaking water", "qty": "1 tbsp" },
+    { "item_bn": "নুন ও চিনি", "item_en": "Salt, and a pinch of sugar", "qty": "To taste" },
+    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil, plus a little for your hands", "qty": "3 tbsp" },
+    { "item_bn": "শাহি গরম মশলা গুঁড়ো", "item_en": "Shahi garam masala powder", "qty": "½ tsp" },
+    { "item_bn": "ঘি", "item_en": "Ghee", "qty": "1 tbsp" },
+    { "item_bn": "চিংড়ি (ঐচ্ছিক)", "item_en": "Prawns, for the non-veg version (optional)", "qty": "150 g" }
+  ],
+  "steps": [
+    {
+      "action_bn": "আগের রাতে লাল ছোলা জলে ভিজিয়ে রাখো। রান্নার আগে জল ঝরিয়ে নাও।",
+      "action_en": "The night before, soak the chickpeas in water. Drain them before cooking.",
+      "maa_says": "ছোলা না ভেজালে সারাদিন ফোটালেও শক্ত থাকবে।",
+      "chemistry": {
+        "title": "Soaking lets water in",
+        "explanation": "A dried chickpea is packed with fibre, mostly cellulose and hemicellulose, and is very hard to cook from dry. Overnight, water seeps slowly through its skin and the seed swells, so it cooks in a fraction of the time. If your chickpeas are still firm after soaking, boil them for a few minutes first. A pinch of baking soda in the water breaks down their skins faster still."
+      }
+    },
+    {
+      "action_bn": "হাতে একটু সর্ষের তেল মেখে মোচা ছাড়াও। প্রতিটা ফুল থেকে শক্ত কালো কাঠি আর স্বচ্ছ পাপড়িটা বাদ দিয়ে মিহি করে কুচোও। কুচোতে কুচোতেই হলুদ আর একটু আটা গোলা জলে ডুবিয়ে রাখো। রান্নার আগে জল ঝরিয়ে নাও।",
+      "action_en": "Rub a little mustard oil on your hands and open up the banana flower. From each floret, pull out the hard black-tipped stamen and the thin papery petal, then chop finely. As you chop, keep it submerged in water mixed with turmeric and a little atta. Drain before cooking.",
+      "maa_says": "হাতে তেল না মাখলে মোচার কষে আঙুল কালো হয়ে যাবে।",
+      "chemistry": {
+        "title": "Why mocha turns black, and how water stops it",
+        "explanation": "Banana flower is full of tannins and other polyphenols. The moment you cut it, enzymes in the damaged cells start oxidising them with air, the same browning that turns a cut apple or potato brown, and its sticky sap stains fingers dark. Keeping the chopped florets under water cuts off the air. The oil on your hands stops the sap from sticking to your skin, and the atta in the water helps soak up the sticky sap, so the mocha cooks up clean and pale."
+      }
+    },
+    {
+      "action_bn": "আলু ছোট টুকরো করে অল্প তেলে হালকা সোনালি করে ভেজে তুলে রাখো।",
+      "action_en": "Fry the potato pieces in a little oil until lightly golden, and set them aside.",
+      "maa_says": "আলু আগে ভেজে না নিলে ঘণ্টে গলে মিশে যায়।",
+      "chemistry": {
+        "title": "A golden skin keeps the potato in shape",
+        "explanation": "Frying dries the potato's surface and browns it through the Maillard reaction, adding a nutty flavour. That set crust also keeps the pieces whole while they simmer with everything else, so the ghonto has soft bits you can still bite into rather than a uniform mash."
+      }
+    },
+    {
+      "action_bn": "ওই কড়াইতেই নারকেল হালকা ভেজে সোনালি করে তুলে রাখো।",
+      "action_en": "In the same pan, lightly fry the coconut until golden. Remove and set aside.",
+      "maa_says": "নারকেল লালচে হলেই নামিয়ে নাও, বেশি ভাজলে তেতো হবে।",
+      "chemistry": {
+        "title": "Toasting coconut",
+        "explanation": "Coconut has natural sugars, some protein and plenty of its own fat, which is everything the Maillard reaction needs. A few minutes in the pan turns its sweet, milky flavour toasty and deep. It browns quickly once it starts, so take it off at golden: past that, the sugars scorch and turn bitter."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে গোটা জিরে, তেজপাতা আর গোটা গরম মশলা ফোড়ন দাও।",
+      "action_en": "Heat the oil and add the cumin seeds, bay leaves and whole spices for the tempering.",
+      "maa_says": "জিরে চিড়বিড় করলেই বুঝবে ফোড়ন হয়েছে।",
+      "chemistry": {
+        "title": "The tempering flavours the oil",
+        "explanation": "Spice flavour molecules dissolve in fat, not water. Whole spices sizzled in hot oil at the start of a dish release their aroma into it, and that oil then carries the flavour into every ingredient that follows. Whole spices give a gentle, rounded flavour rather than a sharp one, which is right for a mild dish like ghonto."
+      }
+    },
+    {
+      "action_bn": "এবার আদা বাটা, জিরে আর হলুদ দিয়ে আঁচ কমিয়ে নেড়ে নেড়ে কষাও, যাতে তলায় ধরে না যায়। জিরেটা মশলার রসে ভিজে ভালো করে সেদ্ধ হলে তবে আসল গন্ধ বেরোয়।",
+      "action_en": "Add the ginger paste, cumin and turmeric, lower the heat and stir the masala gently so it doesn't catch or burn. Let the cumin soak in the moisture of the ginger paste and cook through: that's when it gives its best flavour.",
+      "maa_says": "জিরে ভিজে ভিজে সেদ্ধ না হলে কাঁচা গন্ধ থেকে যায়।",
+      "chemistry": {
+        "title": "Why the cumin has to cook through",
+        "explanation": "Ground cumin dropped into hot dry oil scorches in seconds and turns bitter. Cooked gently in the wet ginger paste, it first soaks up moisture and then slowly fries as the water evaporates, so its aroma is drawn out into the oil instead of burnt. That's the difference between a raw, dusty cumin taste and a warm, rounded one. Low heat and patience do the work here."
+      }
+    },
+    {
+      "action_bn": "ভাজা আলু আর ভেজানো ছোলা দিয়ে ভালো করে মেশাও, মশলা যেন না পোড়ে।",
+      "action_en": "Add the fried potatoes and soaked chickpeas. Mix well and let them cook together for a few minutes, taking care not to burn the masala.",
+      "maa_says": "এই সময় আঁচ কম রেখো, মশলা তলায় লাগলে পুরো ঘণ্টের স্বাদ নষ্ট।",
+      "chemistry": {
+        "title": "Coating everything in the masala",
+        "explanation": "Stirring the potatoes and chickpeas through the masala now coats them in its spiced oil before any water goes in. The fat clings to their surfaces and carries the flavour with it, so each piece ends up seasoned rather than just sitting in a sauce."
+      }
+    },
+    {
+      "action_bn": "জল ঝরানো মোচা, ভাজা নারকেল, নুন আর এক চিমটে চিনি দিয়ে সব ভালো করে মেশাও, যাতে মোচা মশলা টেনে নেয়।",
+      "action_en": "Add the drained banana flower, the fried coconut, salt and a pinch of sugar. Mix thoroughly so the mocha takes in the masala.",
+      "maa_says": "মোচা ভালো করে কষালে তবেই স্বাদ ঢোকে।",
+      "chemistry": {
+        "title": "A pinch of sugar balances the bitterness",
+        "explanation": "Banana flower has a gentle bitterness and astringency from its tannins. Salt and a pinch of sugar both mute bitterness, and the sweetness of the coconut helps too. Together they bring the mocha's own earthy flavour forward without anyone noticing the sugar."
+      }
+    },
+    {
+      "action_bn": "অল্প জল দিয়ে ঢেকে কম আঁচে রাঁধো। মাঝে মাঝে নেড়ে দাও, দরকার হলে আরও একটু জল দাও। মোচা, আলু আর ছোলা নরম হয়ে সব মিলেমিশে গেলে তবে হবে।",
+      "action_en": "Add a little water, cover and cook on a low flame. Stir now and then, adding a splash more water if needed, until the mocha, potatoes and chickpeas are soft and the flavours have come together.",
+      "maa_says": "ঘণ্ট তাড়াহুড়োর রান্না নয়, ঢিমে আঁচেই মিশে যায়।",
+      "chemistry": {
+        "title": "Steam softens the plant walls",
+        "explanation": "Plant cell walls are held together by pectin, which breaks down slowly near the boiling point of water. A covered pot on low heat keeps everything in hot, steamy moisture without scorching, so the walls give way and the vegetables turn tender and start to merge. That gentle merging is what makes a ghonto a ghonto, rather than a dry fry or a curry."
+      }
+    },
+    {
+      "action_bn": "আমিষ করতে চাইলে এই সময় চিংড়ি দিয়ে মশলার সঙ্গে কয়েক মিনিট রাঁধো, যতক্ষণ না চিংড়ি সাদাটে-কমলা হয়ে যায়।",
+      "action_en": "For the non-veg version, add the prawns now and cook them in the masala for just a few minutes, until they turn opaque and pink.",
+      "maa_says": "চিংড়ি বেশিক্ষণ রাঁধলে রবারের মতো শক্ত হয়ে যায়।",
+      "chemistry": {
+        "title": "Prawns cook in minutes",
+        "explanation": "Animal protein has a narrow window between done and overdone. Prawn proteins set quickly, turning the flesh from translucent to opaque, and if they keep cooking they tighten and squeeze out their water and turn rubbery. That's why they go in near the end, after the vegetables have done their slow cooking."
+      }
+    },
+    {
+      "action_bn": "সব মিলে গেলে শাহি গরম মশলা গুঁড়ো আর ঘি ছড়িয়ে একবার নেড়ে নামিয়ে নাও। গরম ভাতের সঙ্গে দাও।",
+      "action_en": "When everything has come together, finish with the shahi garam masala and ghee. Give it a final stir, take it off the heat and serve warm with rice.",
+      "maa_says": "শেষে এক চামচ ঘি আর গরম মশলা, তাতেই ঘণ্টের গন্ধ ঘর ভরে যায়।",
+      "chemistry": {
+        "title": "Finishing spices for the nose",
+        "explanation": "Aroma molecules are volatile: the longer a spice cooks, the more of its scent escapes into the air. Garam masala added at the very end keeps its fragrance, and the ghee, being fat, catches those aromas and carries them to your nose as you eat. Most of what we call flavour is really smell, which is why this last spoonful matters so much."
+      }
+    }
+  ],
+  "trivia": [
+    "For a non-vegetarian version, the ghonto is cooked with prawns, চিংড়ি দিয়ে মোচার ঘণ্ট, and many households consider it the better one.",
+    "A ঘণ্ট differs from a চচ্চড়ি: a chorchori is drier, with each vegetable keeping its shape, while a ghonto is cooked down until everything blends.",
+    "Each floret of a banana flower has a hard, matchstick-like stamen and a papery petal that must come out by hand. Bengali households call this cleaning মোচা ছাড়ানো.",
+    "Like many niramish dishes, mochar ghonto uses no onion or garlic. Ginger, cumin, coconut and garam masala carry all the flavour."
+  ],
+  "quiz": [
+    {
+      "question": "Why is chopped banana flower kept under water while you work?",
+      "options": [
+        "To wash off the turmeric",
+        "To keep air away, so enzymes can't blacken its polyphenols",
+        "To make it cook faster",
+        "To add salt to it"
+      ],
+      "answer": 1,
+      "explain": "Cut plant cells brown when their enzymes meet oxygen. Water keeps the air off."
+    },
+    {
+      "question": "Why does মা cook the ground cumin slowly in the ginger paste instead of frying it in dry oil?",
+      "options": [
+        "Ground spices scorch fast in hot dry oil; the paste's moisture lets them cook through gently",
+        "Cumin dissolves in water",
+        "To make the ghonto thicker",
+        "Ginger neutralises cumin"
+      ],
+      "answer": 0,
+      "explain": "Powders have huge surface area and burn quickly. Moisture and low heat let their aroma come out without bitterness."
+    }
+  ],
+  "further_reading": [
+    "Family recipe, shared by the site's author",
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, lentils and spices"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Method from the author's family recipe. Quantities, salt and the pinch of sugar are estimates added for this page. Check: atta in the soaking water helping to absorb the sap, and the claim that frying the potatoes helps them keep their shape."
+  }
+}
