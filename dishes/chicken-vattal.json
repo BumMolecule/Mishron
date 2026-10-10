@@ -1,0 +1,174 @@
+{
+  "id": "chicken-vattal",
+  "name_bn": "চিকেন ভাত্তাল",
+  "name_en": "Chicken vattal",
+  "section": "kobji-dubiye",
+  "diet": "non-veg",
+  "tagline": "Small cubes of chicken in a glossy soy, vinegar and chilli sauce, buried under crisp fried onions.",
+  "serves": "4",
+  "time_minutes": 50,
+  "golpo": {
+    "type": "trivia",
+    "title": "Kolkata's Chinese kitchen",
+    "body": "Kolkata has India's oldest Chinese community, Hakka families who settled around Tiretta Bazaar and later Tangra, and their cooking gave the city a whole cuisine of its own: chilli chicken, Manchurian, Hakka noodles. Soy sauce, vinegar and chilli sauce are now as much a part of many Bengali kitchens as mustard oil. Chicken vattal is that home-made Indo-Chinese style: sticky, sweet, sour and hot, finished with a heap of crisp fried onions."
+  },
+  "ingredients": [
+    {
+      "item_bn": "মুরগির মাংস (হাড় ছাড়া)",
+      "item_en": "Boneless chicken, in small cubes",
+      "qty": "500 g"
+    },
+    {
+      "item_bn": "পেঁয়াজ",
+      "item_en": "Onions, thinly sliced",
+      "qty": "3 large"
+    },
+    {
+      "item_bn": "শুকনো লঙ্কা",
+      "item_en": "Dried red chillies",
+      "qty": "4"
+    },
+    {
+      "item_bn": "গোটা গোলমরিচ",
+      "item_en": "Black peppercorns",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "সয়া সস",
+      "item_en": "Soy sauce",
+      "qty": "1½ tbsp"
+    },
+    {
+      "item_bn": "ভিনিগার",
+      "item_en": "Vinegar",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "হট অ্যান্ড সুইট সস",
+      "item_en": "Hot and sweet tomato-chilli sauce",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "কাশ্মীরি লঙ্কা গুঁড়ো",
+      "item_en": "Kashmiri chilli powder",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "লঙ্কা গুঁড়ো",
+      "item_en": "Red chilli powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "চিনি ও নুন",
+      "item_en": "Sugar and salt",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "তেল",
+      "item_en": "Oil, for frying and cooking",
+      "qty": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "পেঁয়াজ পাতলা করে কেটে গরম তেলে অল্প অল্প করে ভাজো, যতক্ষণ না সোনালি-বাদামি আর মুচমুচে হয়। তুলে রাখো।",
+      "action_en": "Slice the onions thinly and fry them in hot oil, a batch at a time, until golden-brown and crisp: crisp-fried onions, the kind used on biryani. Lift out and set aside.",
+      "maa_says": "পেঁয়াজ লাল হতে শুরু করলেই চোখ রেখো, এক মুহূর্তে পুড়ে যায়।",
+      "chemistry": {
+        "title": "Fried onions brown, then suddenly burn",
+        "explanation": "In hot oil, the onion slices first lose their water, then brown as their sugars and amino acids react in the Maillard reaction. They seem to take forever to colour and then go from golden to burnt in seconds, so lift them out just short of the colour you want: they keep cooking and crisping for a while after they leave the oil. Frying in batches keeps the oil hot, so the onions turn crisp rather than greasy."
+      }
+    },
+    {
+      "action_bn": "ওই তেলেই মুরগির টুকরোগুলো হালকা করে ভেজে তুলে রাখো।",
+      "action_en": "In the same oil, fry the chicken cubes lightly and set them aside.",
+      "maa_says": "মাংস বেশি ভাজলে শক্ত হয়ে যাবে, সস দিয়ে আবার রান্না হবে তো।",
+      "chemistry": {
+        "title": "Small cubes overcook fast",
+        "explanation": "Chicken, especially boneless, stays juicy only in a narrow temperature range. Push it much past about 65–70 °C inside and the muscle squeezes out its water and goes dry. Small cubes reach that temperature fast, so they're only lightly fried here and finish cooking gently in the sauce."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে অল্প তেল গরম করে শুকনো লঙ্কা আর গোটা গোলমরিচ ফোড়ন দাও। তারপর সয়া সস, ভিনিগার আর হট অ্যান্ড সুইট সস দাও।",
+      "action_en": "Heat a little oil and temper it with the dried chillies and peppercorns. Then add the soy sauce, vinegar and hot and sweet sauce.",
+      "maa_says": "গোলমরিচ ফোড়নেই এই রান্নার আসল ঝাঁজ।",
+      "chemistry": {
+        "title": "Salt, sour, sweet and savoury in one pan",
+        "explanation": "Soy sauce is fermented and full of glutamates, which taste savoury (umami) and make other flavours linger. Vinegar adds sourness, the hot and sweet sauce adds sugar and chilli, and together they cover salt, sour, sweet and savoury. Peppercorns fried whole in the oil add piperine, the molecule behind black pepper's bite.",
+        "molecules": [
+          {
+            "name": "Glutamic acid",
+            "smiles": "N[C@@H](CCC(O)=O)C(O)=O",
+            "note": "The savoury, umami taste of soy sauce."
+          },
+          {
+            "name": "Piperine",
+            "smiles": "O=C(/C=C/C=C/c1ccc2OCOc2c1)N1CCCCC1",
+            "note": "The bite of black pepper."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "মাংস দিয়ে কাশ্মীরি লঙ্কা, লঙ্কা গুঁড়ো, চিনি আর নুন মেশাও। ঢেকে কম আঁচে রাঁধো, যতক্ষণ না মাংস সেদ্ধ হয়ে সস ঘন হয়ে গায়ে লেগে থাকে।",
+      "action_en": "Add the chicken with the Kashmiri chilli, chilli powder, sugar and salt. Cover and cook on low heat until the chicken is done and the sauce is thick and clinging.",
+      "maa_says": "সয়া সসে নুন থাকে, নুন দেওয়ার আগে চেখে নিও।",
+      "chemistry": {
+        "title": "Taste before you salt",
+        "explanation": "Soy sauce is very salty already, so add salt only after tasting. Covering the pan traps steam, which cooks the chicken through gently, and the sugar in the sauces thickens into a glossy glaze as the liquid reduces. Kashmiri chilli is there mostly for its deep red colour, the chilli powder for heat.",
+        "molecules": [
+          {
+            "name": "Capsaicin",
+            "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O",
+            "note": "Chilli heat. It dissolves in fat, not water."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "ওপরে ভাজা পেঁয়াজ ছড়িয়ে গরম গরম দাও।",
+      "action_en": "Scatter the fried onions over the top and serve hot.",
+      "maa_says": "পেঁয়াজ একদম শেষে দেবে, তাহলে মুচমুচে থাকবে।",
+      "chemistry": {
+        "title": "Crunch goes on last",
+        "explanation": "Fried onions stay crisp only while they're dry. Stirred into the hot sauce, they'd soak it up and go soft within a minute. Scattered on top at the end, they keep their crunch long enough to reach the table, adding a sweet, toasty contrast to the sticky chicken."
+      }
+    }
+  ],
+  "trivia": [
+    "Kolkata's Chinese community dates back to the late 18th century, and Tangra is still known for its Chinese restaurants.",
+    "Crisp-fried onions, the kind used on biryani, are called বেরেস্তা in Bengali kitchens.",
+    "Soy sauce is a fermented food, which is why it's so rich in savoury glutamates."
+  ],
+  "quiz": [
+    {
+      "question": "Why should you taste before adding salt to chicken vattal?",
+      "options": [
+        "The chicken is pre-salted",
+        "Soy sauce is already very salty",
+        "Vinegar adds salt",
+        "Sugar cancels salt"
+      ],
+      "answer": 1,
+      "explain": "Soy sauce brings plenty of salt of its own."
+    },
+    {
+      "question": "Why are the fried onions added only at the very end?",
+      "options": [
+        "They burn in the sauce",
+        "They'd soak up the sauce and lose their crunch",
+        "They make the sauce bitter",
+        "For colour only"
+      ],
+      "answer": 1,
+      "explain": "Crisp things go soft as soon as they sit in liquid."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on frying, umami and meat"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. Check the Bengali spelling of the dish name (ভাত্তাল). Quantities are estimates."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "green-chicken",
+  "name_bn": "গ্রিন চিকেন",
+  "name_en": "Green chicken",
+  "section": "kobji-dubiye",
+  "diet": "non-veg",
+  "tagline": "Chicken cooked low in a paste of coriander, green chilli, tomato and garlic, and why green turns olive.",
+  "serves": "4",
+  "time_minutes": 50,
+  "golpo": {
+    "type": "trivia",
+    "title": "Green on the plate",
+    "body": "Green chicken is a weeknight favourite in many Bengali homes: a cousin of the north Indian hariyali chicken, with no onion and no long list of spices, just a bright paste of coriander, green chilli, tomato and garlic. It cooks quickly, smells of fresh herbs, and the trick is keeping it as green as you can."
+  },
+  "ingredients": [
+    {
+      "item_bn": "মুরগির মাংস",
+      "item_en": "Chicken, curry-cut",
+      "qty": "750 g"
+    },
+    {
+      "item_bn": "ভিনিগার",
+      "item_en": "Vinegar, for the marinade",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "ধনেপাতা",
+      "item_en": "Coriander leaves and stems",
+      "qty": "1 large bunch"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies",
+      "qty": "4–6"
+    },
+    {
+      "item_bn": "টমেটো",
+      "item_en": "Tomato",
+      "qty": "1 medium"
+    },
+    {
+      "item_bn": "রসুন",
+      "item_en": "Garlic cloves",
+      "qty": "6"
+    },
+    {
+      "item_bn": "সাদা তেল",
+      "item_en": "Refined (white) oil",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "মাংসে ভিনিগার আর অল্প নুন মাখিয়ে আধ ঘণ্টা রাখো।",
+      "action_en": "Toss the chicken with the vinegar and a little salt, and leave it for half an hour.",
+      "maa_says": "ভিনিগারে বেশিক্ষণ রেখো না, মাংস শক্ত হয়ে যাবে।",
+      "chemistry": {
+        "title": "Short acid, short time",
+        "explanation": "An acid marinade flavours the surface of the meat; it doesn't soak in or tenderise. Strong acid tightens the outer proteins, and left too long it starts to cook the surface chalky. Half an hour is plenty. The salt does more useful work: it helps the meat hold on to its own juices while it cooks.",
+        "molecules": [
+          {
+            "name": "Acetic acid",
+            "smiles": "CC(O)=O",
+            "note": "The sour of vinegar."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "ধনেপাতা, কাঁচা লঙ্কা, টমেটো আর রসুন একসঙ্গে মিহি করে বেটে নাও।",
+      "action_en": "Grind the coriander, green chillies, tomato and garlic together to a smooth paste.",
+      "maa_says": "ধনেপাতার ডাঁটাও দিও, স্বাদ বাড়ে।",
+      "chemistry": {
+        "title": "Grinding the green",
+        "explanation": "Crushing coriander releases its aroma and also sets off enzymes that break down the soapy-tasting molecules some people dislike in the fresh leaves. Grind it cool, adding a splash of cold water to the mixer, because the blades warm the paste and start cooking it before it reaches the pan."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে সাদা তেল গরম করে মাংস হালকা করে ভেজে নাও।",
+      "action_en": "Heat the refined oil in a kadai and fry the chicken lightly, just until it loses its raw look and colours a little.",
+      "maa_says": "মাংস হালকা ভাজলেই হবে, পুরো রান্না পরে হবে।",
+      "chemistry": {
+        "title": "A neutral oil lets the green shine",
+        "explanation": "Refined oil has almost no flavour of its own, so it doesn't compete with the fresh herbs the way mustard oil would. A light fry browns the surface a little through the Maillard reaction, adding a savoury base, without cooking the chicken through yet."
+      }
+    },
+    {
+      "action_bn": "বাটা মশলা দিয়ে আঁচ কমিয়ে দাও। নুন আর এক চিমটে চিনি দিয়ে ঢেকে ঢিমে আঁচে রাঁধো।",
+      "action_en": "Add the paste and lower the heat. Add salt and a pinch of sugar, cover and cook on a low flame.",
+      "maa_says": "বেশি আঁচে রাঁধলে সবুজ রং কালো হয়ে যাবে।",
+      "chemistry": {
+        "title": "Why green turns olive",
+        "explanation": "Chlorophyll, the green pigment, loses its central magnesium atom with heat and acid, and turns a dull olive. This paste has acid in it, from the tomato, plus the vinegar on the chicken, so some dulling is unavoidable. Low heat and a short cooking time keep it as green as possible. The pinch of sugar balances the tomato's sourness and the chilli's heat."
+      }
+    },
+    {
+      "action_bn": "তেল ছেড়ে গ্রেভি একটু ঘন হলে নামিয়ে নাও।",
+      "action_en": "When the oil separates and the sauce has thickened a little, take it off the heat.",
+      "maa_says": "গ্রেভি একদম শুকিয়ে ফেলো না, একটু রস থাকলে ভাতে মাখতে ভালো লাগে।",
+      "chemistry": {
+        "title": "Oil separating means the water's gone",
+        "explanation": "As the sauce simmers, water from the paste and the chicken evaporates. When the oil pools at the edges, most of that water has cooked off and the masala has thickened. Stop there, with a little sauce left to mix into rice."
+      }
+    }
+  ],
+  "trivia": [
+    "Green chicken is a homely cousin of hariyali chicken, the herb-marinated kebab of north India.",
+    "Acid is the enemy of a bright green sauce: lime or tomato added early is what turns green chutneys and gravies olive.",
+    "The coriander stems are as flavourful as the leaves, so they go into the paste too."
+  ],
+  "quiz": [
+    {
+      "question": "Why does মা cook the green paste on a low flame?",
+      "options": [
+        "To save gas",
+        "Heat and acid strip chlorophyll of its magnesium and turn it olive",
+        "So the chicken browns more",
+        "To thicken it faster"
+      ],
+      "answer": 1,
+      "explain": "Gentle, short cooking keeps the colour brighter."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, acids and meat"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. Quantities and marinating time are estimates."
+  }
+}

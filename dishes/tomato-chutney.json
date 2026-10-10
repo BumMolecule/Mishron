@@ -1,0 +1,152 @@
+{
+  "id": "tomato-chutney",
+  "name_bn": "টমেটোর চাটনি",
+  "name_en": "Tomato chutney",
+  "section": "mishti-mukh",
+  "diet": "veg",
+  "tagline": "Mashed tomatoes cooked down with mustard and sugar, finished with lime once it's cool.",
+  "serves": "4",
+  "time_minutes": 25,
+  "golpo": {
+    "type": "trivia",
+    "title": "The everyday chutney",
+    "body": "Green mango has a season. Tomatoes are there all year, which is why টমেটোর চাটনি is the chutney of ordinary weekday lunches and the one most often found at the end of a wedding feast. It's sweet first, then sour, with a savoury depth that a mango chutney doesn't have, and that last squeeze of lime once it's cool is what makes it taste fresh."
+  },
+  "ingredients": [
+    {
+      "item_bn": "টমেটো",
+      "item_en": "Ripe tomatoes",
+      "qty": "4 large"
+    },
+    {
+      "item_bn": "সর্ষে",
+      "item_en": "Mustard seeds",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "শুকনো লঙ্কা",
+      "item_en": "Dried red chilli",
+      "qty": "1"
+    },
+    {
+      "item_bn": "পাঁচফোড়ন",
+      "item_en": "Panch phoron",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "চিনি বা বাতাসা",
+      "item_en": "Sugar, or batasha",
+      "qty": "4–5 tbsp"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "A pinch"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "পাতিলেবুর রস",
+      "item_en": "Lime juice",
+      "qty": "1–2 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "টমেটো কেটে হাত দিয়ে ভালো করে চটকে নাও, যতক্ষণ না রস বেরিয়ে আসে।",
+      "action_en": "Chop the tomatoes and mash them well with your hands until their juice runs out.",
+      "maa_says": "টমেটোর বিচি আর শাঁস ফেলো না, ওতেই আসল স্বাদ।",
+      "chemistry": {
+        "title": "Keep the pulp and seeds",
+        "explanation": "Most of a tomato's flavour is in the jelly and seeds, which are rich in glutamates, the molecules that taste savoury, or umami. Mashing breaks the cells open so the juice and pulp come out and cook down together. That glutamate is what gives tomato chutney its moreish depth, something a fruit chutney like mango doesn't have.",
+        "molecules": [
+          {
+            "name": "Glutamic acid",
+            "smiles": "N[C@@H](CCC(O)=O)C(O)=O",
+            "note": "The source of tomato's savoury, umami depth."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে সর্ষে, শুকনো লঙ্কা আর পাঁচফোড়ন দাও। ফোড়নের গন্ধ উঠলে চটকানো টমেটো ঢেলে দাও।",
+      "action_en": "Heat the oil and add the mustard seeds, dried chilli and panch phoron. When the spices smell toasty, pour in the mashed tomatoes.",
+      "maa_says": "ফোড়ন পুড়িয়ে ফেলো না, তেতো হয়ে যাবে।",
+      "chemistry": {
+        "title": "Spices first, in fat",
+        "explanation": "Spice aroma dissolves in fat, so the seeds go into hot oil before anything wet. The moment the tomatoes go in, the pan's temperature drops to the boiling point of water, which stops the spices from burning. Panch phoron's mix of fennel, nigella, fenugreek, cumin and mustard is the signature smell of a Bengali kitchen."
+      }
+    },
+    {
+      "action_bn": "চিনি বা বাতাসা আর এক চিমটে নুন দিয়ে নাড়তে থাকো। টমেটো ঘন হয়ে চকচকে না হওয়া পর্যন্ত রাঁধো, ১০–১২ মিনিট।",
+      "action_en": "Add the sugar or batasha and a pinch of salt. Keep stirring and cook until the tomatoes thicken and turn glossy, 10–12 minutes.",
+      "maa_says": "তলায় যেন না ধরে, চিনি পড়লেই চাটনি তাড়াতাড়ি লেগে যায়।",
+      "chemistry": {
+        "title": "Cooking concentrates the flavour",
+        "explanation": "Tomatoes get better the longer they cook: as their water evaporates, their sugars, acids and glutamates concentrate. The sugar balances the tomato's natural sourness, and a pinch of salt makes both the sweet and the savoury stand out. Once the sugar is in, keep stirring, because sugary sauces scorch on the bottom of the pan easily.",
+        "molecules": [
+          {
+            "name": "Sucrose",
+            "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+            "note": "Table sugar, and all that a batasha is."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "নামিয়ে ঠান্ডা করো। ঠান্ডা হলে পাতিলেবুর রস মিশিয়ে দাও।",
+      "action_en": "Take it off the heat and let it cool. Once it's cool, stir in the lime juice.",
+      "maa_says": "লেবু গরম চাটনিতে দিলে তেতো লাগে, ঠান্ডা হলে তবেই দিও।",
+      "chemistry": {
+        "title": "Lime goes in cold",
+        "explanation": "Cooked citrus juice turns bitter and loses its fresh smell, so lime is always added at the end, here after the chutney has cooled. Raw, it adds a bright, clean sourness on top of the tomato's cooked, jammy one. Two sours layered like this taste more interesting than either on its own.",
+        "molecules": [
+          {
+            "name": "Citric acid",
+            "smiles": "OC(=O)CC(O)(CC(O)=O)C(O)=O",
+            "note": "The sour of lime juice."
+          }
+        ]
+      }
+    }
+  ],
+  "trivia": [
+    "Tomatoes arrived in India from the Americas with the Portuguese, only a few centuries ago. Bengali chutney adopted them fast.",
+    "Many Bengali kitchens add dates (খেজুর) and dried mango (আমসত্ত্ব) to tomato chutney for a richer, festive version.",
+    "Because tomato is rich in glutamates, its chutney tastes savoury as well as sweet and sour: all three in one spoonful."
+  ],
+  "quiz": [
+    {
+      "question": "Why is the lime juice added only after the chutney cools?",
+      "options": [
+        "So it doesn't curdle",
+        "Cooked citrus turns bitter and loses its fresh smell",
+        "Lime makes hot chutney too runny",
+        "To keep the colour red"
+      ],
+      "answer": 1,
+      "explain": "Citrus is always a finishing acid, added raw at the end."
+    },
+    {
+      "question": "What gives tomato chutney its savoury depth?",
+      "options": [
+        "The mustard oil",
+        "Glutamates in the tomato pulp",
+        "The salt alone",
+        "The dried chilli"
+      ],
+      "answer": 1,
+      "explain": "Tomato pulp is rich in glutamates, the source of umami."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on acids, tomatoes and umami"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. Quantities are estimates."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "dhonepatar-chutney",
+  "name_bn": "ধনেপাতার চাটনি",
+  "name_en": "Dhonepatar chutney",
+  "section": "mishti-mukh",
+  "diet": "veg",
+  "tagline": "A bright green coriander chutney, and how to keep it green.",
+  "serves": "4",
+  "time_minutes": 10,
+  "golpo": {
+    "type": "trivia",
+    "title": "Winter's green chutney",
+    "body": "In a Bengal winter, bunches of coriander arrive at the bazaar fat and fragrant, and ধনেপাতার চাটনি appears on the table beside everything: with dal and rice, with telebhaja, with a plate of shingara. It's the one chutney here that isn't sweet, though a pinch of sugar still balances it, and it's ground in minutes, traditionally on the sil-nora, the grinding stone."
+  },
+  "ingredients": [
+    {
+      "item_bn": "ধনেপাতা",
+      "item_en": "Coriander leaves and tender stems",
+      "qty": "1 large bunch (about 100 g)"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies",
+      "qty": "2–3"
+    },
+    {
+      "item_bn": "আদা",
+      "item_en": "Ginger",
+      "qty": "1 cm piece"
+    },
+    {
+      "item_bn": "রসুন",
+      "item_en": "Garlic (optional)",
+      "qty": "2 cloves"
+    },
+    {
+      "item_bn": "নারকেল কোরা",
+      "item_en": "Grated coconut (optional, for body)",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "পাতিলেবুর রস",
+      "item_en": "Lime juice",
+      "qty": "1–2 tsp"
+    },
+    {
+      "item_bn": "বরফ-ঠান্ডা জল",
+      "item_en": "Ice-cold water",
+      "qty": "2–3 tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "ধনেপাতা ভালো করে ধুয়ে নাও। নরম ডাঁটা ফেলো না, ওতেও স্বাদ আছে।",
+      "action_en": "Wash the coriander well. Keep the tender stems: they carry as much flavour as the leaves.",
+      "maa_says": "ধনেপাতায় মাটি থাকে, দু-তিনবার জলে ধুয়ে নিও।",
+      "chemistry": {
+        "title": "Why some people taste soap",
+        "explanation": "Coriander's fresh flavour comes from a family of molecules called aldehydes, some of which also turn up in soap. People with a certain genetic make-up are especially sensitive to them, which is why a small share of people find fresh coriander soapy. Grinding helps: crushing the leaves sets off enzymes that break those soapy aldehydes down, so many who dislike the leaves are happy with the chutney."
+      }
+    },
+    {
+      "action_bn": "চাইলে ধনেপাতা ৩০ সেকেন্ড ফুটন্ত জলে ডুবিয়ে সঙ্গে সঙ্গে বরফ জলে ফেলো। তাতে রং অনেকক্ষণ সবুজ থাকবে।",
+      "action_en": "If you want the colour to last, dip the coriander in boiling water for 30 seconds, then plunge it straight into ice water.",
+      "maa_says": "এখনই খেলে এটা না করলেও চলে।",
+      "chemistry": {
+        "title": "Blanching locks in the green",
+        "explanation": "Ground leaves soon fade to a dull olive green because an enzyme strips the magnesium atom out of chlorophyll, the green pigment. A short dip in boiling water switches that enzyme off, and the ice bath stops the leaves from cooking any further. Skip this if you'll eat the chutney straight away. It's for when you want it to stay bright for a few hours."
+      }
+    },
+    {
+      "action_bn": "ধনেপাতা, কাঁচা লঙ্কা, আদা, রসুন, নারকেল, নুন আর এক চিমটে চিনি অল্প বরফ-ঠান্ডা জল দিয়ে মিহি করে বেটে নাও।",
+      "action_en": "Grind the coriander, chillies, ginger, garlic, coconut, salt and a pinch of sugar to a smooth paste with a little ice-cold water.",
+      "maa_says": "শিলে বাটলে স্বাদ সবচেয়ে ভালো হয়, মিক্সিতে করলে ঠান্ডা জল দিও।",
+      "chemistry": {
+        "title": "Keep it cold",
+        "explanation": "A grinding stone crushes cells open without heating them. A mixer's fast blade warms the paste as it spins, partly cooking the leaves and dulling their colour and smell. A splash of ice-cold water keeps the mixer paste cool. The pinch of sugar and the salt balance the bitterness of the leaves and the heat of the chillies without making the chutney taste sweet or salty."
+      }
+    },
+    {
+      "action_bn": "খাওয়ার ঠিক আগে লেবুর রস মিশিয়ে দাও।",
+      "action_en": "Stir in the lime juice just before serving.",
+      "maa_says": "লেবু আগে দিলে চাটনি কালচে হয়ে যায়।",
+      "chemistry": {
+        "title": "Lime last, or it goes olive",
+        "explanation": "Acid speeds up chlorophyll's loss of its magnesium, so lime juice turns a green chutney a muddy olive surprisingly fast. Added at the last minute, it brightens the flavour without having time to dull the colour. That's the same reason any green chutney should get its acid just before it reaches the table.",
+        "molecules": [
+          {
+            "name": "Citric acid",
+            "smiles": "OC(=O)CC(O)(CC(O)=O)C(O)=O",
+            "note": "The sour of lime juice."
+          }
+        ]
+      }
+    }
+  ],
+  "trivia": [
+    "Between 4 and 14 per cent of people find fresh coriander soapy, depending on their ancestry, thanks to their genes.",
+    "Coriander leaves, stems, roots and seeds are all used in Indian cooking, each with a different flavour.",
+    "On a traditional শিল-নোড়া (grinding stone), the chutney is ground by rolling and pressing the stone, which crushes the leaves without warming them."
+  ],
+  "quiz": [
+    {
+      "question": "Why should lime juice go into a green chutney just before serving?",
+      "options": [
+        "It curdles the coconut",
+        "Acid quickly turns the green chlorophyll a dull olive",
+        "It makes the chutney too thin",
+        "It cancels the chilli"
+      ],
+      "answer": 1,
+      "explain": "Acid speeds up the loss of chlorophyll's magnesium, which dulls the colour."
+    },
+    {
+      "question": "Why do some people find coriander chutney fine even though fresh leaves taste soapy to them?",
+      "options": [
+        "The chillies hide it",
+        "Crushing the leaves sets off enzymes that break the soapy aldehydes down",
+        "The lime neutralises it",
+        "Cooking removes it"
+      ],
+      "answer": 1,
+      "explain": "Grinding triggers enzymes that break down the soapy-tasting molecules."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, spices and flavour"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Quantities are estimates. Garlic and coconut are optional, since households differ."
+  }
+}

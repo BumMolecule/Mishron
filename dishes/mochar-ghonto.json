@@ -13,22 +13,86 @@
     "body": "A Bengali kitchen uses every part of the banana plant: the leaf as a plate, the green fruit for kacha kolar kofta, the inner stem for thor, and the deep-red flower, মোচা, for this. Cleaning a mocha is an afternoon's patient work, floret by floret, which is why it's so often a dish made with someone beside you. ঘণ্ট means things cooked down together until they blend, and মোচার ঘণ্ট is the quiet, fragrant start to a niramish lunch."
   },
   "ingredients": [
-    { "item_bn": "মোচা", "item_en": "Banana flower", "qty": "1 medium" },
-    { "item_bn": "আলু", "item_en": "Potatoes, cut into small pieces", "qty": "2 medium" },
-    { "item_bn": "লাল ছোলা", "item_en": "Whole Bengal gram (kala chana), soaked overnight", "qty": "¼ cup" },
-    { "item_bn": "নারকেল কোরা", "item_en": "Coconut, grated or finely sliced", "qty": "½ cup" },
-    { "item_bn": "গোটা জিরে", "item_en": "Cumin seeds, for the tempering", "qty": "1 tsp" },
-    { "item_bn": "তেজপাতা", "item_en": "Bay leaves", "qty": "2" },
-    { "item_bn": "গোটা গরম মশলা", "item_en": "Whole spices: 2 green cardamom, 2 cloves, a small piece of cinnamon", "qty": "" },
-    { "item_bn": "আদা বাটা", "item_en": "Ginger paste", "qty": "1 tbsp" },
-    { "item_bn": "জিরে গুঁড়ো বা বাটা", "item_en": "Ground cumin, or cumin paste", "qty": "2 tsp" },
-    { "item_bn": "হলুদ গুঁড়ো", "item_en": "Turmeric, plus extra for the soaking water", "qty": "1 tsp" },
-    { "item_bn": "আটা", "item_en": "Atta (wholewheat flour), for the soaking water", "qty": "1 tbsp" },
-    { "item_bn": "নুন ও চিনি", "item_en": "Salt, and a pinch of sugar", "qty": "To taste" },
-    { "item_bn": "সর্ষের তেল", "item_en": "Mustard oil, plus a little for your hands", "qty": "3 tbsp" },
-    { "item_bn": "শাহি গরম মশলা গুঁড়ো", "item_en": "Shahi garam masala powder", "qty": "½ tsp" },
-    { "item_bn": "ঘি", "item_en": "Ghee", "qty": "1 tbsp" },
-    { "item_bn": "চিংড়ি (ঐচ্ছিক)", "item_en": "Prawns, for the non-veg version (optional)", "qty": "150 g" }
+    {
+      "item_bn": "মোচা",
+      "item_en": "Banana flower",
+      "qty": "1 medium"
+    },
+    {
+      "item_bn": "আলু",
+      "item_en": "Potatoes, cut into small pieces",
+      "qty": "2 medium"
+    },
+    {
+      "item_bn": "লাল ছোলা",
+      "item_en": "Whole Bengal gram (kala chana), soaked overnight",
+      "qty": "¼ cup"
+    },
+    {
+      "item_bn": "নারকেল কোরা",
+      "item_en": "Coconut, grated or finely sliced",
+      "qty": "½ cup"
+    },
+    {
+      "item_bn": "গোটা জিরে",
+      "item_en": "Cumin seeds, for the tempering",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "তেজপাতা",
+      "item_en": "Bay leaves",
+      "qty": "2"
+    },
+    {
+      "item_bn": "গোটা গরম মশলা",
+      "item_en": "Whole spices: 2 green cardamom, 2 cloves, a small piece of cinnamon",
+      "qty": ""
+    },
+    {
+      "item_bn": "আদা বাটা",
+      "item_en": "Ginger paste",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "জিরে গুঁড়ো বা বাটা",
+      "item_en": "Ground cumin, or cumin paste",
+      "qty": "2 tsp"
+    },
+    {
+      "item_bn": "হলুদ গুঁড়ো",
+      "item_en": "Turmeric, plus extra for the soaking water",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "আটা",
+      "item_en": "Atta (wholewheat flour), for the soaking water",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil, plus a little for your hands",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "শাহি গরম মশলা গুঁড়ো",
+      "item_en": "Shahi garam masala powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "ঘি",
+      "item_en": "Ghee",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "চিংড়ি (ঐচ্ছিক)",
+      "item_en": "Prawns, for the non-veg version (optional)",
+      "qty": "150 g"
+    }
   ],
   "steps": [
     {
@@ -162,11 +226,10 @@
     }
   ],
   "further_reading": [
-    "Family recipe, shared by the site's author",
     "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, lentils and spices"
   ],
   "review": {
     "status": "draft",
-    "notes": "Method from the author's family recipe. Quantities, salt and the pinch of sugar are estimates added for this page. Check: atta in the soaking water helping to absorb the sap, and the claim that frying the potatoes helps them keep their shape."
+    "notes": "Method from notes provided for this site. Quantities, salt and the pinch of sugar are estimates added for this page. Check: atta in the soaking water helping to absorb the sap, and the claim that frying the potatoes helps them keep their shape."
   }
 }

@@ -1,0 +1,159 @@
+{
+  "id": "plastic-chutney",
+  "name_bn": "প্লাস্টিক চাটনি",
+  "name_en": "Plastic chutney",
+  "section": "mishti-mukh",
+  "diet": "veg",
+  "tagline": "Raw papaya simmered in syrup until the slices turn glassy, and the science of see-through fruit.",
+  "serves": "4",
+  "time_minutes": 35,
+  "golpo": {
+    "type": "trivia",
+    "title": "Why it's called plastic",
+    "body": "Plastic chutney is made from raw green papaya, sliced paper-thin and cooked in syrup until each slice turns clear and glassy, like a sheet of cellophane. That look gave it its name. It's a favourite of Bengali wedding caterers, and it's the chutney children pick out first from the plate, one shiny slice at a time."
+  },
+  "ingredients": [
+    {
+      "item_bn": "কাঁচা পেঁপে",
+      "item_en": "Raw green papaya, peeled and deseeded",
+      "qty": "300 g"
+    },
+    {
+      "item_bn": "চিনি",
+      "item_en": "Sugar",
+      "qty": "¾ cup"
+    },
+    {
+      "item_bn": "জল",
+      "item_en": "Water",
+      "qty": "1½ cups"
+    },
+    {
+      "item_bn": "পাতিলেবুর রস",
+      "item_en": "Lime juice",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "কিশমিশ",
+      "item_en": "Raisins",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "পাঁচফোড়ন (ঐচ্ছিক)",
+      "item_en": "Panch phoron (optional)",
+      "qty": "¼ tsp"
+    },
+    {
+      "item_bn": "শুকনো লঙ্কা (ঐচ্ছিক)",
+      "item_en": "Dried red chilli (optional)",
+      "qty": "1"
+    },
+    {
+      "item_bn": "তেল বা ঘি",
+      "item_en": "Oil or ghee",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "A pinch"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "পেঁপের খোসা ছাড়িয়ে বিচি ফেলে খুব পাতলা, প্রায় স্বচ্ছ ফালি করে কাটো।",
+      "action_en": "Peel and deseed the papaya, then slice it as thinly as you can, almost see-through.",
+      "maa_says": "যত পাতলা কাটবে, তত সুন্দর প্লাস্টিকের মতো হবে।",
+      "chemistry": {
+        "title": "Thin slices for even glass",
+        "explanation": "Syrup has to soak all the way through each slice for it to turn clear, so thickness matters. Thin slices are saturated evenly in the time it takes the syrup to thicken; thick ones stay cloudy and starchy in the middle. A mandoline or a very sharp knife makes this easy. Raw papaya also carries papain, the meat-tenderising enzyme, but cooking destroys it, so it doesn't affect the chutney."
+      }
+    },
+    {
+      "action_bn": "ফালিগুলো ফুটন্ত জলে ২–৩ মিনিট ভাপিয়ে জল ঝরিয়ে নাও।",
+      "action_en": "Blanch the slices in boiling water for 2–3 minutes and drain.",
+      "maa_says": "আগে একটু ভাপিয়ে নিলে কাঁচা গন্ধ চলে যায়।",
+      "chemistry": {
+        "title": "Softening the walls first",
+        "explanation": "A short blanch softens the papaya's cell walls, which are held together by pectin, and washes away some of the raw, slightly milky sap. Softer walls let the syrup in faster in the next step, so the slices turn glassy instead of just getting coated."
+      }
+    },
+    {
+      "action_bn": "চাইলে কড়াইতে তেল বা ঘি গরম করে পাঁচফোড়ন আর শুকনো লঙ্কা ফোড়ন দাও। তারপর জল আর চিনি দিয়ে ফুটিয়ে রস বানাও।",
+      "action_en": "If you like, heat the oil or ghee and add the panch phoron and dried chilli. Then add the water and sugar and bring it to a boil to make a syrup.",
+      "maa_says": "ফোড়ন ছাড়াও হয়, তবে একটু পাঁচফোড়নে স্বাদ খোলে।",
+      "chemistry": {
+        "title": "A gentle tempering, or none",
+        "explanation": "Plastic chutney is mostly about sweetness and texture, so the tempering is optional and light. If you use it, fry the spices in fat first: their flavour dissolves in oil, not in the syrup, and a few seconds of sizzling releases a whiff of aroma that the whole batch carries.",
+        "molecules": [
+          {
+            "name": "Sucrose",
+            "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+            "note": "Table sugar, and all that a batasha is."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "রসে পেঁপে, কিশমিশ আর এক চিমটে নুন দিয়ে কম আঁচে ফোটাও, যতক্ষণ না ফালিগুলো স্বচ্ছ আর চকচকে হয়, প্রায় ২০ মিনিট।",
+      "action_en": "Add the papaya, raisins and a pinch of salt to the syrup and simmer gently until the slices turn clear and glossy, about 20 minutes.",
+      "maa_says": "পেঁপে যখন কাচের মতো স্বচ্ছ হবে, তখনই নামানোর সময়।",
+      "chemistry": {
+        "title": "Why the papaya turns see-through",
+        "explanation": "Raw papaya looks white because it's full of tiny pockets of air between its cells. Air and cell walls bend light in different ways, so light scatters at every edge, just as frosted glass looks white. In the syrup, water is drawn out of the cells by osmosis while sugar syrup fills the gaps, and once there's syrup where the air was, light passes straight through. It's the same reason frosted glass goes clear when it's wet. The salt makes the sweetness taste rounder."
+      }
+    },
+    {
+      "action_bn": "নামিয়ে একটু ঠান্ডা হলে লেবুর রস মিশিয়ে দাও।",
+      "action_en": "Take it off the heat, let it cool a little, then stir in the lime juice.",
+      "maa_says": "লেবু শেষে দিলে মিষ্টিটা একঘেয়ে লাগে না।",
+      "chemistry": {
+        "title": "A sour note to cut the sweet",
+        "explanation": "This chutney is very sweet, and a little sourness keeps it from being cloying: acid balances sweetness on the tongue. Lime goes in off the heat because cooked citrus turns bitter. As the syrup cools it thickens and turns the slices even glossier.",
+        "molecules": [
+          {
+            "name": "Citric acid",
+            "smiles": "OC(=O)CC(O)(CC(O)=O)C(O)=O",
+            "note": "The sour of lime juice."
+          }
+        ]
+      }
+    }
+  ],
+  "trivia": [
+    "Raw papaya contains papain, the same enzyme that makes raw papaya such a good meat tenderiser in a kosha mangsho marinade.",
+    "Plastic chutney is a fixture at Bengali weddings and feasts, often served alongside tomato or mango chutney.",
+    "Its glassiness is the same trick behind candied fruit: syrup replacing the air and water inside the fruit."
+  ],
+  "quiz": [
+    {
+      "question": "Why do the papaya slices turn see-through?",
+      "options": [
+        "The sugar bleaches them",
+        "Syrup replaces the air pockets between the cells, so light stops scattering",
+        "The lime dissolves them",
+        "Heat melts the fruit"
+      ],
+      "answer": 1,
+      "explain": "Like frosted glass going clear when it's wet."
+    },
+    {
+      "question": "Does the papain in raw papaya make the chutney mushy?",
+      "options": [
+        "Yes, it digests the papaya",
+        "No, cooking destroys the enzyme",
+        "Only if you add lime",
+        "Only overnight"
+      ],
+      "answer": 1,
+      "explain": "Papain is a protein, and heat denatures it."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, sugar and acids"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Quantities are estimates. Check the explanation of translucency (air pockets replaced by syrup, plus osmosis)."
+  }
+}

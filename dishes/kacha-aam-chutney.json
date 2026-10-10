@@ -1,0 +1,154 @@
+{
+  "id": "kacha-aam-chutney",
+  "name_bn": "কাঁচা আমের চাটনি",
+  "name_en": "Kacha aam chutney",
+  "section": "mishti-mukh",
+  "diet": "veg",
+  "tagline": "Green mango cooked down with sugar until glossy: sour, sweet, and ready in fifteen minutes.",
+  "serves": "4",
+  "time_minutes": 25,
+  "golpo": {
+    "type": "trivia",
+    "title": "Why chutney comes at the end",
+    "body": "A Bengali meal doesn't serve its chutney on the side. It comes as a course of its own near the end, after the fish and meat and before the doi and mishti: a sharp, sweet spoonful to wake the tongue back up after a heavy lunch. In summer, when the mango trees are heavy with green fruit, that spoonful is almost always কাঁচা আমের চাটনি."
+  },
+  "ingredients": [
+    {
+      "item_bn": "কাঁচা আম",
+      "item_en": "Green (raw) mangoes, peeled and sliced",
+      "qty": "2 medium"
+    },
+    {
+      "item_bn": "সর্ষে",
+      "item_en": "Mustard seeds",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "শুকনো লঙ্কা",
+      "item_en": "Dried red chilli",
+      "qty": "1"
+    },
+    {
+      "item_bn": "চিনি বা বাতাসা",
+      "item_en": "Sugar, or batasha, depending on the mangoes",
+      "qty": "6–8 tbsp"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies, torn by hand",
+      "qty": "1–3"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "A pinch"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "জল",
+      "item_en": "Water",
+      "qty": "About 1 cup"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "আমের খোসা ছাড়িয়ে পাতলা ফালি করে কাটো। জলে এক ফুট ফুটিয়ে জল ফেলে দাও, তাতে টক খানিকটা কমবে।",
+      "action_en": "Peel the mangoes and cut them into thin slices. Boil them briefly in water, then drain and throw the water away. This takes the edge off the sourness.",
+      "maa_says": "আম খুব টক হলে একবার ফুটিয়ে জলটা ফেলে দিও, চিনি কম লাগবে।",
+      "chemistry": {
+        "title": "Boiling washes out some of the sour",
+        "explanation": "The mango's sourness comes from acids dissolved in the juice of its cells. A quick boil softens the outer layers of each slice, and some of that acid leaks out into the water. Throw the water away and you throw away part of the sourness with it. That means you need less sugar later to balance what's left, and the chutney tastes of mango rather than just of sugar."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে সর্ষে আর শুকনো লঙ্কা ফোড়ন দাও। সর্ষে চিড়বিড় করলে আম আর জল দাও।",
+      "action_en": "Heat the oil and add the mustard seeds and dried chilli. When the seeds splutter, add the mango and the water.",
+      "maa_says": "ফোড়ন অল্পই দিও, চাটনিতে আমটাই আসল।",
+      "chemistry": {
+        "title": "A light tempering",
+        "explanation": "Spice flavour dissolves in fat, so a teaspoon of hot oil is enough to carry the mustard and chilli through the whole pot. Whole mustard seeds fried quickly give a nutty crunch rather than sharpness, and a dried chilli adds warmth more than heat. The tempering here is a background note: the mango should be the loudest thing in the bowl."
+      }
+    },
+    {
+      "action_bn": "চিনি বা বাতাসা দিয়ে ফোটাও, মাঝে মাঝে নাড়ো, যতক্ষণ না রস ঘন হয়ে আমের গায়ে চকচকে হয়ে লেগে থাকে। প্রায় ১৫ মিনিট।",
+      "action_en": "Add the sugar or batasha and a pinch of salt. Simmer, stirring now and then, until the syrup thickens and coats the mango in a glossy, sticky layer, about 15 minutes.",
+      "maa_says": "রস যখন হাতায় মাখা মাখা হয়ে লেগে থাকবে, তখন বুঝবে চাটনি হয়েছে।",
+      "chemistry": {
+        "title": "Sugar, acid and pectin set the gloss",
+        "explanation": "Mango flesh contains pectin, the same natural setting agent that makes jam set. As the water simmers off, the syrup gets more concentrated, and pectin, sugar and the mango's acid together give it that thick, clinging, glossy body. Sweetness also mutes our sense of sourness without removing any acid, and a pinch of salt rounds out the sweet. A batasha is nothing but sugar puffed into a drop, so it melts in exactly like sugar does.",
+        "molecules": [
+          {
+            "name": "Sucrose",
+            "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+            "note": "Table sugar, and all that a batasha is."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "শেষে ১–৩টে কাঁচা লঙ্কা হাতে ছিঁড়ে দাও, শুধু গন্ধের জন্য। এক মিনিট ফুটিয়ে নামাও।",
+      "action_en": "At the end, tear 1–3 green chillies by hand and drop them in, just for their aroma. Simmer for a minute and take it off the heat.",
+      "maa_says": "লঙ্কা ছিঁড়ে দিলে গন্ধটা আসে, ঝাল নয়।",
+      "chemistry": {
+        "title": "Torn, not chopped",
+        "explanation": "A green chilli's fresh, grassy aroma is in its flesh, while most of its heat sits in the white pith around the seeds. Tearing it opens up the flesh and lets the aroma out into the hot syrup, but leaves most of the pith intact. Capsaicin, the heat molecule, also barely dissolves in a watery syrup, so the chutney picks up the chilli's scent with only a gentle warmth.",
+        "molecules": [
+          {
+            "name": "Capsaicin",
+            "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O",
+            "note": "Chilli heat. It barely dissolves in water."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "ঠান্ডা করে পরিবেশন করো, শেষ পাতে ভাতের সঙ্গে।",
+      "action_en": "Let it cool and serve it at the end of the meal.",
+      "maa_says": "চাটনি ঠান্ডা হলে আরও ঘন হবে, তাই একটু পাতলা থাকতেই নামিও।",
+      "chemistry": {
+        "title": "It sets as it cools",
+        "explanation": "Hot syrup is runny. As it cools, the sugar and pectin firm up into a thicker gel, so a chutney that looks just right on the stove will be stiff on the plate. Take it off while it still flows easily off the spoon. Taste it once it's cool too: at room temperature the sweet and sour both come through more strongly than they did when it was hot."
+      }
+    }
+  ],
+  "trivia": [
+    "বাতাসা, the little puffed sugar drops given as puja prasad, are pure sugar, so they're a perfect sweetener for chutney.",
+    "In Bengal, chutney is its own course near the end of the meal, served after the fish and meat and before the sweets.",
+    "Out of mango season, the same sourness comes from amchoor: green mango, sun-dried and ground."
+  ],
+  "quiz": [
+    {
+      "question": "Why boil the mango slices and throw the water away?",
+      "options": [
+        "To soften them for chopping",
+        "Some of the mango's acid leaks into the water, so the chutney is less sour",
+        "To remove the colour",
+        "To kill the enzymes"
+      ],
+      "answer": 1,
+      "explain": "The acids are dissolved in the mango's juice, and some of it leaches out into the boiling water."
+    },
+    {
+      "question": "What makes the syrup thick and glossy?",
+      "options": [
+        "The mustard oil",
+        "Pectin, sugar and acid together, concentrated as the water cooks off",
+        "The salt",
+        "The green chillies"
+      ],
+      "answer": 1,
+      "explain": "It's the same trio that makes jam set."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on taste, sugar and acids"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. Quantities are estimates. Check the pectin-gel explanation and the claim that boiling and draining reduces sourness."
+  }
+}

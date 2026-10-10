@@ -1,0 +1,175 @@
+{
+  "id": "lau-shukto",
+  "name_bn": "লাউ শুক্তো",
+  "name_en": "Lau shukto",
+  "section": "pater-shuru",
+  "diet": "veg",
+  "tagline": "Bottle gourd in a pale mustard, poppy-seed and bori sauce, finished with milk and ghee.",
+  "serves": "4",
+  "time_minutes": 35,
+  "golpo": {
+    "type": "trivia",
+    "title": "Bitter first",
+    "body": "A Bengali meal traditionally begins with something bitter: শুক্তো, to wake the palate before the richer dishes. The classic shukto is a crowd of vegetables with bitter gourd. Lau shukto is its gentle summer cousin, all pale bottle gourd in a creamy, nutty sauce of mustard, poppy seeds and fried bori, with only a whisper of bitterness from fenugreek and radhuni. It's always pale, too: no turmeric goes into a shukto."
+  },
+  "ingredients": [
+    {
+      "item_bn": "লাউ",
+      "item_en": "Bottle gourd (lau), peeled and cut small",
+      "qty": "500 g"
+    },
+    {
+      "item_bn": "সর্ষে",
+      "item_en": "Mustard seeds, soaked",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "পোস্ত",
+      "item_en": "Poppy seeds, soaked",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "বড়ি",
+      "item_en": "Bori (sun-dried lentil dumplings)",
+      "qty": "8–10"
+    },
+    {
+      "item_bn": "রাঁধুনি",
+      "item_en": "Radhuni (wild celery seed), for the paste and tempering",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "আদা",
+      "item_en": "Ginger",
+      "qty": "1 cm piece"
+    },
+    {
+      "item_bn": "মেথি",
+      "item_en": "Fenugreek seeds",
+      "qty": "¼ tsp"
+    },
+    {
+      "item_bn": "দুধ",
+      "item_en": "Milk",
+      "qty": "½ cup"
+    },
+    {
+      "item_bn": "ঘি",
+      "item_en": "Ghee",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "জল",
+      "item_en": "Water",
+      "qty": "About ½ cup"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "লাউয়ের খোসা ছাড়িয়ে ছোট ছোট টুকরো করো। বিচি শক্ত হলে বাদ দাও।",
+      "action_en": "Peel the bottle gourd and cut it into small pieces. If the seeds are hard, remove them.",
+      "maa_says": "কচি লাউ নিও, তাতেই শুক্তো মিষ্টি হয়।",
+      "chemistry": {
+        "title": "A vegetable that's nearly all water",
+        "explanation": "Bottle gourd is one of the most watery vegetables there is, so it cooks quickly and mostly in its own juice. Its walls are held together by pectin, which softens close to the boiling point of water. Small, even pieces cook through at the same rate, so none turn to mush while others stay hard."
+      }
+    },
+    {
+      "action_bn": "অল্প তেলে বড়ি লালচে করে ভেজে নাও। ভেজানো সর্ষে, পোস্ত, ভাজা বড়ি, অল্প রাঁধুনি আর আদা একসঙ্গে মিহি করে বেটে নাও।",
+      "action_en": "Fry the bori in a little oil until golden. Grind the soaked mustard seeds, poppy seeds, fried bori, a little radhuni and the ginger to a smooth paste.",
+      "maa_says": "সর্ষে বাটার সময় এক চিমটে নুন দিও, তেতো হবে না।",
+      "chemistry": {
+        "title": "Where mustard's bite comes from",
+        "explanation": "Whole mustard seeds aren't pungent. The sharpness appears only when soaked seeds are ground, because crushing brings an enzyme into contact with the seeds' mustard oils, releasing allyl isothiocyanate. Poppy seeds are rich in oil and grind into a creamy paste that gives the sauce its body, and the fried bori adds a toasty, nutty depth from the Maillard reaction.",
+        "molecules": [
+          {
+            "name": "Allyl isothiocyanate",
+            "smiles": "C=CCN=C=S",
+            "note": "Mustard's pungency, released when the seeds are soaked and ground."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "কড়াইতে অল্প তেল গরম করে মেথি আর রাঁধুনি ফোড়ন দাও। গন্ধ উঠলেই লাউ দিয়ে নেড়ে নাও।",
+      "action_en": "Heat a little oil and temper it with the fenugreek seeds and radhuni. As soon as they smell fragrant, add the bottle gourd and stir.",
+      "maa_says": "মেথি কালো করে ফেলো না, তেতো বেশি হয়ে যাবে।",
+      "chemistry": {
+        "title": "A touch of bitter, on purpose",
+        "explanation": "Fenugreek seeds bring a gentle bitterness and a warm, maple-like smell, but they turn harsh if they burn, so they go into the oil for only a few seconds. Radhuni, a seed used almost only in Bengal, tastes like a sharper celery. Their flavour dissolves into the oil, which then coats every piece of gourd.",
+        "molecules": [
+          {
+            "name": "Sotolon",
+            "smiles": "CC1OC(=O)C(O)=C1C",
+            "note": "The maple-syrup aroma of fenugreek."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "বাটা মশলা অল্প জলে গুলে লাউয়ে ঢেলে দাও, নুন আর এক চিমটে চিনি দাও। হলুদ দেবে না। ঢেকে লাউ সেদ্ধ হওয়া পর্যন্ত রাঁধো।",
+      "action_en": "Loosen the paste with a little water and pour it over the gourd. Add salt and a pinch of sugar, but no turmeric. Cover and cook until the gourd is tender.",
+      "maa_says": "শুক্তোয় হলুদ পড়ে না, রং সাদাটে থাকাই নিয়ম।",
+      "chemistry": {
+        "title": "Simmering tames the mustard",
+        "explanation": "Mustard's pungent molecule is volatile, so as the sauce simmers its sharpness softens into a gentle warmth rather than a nose-tingling kick. Leaving out turmeric keeps the shukto its classic pale cream colour. Salt and a pinch of sugar both mute bitterness, so the fenugreek stays a background note."
+      }
+    },
+    {
+      "action_bn": "লাউ সেদ্ধ হলে দুধ আর ঘি দিয়ে একবার ফুটিয়ে নামিয়ে নাও।",
+      "action_en": "Once the gourd is cooked, add the milk and ghee, bring it just back to a simmer, and take it off the heat.",
+      "maa_says": "শেষে একটু দুধ আর ঘি, তাতেই শুক্তো মোলায়েম হয়।",
+      "chemistry": {
+        "title": "Milk and ghee soften the edges",
+        "explanation": "Fat mutes both bitterness and pungency, so the milk and ghee round off the mustard and fenugreek into something mellow and creamy. There's no sour ingredient in the pot, so the milk won't curdle, but it's still best not to boil it hard. The ghee goes in last for its aroma, which fades with long cooking."
+      }
+    }
+  ],
+  "trivia": [
+    "রাঁধুনি (Trachyspermum roxburghianum) is used almost nowhere outside Bengal. Recipes elsewhere often swap in ajwain or celery seed.",
+    "বড়ি are lentil-paste dumplings, piped onto cloth and dried in the winter sun.",
+    "Bengal's love of পোস্ত is famous. The seeds come from the opium poppy but have no narcotic effect.",
+    "Shukto is served at the start of the meal, eaten with the first rice, before dal."
+  ],
+  "quiz": [
+    {
+      "question": "When does mustard become pungent?",
+      "options": [
+        "When the whole seeds are fried",
+        "When soaked seeds are ground, letting an enzyme release its sharp molecule",
+        "Only when mixed with vinegar",
+        "When it's boiled with milk"
+      ],
+      "answer": 1,
+      "explain": "The pungent molecule forms only when the seeds are crushed in water."
+    },
+    {
+      "question": "Why doesn't the milk curdle in this shukto?",
+      "options": [
+        "The ghee protects it",
+        "There's no acid in the pot",
+        "Lau neutralises milk",
+        "Mustard thickens it"
+      ],
+      "answer": 1,
+      "explain": "Milk proteins clump with acid and strong heat. Neither is present here."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on vegetables, spices and taste"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. Quantities are estimates."
+  }
+}

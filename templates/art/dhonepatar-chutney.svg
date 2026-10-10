@@ -1,0 +1,50 @@
+<svg class="art" viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+<circle class="y" cx="120" cy="120" r="114"/>
+<circle class="r" cx="120.0" cy="16.0" r="2.4"/>
+<circle class="r" cx="136.3" cy="17.3" r="2.4"/>
+<circle class="r" cx="152.1" cy="21.1" r="2.4"/>
+<circle class="r" cx="167.2" cy="27.3" r="2.4"/>
+<circle class="r" cx="181.1" cy="35.9" r="2.4"/>
+<circle class="r" cx="193.5" cy="46.5" r="2.4"/>
+<circle class="r" cx="204.1" cy="58.9" r="2.4"/>
+<circle class="r" cx="212.7" cy="72.8" r="2.4"/>
+<circle class="r" cx="218.9" cy="87.9" r="2.4"/>
+<circle class="r" cx="222.7" cy="103.7" r="2.4"/>
+<circle class="r" cx="224.0" cy="120.0" r="2.4"/>
+<circle class="r" cx="222.7" cy="136.3" r="2.4"/>
+<circle class="r" cx="218.9" cy="152.1" r="2.4"/>
+<circle class="r" cx="212.7" cy="167.2" r="2.4"/>
+<circle class="r" cx="204.1" cy="181.1" r="2.4"/>
+<circle class="r" cx="193.5" cy="193.5" r="2.4"/>
+<circle class="r" cx="181.1" cy="204.1" r="2.4"/>
+<circle class="r" cx="167.2" cy="212.7" r="2.4"/>
+<circle class="r" cx="152.1" cy="218.9" r="2.4"/>
+<circle class="r" cx="136.3" cy="222.7" r="2.4"/>
+<circle class="r" cx="120.0" cy="224.0" r="2.4"/>
+<circle class="r" cx="103.7" cy="222.7" r="2.4"/>
+<circle class="r" cx="87.9" cy="218.9" r="2.4"/>
+<circle class="r" cx="72.8" cy="212.7" r="2.4"/>
+<circle class="r" cx="58.9" cy="204.1" r="2.4"/>
+<circle class="r" cx="46.5" cy="193.5" r="2.4"/>
+<circle class="r" cx="35.9" cy="181.1" r="2.4"/>
+<circle class="r" cx="27.3" cy="167.2" r="2.4"/>
+<circle class="r" cx="21.1" cy="152.1" r="2.4"/>
+<circle class="r" cx="17.3" cy="136.3" r="2.4"/>
+<circle class="r" cx="16.0" cy="120.0" r="2.4"/>
+<circle class="r" cx="17.3" cy="103.7" r="2.4"/>
+<circle class="r" cx="21.1" cy="87.9" r="2.4"/>
+<circle class="r" cx="27.3" cy="72.8" r="2.4"/>
+<circle class="r" cx="35.9" cy="58.9" r="2.4"/>
+<circle class="r" cx="46.5" cy="46.5" r="2.4"/>
+<circle class="r" cx="58.9" cy="35.9" r="2.4"/>
+<circle class="r" cx="72.8" cy="27.3" r="2.4"/>
+<circle class="r" cx="87.9" cy="21.1" r="2.4"/>
+<circle class="r" cx="103.7" cy="17.3" r="2.4"/>
+<path class="c" d="M30,150 L210,150 L196,196 L44,196 Z"/>
+<path class="n t" d="M44,164 L196,164 M50,180 L190,180"/>
+<path class="g" d="M70,150 C70,130 100,122 120,124 C150,126 172,136 170,150 Z"/>
+<path class="n t" d="M86,140 q10,-6 20,0 q10,-6 20,0 q10,-6 20,0"/>
+<rect class="c" x="128" y="112" width="70" height="22" rx="11" transform="rotate(-14 163 123)"/>
+<path class="n t" d="M82,96 L96,124 M100,90 L104,122 M120,96 L112,122 M160,88 L146,120 M176,100 L156,124"/>
+<g transform="rotate(-20 70 78)"><path class="g" d="M70,78 c-8,-4 -12,-14 -6,-20 c4,6 12,8 14,2 c4,8 0,16 -8,18 Z"/></g><g transform="rotate(0 90 64)"><path class="g" d="M90,64 c-8,-4 -12,-14 -6,-20 c4,6 12,8 14,2 c4,8 0,16 -8,18 Z"/></g><g transform="rotate(18 112 72)"><path class="g" d="M112,72 c-8,-4 -12,-14 -6,-20 c4,6 12,8 14,2 c4,8 0,16 -8,18 Z"/></g><g transform="rotate(-10 160 70)"><path class="g" d="M160,70 c-8,-4 -12,-14 -6,-20 c4,6 12,8 14,2 c4,8 0,16 -8,18 Z"/></g><g transform="rotate(22 178 82)"><path class="g" d="M178,82 c-8,-4 -12,-14 -6,-20 c4,6 12,8 14,2 c4,8 0,16 -8,18 Z"/></g><g transform="rotate(6 150 58)"><path class="g" d="M150,58 c-8,-4 -12,-14 -6,-20 c4,6 12,8 14,2 c4,8 0,16 -8,18 Z"/></g>
+</svg>

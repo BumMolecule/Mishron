@@ -1,0 +1,200 @@
+{
+  "id": "kasuri-methi-chicken",
+  "name_bn": "কসুরি মেথি চিকেন",
+  "name_en": "Kasuri methi chicken",
+  "section": "kobji-dubiye",
+  "diet": "non-veg",
+  "tagline": "Chicken in a creamy nut-and-onion gravy, with dried fenugreek crushed over at the end.",
+  "serves": "4",
+  "time_minutes": 60,
+  "golpo": {
+    "type": "trivia",
+    "title": "A town's name in your spice tin",
+    "body": "Kasuri methi takes its name from Kasur, a town in Punjab, now in Pakistan, long famous for the fragrance of the fenugreek grown there. The leaves are dried until they crumble, and a pinch rubbed between the palms over a finished curry fills the room with a warm, slightly maple-like smell. In this chicken, it's the last thing to go in and the first thing you notice."
+  },
+  "ingredients": [
+    {
+      "item_bn": "মুরগির মাংস",
+      "item_en": "Chicken, curry-cut",
+      "qty": "750 g"
+    },
+    {
+      "item_bn": "ভিনিগার",
+      "item_en": "Vinegar, for washing",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "পেঁয়াজ",
+      "item_en": "Onions, roughly chopped",
+      "qty": "2 large"
+    },
+    {
+      "item_bn": "রসুন",
+      "item_en": "Garlic cloves",
+      "qty": "6"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies",
+      "qty": "2–3"
+    },
+    {
+      "item_bn": "চারমগজ",
+      "item_en": "Melon seeds",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "কাজুবাদাম",
+      "item_en": "Cashew nuts",
+      "qty": "10–12"
+    },
+    {
+      "item_bn": "গোটা গরম মশলা ও দারচিনি",
+      "item_en": "Whole garam masala and a stick of cinnamon",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "কাশ্মীরি লঙ্কা গুঁড়ো",
+      "item_en": "Kashmiri chilli powder",
+      "qty": "1½ tsp"
+    },
+    {
+      "item_bn": "লঙ্কা গুঁড়ো",
+      "item_en": "Red chilli powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "টক দই",
+      "item_en": "Sour yoghurt, whisked",
+      "qty": "½ cup"
+    },
+    {
+      "item_bn": "কসুরি মেথি",
+      "item_en": "Kasuri methi (dried fenugreek leaves)",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "তেল",
+      "item_en": "Oil",
+      "qty": "4 tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "জলে অল্প ভিনিগার মিশিয়ে মুরগির মাংস ধুয়ে নাও, তারপর জল ঝরিয়ে রাখো।",
+      "action_en": "Wash the chicken in water with a little vinegar, then drain well.",
+      "maa_says": "ভিনিগার জলে ধুলে মাংসের গন্ধটা পরিষ্কার হয়ে যায়।",
+      "chemistry": {
+        "title": "A quick acid rinse",
+        "explanation": "Vinegar is acetic acid. A short rinse freshens the surface of the meat, but acid doesn't tenderise it: it tightens the outermost proteins instead. That's fine for a quick wash, but leave chicken sitting in strong acid for long and its surface starts to turn chalky, as if half-cooked.",
+        "molecules": [
+          {
+            "name": "Acetic acid",
+            "smiles": "CC(O)=O",
+            "note": "The sour of vinegar."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে গোটা গরম মশলা আর দারচিনি ফোড়ন দাও। পেঁয়াজ, রসুন, কাঁচা লঙ্কা, চারমগজ আর কাজু দিয়ে হালকা ভেজে নাও।",
+      "action_en": "Heat the oil and add the whole spices and cinnamon. Add the onions, garlic, green chillies, melon seeds and cashews, and fry lightly until just turning golden.",
+      "maa_says": "পেঁয়াজ শুধু হালকা ভাজবে, বেশি লাল হলে গ্রেভির রং কালচে হবে।",
+      "chemistry": {
+        "title": "Light frying for a pale, sweet base",
+        "explanation": "Onions fried only until translucent or just golden give a mild, sweet flavour, which suits a creamy gravy. Taking them dark brown would make it deeper and more bitter. The nuts toast a little in the same oil, which brings out their flavour, and the whole spices release their aroma into the fat."
+      }
+    },
+    {
+      "action_bn": "ঠান্ডা হলে সব মিক্সিতে মিহি করে বেটে নাও।",
+      "action_en": "Let it cool, then blend everything to a smooth paste.",
+      "maa_says": "গরম অবস্থায় মিক্সিতে দিলে ঢাকনা খুলে যেতে পারে, ঠান্ডা করে নিও।",
+      "chemistry": {
+        "title": "Nuts make the gravy creamy",
+        "explanation": "Cashews and melon seeds are rich in fat and protein. Ground into the onion paste, they thicken the gravy and give it a smooth, creamy body without any cream. It's the same idea as the cashew and poppy-seed pastes that thicken Mughlai gravies."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে বাটা মশলা দিয়ে নাড়ো। কাশ্মীরি লঙ্কা আর লঙ্কা গুঁড়ো দাও, তারপর মাংস দিয়ে মশলায় ভালো করে মেশাও।",
+      "action_en": "Heat oil in the pan and add the paste, stirring. Add the Kashmiri chilli and chilli powder, then the chicken, and turn it through the masala.",
+      "maa_says": "মশলা তলায় লেগে গেলে একটু জলের ছিটে দিও।",
+      "chemistry": {
+        "title": "Kashmiri chilli is for colour",
+        "explanation": "Kashmiri chilli gives a deep red colour with relatively little heat, so it's used for looks, while the ordinary chilli powder brings the fire. Both cook into the oil, where their colour and capsaicin dissolve, so the masala turns a rich orange-red.",
+        "molecules": [
+          {
+            "name": "Capsaicin",
+            "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O",
+            "note": "Chilli heat. It dissolves in fat, not water."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "আঁচ কমিয়ে টক দই ঢেলে দাও। ঢিমে আঁচে রাঁধো, যতক্ষণ না মাংস থেকে জল বেরিয়ে আবার শুকিয়ে তেল ছেড়ে দেয়।",
+      "action_en": "Lower the heat and pour in the yoghurt. Cook on a low flame until the chicken releases its juices, they cook down, and the oil separates at the edges.",
+      "maa_says": "দই দেওয়ার সময় আঁচ কমিয়ে নিও, নইলে দই কেটে যাবে।",
+      "chemistry": {
+        "title": "Low heat keeps the yoghurt smooth",
+        "explanation": "Yoghurt is a delicate mix of milk proteins, fat and water, and high heat makes it split into grainy curds. Low heat helps, and so does the nut paste, which thickens the sauce and holds it together. As the chicken cooks it gives off water, which slowly evaporates; when the oil separates at the edges, the water is gone and the masala is frying again in its own fat."
+      }
+    },
+    {
+      "action_bn": "শেষে কসুরি মেথি দুই হাতের তালুতে ঘষে গুঁড়ো করে ছড়িয়ে দাও। একবার নেড়ে নামিয়ে নাও।",
+      "action_en": "Finally, rub the kasuri methi between your palms and scatter it over. Stir once and take it off the heat.",
+      "maa_says": "কসুরি মেথি হাতে ঘষে দিলে গন্ধ দ্বিগুণ হয়।",
+      "chemistry": {
+        "title": "Dried herbs go in last",
+        "explanation": "Dried herbs are delicate: long cooking drives their aroma off into the air, so they're added once the dish is almost done. Rubbing the leaves between your palms crushes them and releases more of their scent. Fenugreek's warm, maple-like smell comes from a molecule called sotolon.",
+        "molecules": [
+          {
+            "name": "Sotolon",
+            "smiles": "CC1OC(=O)C(O)=C1C",
+            "note": "The maple-syrup aroma of fenugreek."
+          }
+        ]
+      }
+    }
+  ],
+  "trivia": [
+    "Kasuri methi is named after Kasur, a town in Pakistani Punjab once famous for its fenugreek.",
+    "The maple-syrup smell of fenugreek comes from sotolon. Eat enough methi and the smell can even turn up in your sweat.",
+    "চারমগজ means four kernels: traditionally a mix of melon, pumpkin, cucumber and watermelon seeds, though today it usually means melon seeds."
+  ],
+  "quiz": [
+    {
+      "question": "Why is the yoghurt added on low heat?",
+      "options": [
+        "To make it sourer",
+        "High heat makes yoghurt split into grainy curds",
+        "So the chicken browns",
+        "To keep the colour red"
+      ],
+      "answer": 1,
+      "explain": "Yoghurt's emulsion breaks at high heat. Low heat and the nut paste keep it smooth."
+    },
+    {
+      "question": "Why is kasuri methi added at the very end?",
+      "options": [
+        "It burns easily",
+        "Its aroma is delicate and cooks off with time",
+        "It thickens the gravy",
+        "It makes the chicken tender"
+      ],
+      "answer": 1,
+      "explain": "Dried herbs lose their scent with long cooking."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on onions, acids, yoghurt and spices"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. The notes didn't say when the chicken goes in, so I added it after the chilli powders and before the yoghurt. Quantities are estimates."
+  }
+}

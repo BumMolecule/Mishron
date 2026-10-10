@@ -1,0 +1,149 @@
+{
+  "id": "lotiya-macher-bora",
+  "name_bn": "লোটে মাছের বড়া",
+  "name_en": "Lotiya macher bora",
+  "section": "pater-shuru",
+  "diet": "non-veg",
+  "tagline": "Soft, watery Bombay duck turned into crisp fritters, and how a rice paste holds it together.",
+  "serves": "4",
+  "time_minutes": 35,
+  "golpo": {
+    "type": "trivia",
+    "title": "A fish called a duck",
+    "body": "লোটে মাছ is what English calls Bombay duck, though it's no duck at all: it's a lizardfish, Harpadon nehereus, caught along the coasts of the Bay of Bengal and the Arabian Sea. Its flesh is so soft and full of water that it's almost jelly, which makes it hard to cook whole and perfect for this. Chopped, bound with rice paste and besan and fried, it turns into the crispest, lightest bora on the plate, eaten with the first mouthfuls of rice."
+  },
+  "ingredients": [
+    {
+      "item_bn": "লোটে মাছ",
+      "item_en": "Lotiya (Bombay duck, Harpadon nehereus), cleaned",
+      "qty": "500 g"
+    },
+    {
+      "item_bn": "পেঁয়াজ কুচি",
+      "item_en": "Onion, finely chopped",
+      "qty": "1 medium"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা কুচি",
+      "item_en": "Green chillies, finely chopped",
+      "qty": "3–4"
+    },
+    {
+      "item_bn": "ধনেপাতা কুচি",
+      "item_en": "Coriander leaves, chopped",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "চাল বাটা",
+      "item_en": "Rice paste (rice soaked and ground)",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "রসুন বাটা",
+      "item_en": "Garlic paste",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "বেসন",
+      "item_en": "Besan (gram flour)",
+      "qty": "3–4 tbsp"
+    },
+    {
+      "item_bn": "লঙ্কা গুঁড়ো",
+      "item_en": "Red chilli powder",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil, for frying",
+      "qty": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "লোটে মাছের মাথা আর মাঝের কাঁটা ফেলে ছোট ছোট টুকরো করো। হাতে চিপে বা কাপড়ে মুড়ে জল যতটা পারো বার করে দাও।",
+      "action_en": "Remove the head and the soft central bone, and cut the fish into small pieces. Squeeze out as much water as you can, by hand or wrapped in a cloth.",
+      "maa_says": "লোটে মাছে জল বেশি, চিপে না নিলে বড়া ভেঙে যাবে।",
+      "chemistry": {
+        "title": "A fish that's mostly water",
+        "explanation": "Bombay duck has some of the most watery flesh of any fish, which is why it feels like jelly. Water is the enemy of a crisp fritter: in hot oil it must all boil off before the crust can brown, and too much of it makes the batter split and spit. Squeezing it out first means a firmer mix and a bora that holds its shape."
+      }
+    },
+    {
+      "action_bn": "মাছে পেঁয়াজ, কাঁচা লঙ্কা, ধনেপাতা, চাল বাটা, রসুন বাটা, বেসন, লঙ্কা গুঁড়ো আর নুন মিশিয়ে ঘন মিশ্রণ বানাও। ভাজার ঠিক আগে নুন দিও।",
+      "action_en": "Mix the fish with the onion, green chillies, coriander, rice paste, garlic paste, besan, chilli powder and salt into a thick mixture. Add the salt only just before you fry.",
+      "maa_says": "নুন দিয়ে ফেলে রাখলে পেঁয়াজ জল ছাড়বে, বড়া নরম হয়ে যাবে।",
+      "chemistry": {
+        "title": "Rice for crunch, besan for hold",
+        "explanation": "Besan and rice paste both soak up the fish's leftover water, and in the hot oil their starch sets around everything into a crust. Rice is the crunch: a little rice flour or paste in a gram-flour batter is an old trick for crispier pakoras. Salt pulls water out of chopped onion, so if the mix sits salted it turns runny. Salt it at the last minute.",
+        "molecules": [
+          {
+            "name": "Capsaicin",
+            "smiles": "COC1=C(C=CC(=C1)CNC(=O)CCCC/C=C/C(C)C)O",
+            "note": "Chilli heat. It dissolves in fat, not water."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল ভালো করে গরম করো। হাত বা চামচ দিয়ে ছোট ছোট বড়া ছেড়ে দুপিঠ সোনালি করে ভাজো, অল্প অল্প করে।",
+      "action_en": "Heat the oil well. Drop in small spoonfuls of the mixture and fry them until golden on both sides, a few at a time.",
+      "maa_says": "তেল ঠান্ডা থাকলে বড়া তেল টেনে নেবে, আর একসঙ্গে বেশি ছেড়ো না।",
+      "chemistry": {
+        "title": "Hot oil seals the crust",
+        "explanation": "Frying happens at around 170–190 °C. At that heat, water on the surface of the bora turns to steam instantly and the outside dries into a crust that keeps oil out while the inside steams. In oil that's too cool, the crust forms slowly and the bora soaks up oil. Crowding the kadai drops the temperature, which is why it's done in small batches."
+      }
+    },
+    {
+      "action_bn": "কাগজে তেল ঝরিয়ে গরম গরম ভাতের সঙ্গে দাও।",
+      "action_en": "Drain on paper and serve hot with rice.",
+      "maa_says": "গরম ভাতে গরম গরম লোটে মাছের বড়া, আর কিছু লাগে না।",
+      "chemistry": {
+        "title": "Why boras go limp",
+        "explanation": "Even out of the oil, a fritter keeps giving off steam from its moist centre. If it's covered or piled up, that moisture settles on the crust and softens it. Spread the boras out on paper and serve them straight away, while the crust is still dry and crackling."
+      }
+    }
+  ],
+  "trivia": [
+    "লোটে মাছ's scientific name is Harpadon nehereus. Despite the name Bombay duck, it's a lizardfish.",
+    "A popular story says the name comes from the smell of dried fish on the Bombay Dak, the mail train. It's a much-loved tale, but unproven.",
+    "Dried lotiya, লোটে শুঁটকি, is a strong-smelling favourite in Chattogram and coastal Bangladesh.",
+    "Its flesh is so soft that fishmongers sell it by the bunch, and it's one of the cheapest fish in the bazaar."
+  ],
+  "quiz": [
+    {
+      "question": "Why is the fish squeezed before making the boras?",
+      "options": [
+        "To remove the bones",
+        "It's mostly water, and water stops a crisp crust from forming",
+        "To make it salty",
+        "To change its colour"
+      ],
+      "answer": 1,
+      "explain": "All the water has to boil off before the crust can brown and set."
+    },
+    {
+      "question": "What does the rice paste add?",
+      "options": [
+        "Sweetness",
+        "Crunch",
+        "Colour",
+        "Sourness"
+      ],
+      "answer": 1,
+      "explain": "A little rice in a gram-flour batter makes fritters crispier."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on frying and on taste"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from quick notes provided for this site. Quantities are estimates. Check the Bombay Dak name story (flagged as unproven)."
+  }
+}
