@@ -4,13 +4,13 @@
   "name_en": "Jhalmuri",
   "section": "mukhorochok",
   "diet": "veg",
-  "tagline": "Muri makha, the way it's tossed at home and on every station platform, and a race against moisture.",
+  "tagline": "Muri makha, the way it's tossed at home and on every station platform.",
   "serves": "2",
-  "time_minutes": 20,
+  "time_minutes": 10,
   "golpo": {
     "type": "trivia",
     "title": "Muri makha at home, jhalmuri on the street",
-    "body": "At home it's মুড়ি মাখা, mixed muri: a big bowl tossed together for the evening cup of tea, for a rainy afternoon, or for an adda that won't end. On the street it's ঝালমুড়ি, spicy muri, shaken in a tin by vendors at stations, ferry ghats and on local trains, finished with a drizzle of raw mustard oil and handed over in a paper cone. Same dish, two names, and in both places it has to be eaten the minute it's made."
+    "body": "A big bowl tossed together for the evening cup of tea, for a rainy afternoon, or for an adda that won't end. On the street it's ঝালমুড়ি, spicy muri, shaken in a tin by vendors at stations, ferry ghats and on local trains, finished with a drizzle of raw mustard oil and handed over in a paper cone. Same dish, two names, and in both places it has to be eaten the minute it's made."
   },
   "ingredients": [
     {
@@ -24,16 +24,6 @@
       "qty": "50 g"
     },
     {
-      "item_bn": "ঝুরিভাজা",
-      "item_en": "Plain bhujiya",
-      "qty": "30 g"
-    },
-    {
-      "item_bn": "ভাজা মশলা",
-      "item_en": "Bhaja moshla (roasted spice powder)",
-      "qty": "1 tsp"
-    },
-    {
       "item_bn": "বিটনুন",
       "item_en": "Black salt",
       "qty": "½ tsp"
@@ -42,11 +32,6 @@
       "item_bn": "সেদ্ধ মটর",
       "item_en": "Boiled dried yellow peas",
       "qty": "30 g"
-    },
-    {
-      "item_bn": "অঙ্কুরিত ছোলা",
-      "item_en": "Sprouted whole Bengal gram, raw",
-      "qty": "20 g"
     },
     {
       "item_bn": "সেদ্ধ আলু",
@@ -74,11 +59,6 @@
       "qty": "2"
     },
     {
-      "item_bn": "আদা কুচি",
-      "item_en": "Ginger, minced",
-      "qty": "½ tsp"
-    },
-    {
       "item_bn": "আমের আচারের তেল",
       "item_en": "Oil from a green-mango pickle",
       "qty": "2 tsp"
@@ -87,26 +67,21 @@
       "item_bn": "কাঁচা সর্ষের তেল",
       "item_en": "Mustard oil, raw",
       "qty": "1 tsp"
-    },
-    {
-      "item_bn": "পাতিলেবুর রস",
-      "item_en": "Lime juice",
-      "qty": "2 tsp"
     }
   ],
   "steps": [
     {
-      "action_bn": "মুড়ি মুচমুচে কি না দেখে নাও। মিইয়ে গেলে শুকনো কড়াইতে বা মাইক্রোওয়েভে একটু গরম করে ঠান্ডা করো।",
-      "action_en": "Check that the muri is properly crisp. If it has gone soft, warm it briefly in a dry pan or the microwave, then let it cool.",
+      "action_bn": "মুড়ি মুচমুচে কি না দেখে নাও।",
+      "action_en": "Check that the muri is properly crisp.",
       "maa_says": "মিইয়ে যাওয়া মুড়িতে মুড়ি মাখা হয় না।",
       "chemistry": {
-        "title": "Crisp is a state, and humid air undoes it",
+        "title": "Crisp is a state, Be like Muri",
         "explanation": "Muri is rice starch puffed into a dry, brittle foam. Left open on a humid day it slowly drinks water from the air, and the brittle starch turns leathery, the way a biscuit tin left open in the monsoon goes soft. A little heat drives that water back out. The crunch matters more than you'd think: crisp, crackling food reads to us as fresh, and much of a crunch's sound is too high to hear but travels through the bones of your jaw, so you feel it as much as hear it."
       }
     },
     {
-      "action_bn": "আলু সেদ্ধ করে কিউব করে ঠান্ডা করো। পেঁয়াজ, লঙ্কা, আদা কুচিয়ে নাও, নারকেল সরু করে কাটো। টমেটোর ভেতরের শাঁস ফেলে শুধু বাইরের অংশটা কুচি করো।",
-      "action_en": "Boil, cube and cool the potato. Chop the onion, chillies and ginger, and cut the coconut into slivers. Scoop out the tomato's watery pulp and dice only the firm outer flesh.",
+      "action_bn": "আলু সেদ্ধ করে কিউব করে ঠান্ডা করো। পেঁয়াজ, লঙ্কা নাও, নারকেল সরু করে কাটো। টমেটোর ভেতরের শাঁস ফেলে শুধু বাইরের অংশটা কুচি করো।",
+      "action_en": "Boil, cube and cool the potato. Chop the onion, chillies, and cut the coconut into slivers. Scoop out the tomato's watery pulp and dice only the firm outer flesh.",
       "maa_says": "টমেটোর শাঁস ফেলে দাও, নইলে মুড়ি নেতিয়ে যাবে।",
       "chemistry": {
         "title": "Every drop of water is the enemy",
@@ -114,16 +89,16 @@
       }
     },
     {
-      "action_bn": "বড় বাটিতে মুড়ি, চানাচুর, ঝুরিভাজা, ভাজা মশলা আর বিটনুন মেশাও। তারপর মটর, ছোলা, লঙ্কা, আদা, আলু আর নারকেল দাও।",
-      "action_en": "In a big bowl, toss the muri with the chanachur, bhujiya, bhaja moshla and black salt. Then add the peas, gram, chillies, ginger, potato and coconut.",
+      "action_bn": "বড় বাটিতে মুড়ি, চানাচুর, আর বিটনুন মেশাও। তারপর মটর, লঙ্কা, আলু আর নারকেল দাও।",
+      "action_en": "In a big bowl, toss the muri with the chanachur, bhujiya, bhaja moshla and black salt. Then add the peas, gram, chillies, potato and coconut.",
       "maa_says": "শুকনো জিনিস আগে, ভেজা জিনিস একদম শেষে।",
       "chemistry": {
         "title": "Salt the dry part, never the wet",
-        "explanation": "Salt pulls water out of plant cells. Sprinkle it over chopped onion or tomato and they start weeping juice that goes straight into the muri, so the salt and spices go onto the dry ingredients first. Bhaja moshla is made from spices that are dry-roasted before grinding, which wakes up far more of their aroma than the raw spices give. Black salt adds that eggy, sulphurous note, from the traces of hydrogen sulphide and other sulphur salts it carries."
+        "explanation": "Salt pulls water out of plant cells. Sprinkle it over chopped onion or tomato and they start weeping juice that goes straight into the muri, so the salt go onto the dry ingredients first. Bhaja moshla is made from spices that are dry-roasted before grinding, which wakes up far more of their aroma than the raw spices give. Black salt adds that eggy, sulphurous note, from the traces of hydrogen sulphide and other sulphur salts it carries."
       }
     },
     {
-      "action_bn": "এবার লঙ্কা বাটা, আচারের তেল, কাঁচা সর্ষের তেল, পেঁয়াজ, টমেটো আর লেবুর রস দিয়ে চটপট হাত চালিয়ে মেখে ফেলো।",
+      "action_bn": "এবার লঙ্কা বাটা, আচারের তেল, কাঁচা সর্ষের তেল, পেঁয়াজ, টমেটো দিয়ে চটপট হাত চালিয়ে মেখে ফেলো।",
       "action_en": "Now add the green chilli paste, pickle oil, raw mustard oil, onion, tomato and lime juice, and toss quickly with your hands.",
       "maa_says": "সর্ষের তেলের ঝাঁজ না থাকলে আবার ঝালমুড়ি!",
       "chemistry": {
@@ -142,22 +117,12 @@
           }
         ]
       }
-    },
-    {
-      "action_bn": "কাগজের ঠোঙায় ভরে সঙ্গে সঙ্গে খাও।",
-      "action_en": "Pack it into paper cones and eat it straight away.",
-      "maa_says": "মাখার পর এক মিনিটও ফেলে রেখো না।",
-      "chemistry": {
-        "title": "Why jhalmuri can't wait",
-        "explanation": "Once the wet ingredients go in, water starts moving from the onion, tomato and lime into the dry, thirsty muri, the way a sponge pulls water off a wet counter. Within minutes the crisp puffs turn soft and chewy, and nothing will bring them back. That's why the vendor mixes each cone to order, and why a bowl of muri makha at home is always eaten standing around the bowl."
-      }
     }
   ],
   "trivia": [
     "ঝাল means spicy-hot and মুড়ি is puffed rice, so jhalmuri is simply spicy puffed rice.",
     "Bhelpuri is jhalmuri's cousin from Mumbai's beaches. It's the same puffed rice with sev, potato and onion, but its flavour comes from sweet tamarind and green chutneys instead of mustard oil, so it's wetter, sweeter and tangier.",
-    "The street vendor's secret ingredient is the oil from a jar of green-mango pickle: it's sour, spiced and already full of mustard.",
-    "Proper Bengal muri is puffed by tossing parboiled rice in a pan of very hot sand."
+    "Aloor Chop, Chaa and Jhalmuri is a classic trinity of taste!"
   ],
   "quiz": [
     {

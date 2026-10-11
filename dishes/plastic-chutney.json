@@ -4,13 +4,13 @@
   "name_en": "Plastic chutney",
   "section": "mishti-mukh",
   "diet": "veg",
-  "tagline": "Raw papaya simmered in syrup until the slices turn glassy, and the science of see-through fruit.",
+  "tagline": "Raw papaya simmered in syrup until the slices turn glassy.",
   "serves": "4",
   "time_minutes": 35,
   "golpo": {
     "type": "trivia",
     "title": "Why it's called plastic",
-    "body": "Plastic chutney is made from raw green papaya, sliced paper-thin and cooked in syrup until each slice turns clear and glassy, like a sheet of cellophane. That look gave it its name. It's a favourite of Bengali wedding caterers, and it's the chutney children pick out first from the plate, one shiny slice at a time."
+    "body": "Plastic chutney is made from raw green papaya, sliced paper-thin and cooked in syrup until each slice turns clear and glassy, like a sheet of cellophane, leading to its name. You'd often find children rushing for this chutney in Bengali wedding."
   },
   "ingredients": [
     {
@@ -66,7 +66,7 @@
       "maa_says": "যত পাতলা কাটবে, তত সুন্দর প্লাস্টিকের মতো হবে।",
       "chemistry": {
         "title": "Thin slices for even glass",
-        "explanation": "Syrup has to soak all the way through each slice for it to turn clear, so thickness matters. Thin slices are saturated evenly in the time it takes the syrup to thicken; thick ones stay cloudy and starchy in the middle. A mandoline or a very sharp knife makes this easy. Raw papaya also carries papain, the meat-tenderising enzyme, but cooking destroys it, so it doesn't affect the chutney."
+        "explanation": "Syrup has to soak all the way through each slice for it to turn clear, so thickness matters. Thin slices are saturated evenly in the time it takes the syrup to thicken; thick ones stay cloudy and starchy in the middle."
       }
     },
     {
@@ -121,9 +121,7 @@
     }
   ],
   "trivia": [
-    "Raw papaya contains papain, the same enzyme that makes raw papaya such a good meat tenderiser in a kosha mangsho marinade.",
-    "Plastic chutney is a fixture at Bengali weddings and feasts, often served alongside tomato or mango chutney.",
-    "Its glassiness is the same trick behind candied fruit: syrup replacing the air and water inside the fruit."
+    "Raw papaya contains papain, the same enzyme that makes raw papaya such a good meat tenderiser in a kosha mangsho marinade."
   ],
   "quiz": [
     {
@@ -155,6 +153,6 @@
   ],
   "review": {
     "status": "draft",
-    "notes": "Quantities are estimates. Check the explanation of translucency (air pockets replaced by syrup, plus osmosis)."
+    "notes": "Quantities are estimates. Check the explanation of translucency."
   }
 }

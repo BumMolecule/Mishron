@@ -1,0 +1,158 @@
+{
+  "id": "chingri-malaikari",
+  "name_bn": "চিংড়ি মাছের মালাইকারি",
+  "name_en": "Chingri macher malaikari",
+  "section": "kobji-dubiye",
+  "diet": "non-veg",
+  "tagline": "Prawns in a mellow coconut, onion and tomato gravy, the dish of Bengali celebrations.",
+  "serves": "4",
+  "time_minutes": 45,
+  "golpo": {
+    "type": "history",
+    "title": "Prawns on the big day",
+    "body": "চিংড়ির মালাইকারি is what appears when there's something to celebrate: a jamai shashthi lunch, a wedding, a pujo. The best is made with গলদা চিংড়ি, the giant freshwater prawns with their heads full of rich orange fat. Where the name comes from is still argued over. Some say মালাই, for the coconut cream; others trace it to a Malay curry carried along the old trading routes."
+  },
+  "ingredients": [
+    {
+      "item_bn": "চিংড়ি মাছ",
+      "item_en": "Prawns (golda or bagda), cleaned and deveined",
+      "qty": "500 g"
+    },
+    {
+      "item_bn": "নুন ও হলুদ",
+      "item_en": "Salt and turmeric, for the marinade",
+      "qty": "1 tsp each"
+    },
+    {
+      "item_bn": "পেঁয়াজ",
+      "item_en": "Onions",
+      "qty": "2 medium"
+    },
+    {
+      "item_bn": "রসুন",
+      "item_en": "Garlic cloves",
+      "qty": "4"
+    },
+    {
+      "item_bn": "টমেটো",
+      "item_en": "Tomato",
+      "qty": "1"
+    },
+    {
+      "item_bn": "নারকেল কোরা",
+      "item_en": "Grated coconut, plus a little for garnish",
+      "qty": "1 cup"
+    },
+    {
+      "item_bn": "তেজপাতা, গোটা জিরে, ছোট এলাচ",
+      "item_en": "Bay leaves, cumin seeds and green cardamom (or whole garam masala)",
+      "qty": "2, ½ tsp, 3"
+    },
+    {
+      "item_bn": "ধনেপাতা কুচি",
+      "item_en": "Coriander leaves, chopped",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "গরম মশলা গুঁড়ো",
+      "item_en": "Garam masala powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt, and a pinch of sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষের তেল বা ঘি",
+      "item_en": "Mustard oil or ghee",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "জল",
+      "item_en": "Water",
+      "qty": "About 1 cup"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "চিংড়ি ভালো করে ধুয়ে পিঠের কালো শিরা ফেলে দাও। নুন আর হলুদ মাখিয়ে মিনিট দশেক রাখো।",
+      "action_en": "Wash the prawns and pull out the dark vein along the back. Rub them with salt and turmeric and leave for ten minutes.",
+      "maa_says": "চিংড়ির মাথার ঘিলু ফেলো না, ওতেই আসল স্বাদ।",
+      "chemistry": {
+        "title": "Salt keeps prawns juicy",
+        "explanation": "The dark vein is the prawn's gut, which can be gritty, so it comes out. A little salt seasons the flesh and, as with brining meat, helps the proteins hold on to their water when they cook. The orange fat in a prawn's head is packed with flavour, which is why many cooks leave the heads on."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে চিংড়ি অল্প ভেজে তুলে রাখো। বেশিক্ষণ ভাজবে না।",
+      "action_en": "Heat the oil and fry the prawns briefly, just until they turn pink. Lift them out.",
+      "maa_says": "চিংড়ি বেশি ভাজলে শক্ত রবার হয়ে যায়।",
+      "chemistry": {
+        "title": "Prawns cook in a minute",
+        "explanation": "Prawn protein sets fast: within a minute or two the flesh turns from translucent to opaque and the shells go pink. A quick fry adds a little browned flavour, but prawns overcook easily, tightening and squeezing out their juice until they're rubbery. They'll finish cooking in the gravy."
+      }
+    },
+    {
+      "action_bn": "পেঁয়াজ, রসুন, টমেটো আর নারকেল কোরা একসঙ্গে মিক্সিতে মিহি করে বেটে নাও।",
+      "action_en": "Blend the onions, garlic, tomato and grated coconut to a smooth paste.",
+      "maa_says": "নারকেল যত টাটকা, মালাইকারি তত মিষ্টি।",
+      "chemistry": {
+        "title": "Coconut makes it creamy",
+        "explanation": "Fresh coconut is rich in fat and gives the gravy its creamy, mellow body. As it cooks, its fat carries the spices' flavour through the sauce. Raw onion and garlic paste is sharp and pungent, so it needs proper cooking in the next step to turn sweet."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে তেজপাতা, গোটা জিরে আর এলাচ ফোড়ন দাও। বাটা মশলা দিয়ে কম আঁচে কষাও, যতক্ষণ না কাঁচা গন্ধ যায় আর তেল ছাড়ে।",
+      "action_en": "Heat the oil and add the bay leaves, cumin seeds and cardamom. Add the paste and cook it on low heat until the raw smell is gone and the oil separates.",
+      "maa_says": "কাঁচা পেঁয়াজ বাটার গন্ধ না গেলে মালাইকারির স্বাদ আসবে না।",
+      "chemistry": {
+        "title": "Taming raw onion",
+        "explanation": "Raw onion's sharpness comes from sulphur compounds formed when its cells are crushed. Heat converts them into sweeter, savoury ones, which is why the paste must cook until its raw smell disappears. Doing it slowly keeps the coconut from catching. When the oil separates, the paste's water has cooked off."
+      }
+    },
+    {
+      "action_bn": "চিংড়ি দিয়ে নেড়ে নাও, নুন আর এক চিমটে চিনি দাও, তারপর জল দিয়ে ৫–৭ মিনিট ফোটাও। ধনেপাতা ছড়িয়ে দাও।",
+      "action_en": "Add the prawns and turn them through the masala. Season with salt and a pinch of sugar, add the water and simmer for 5–7 minutes. Scatter over the coriander.",
+      "maa_says": "চিংড়ি দিয়ে বেশিক্ষণ ফোটাবে না।",
+      "chemistry": {
+        "title": "Just long enough",
+        "explanation": "The prawns are already part-cooked, so a short simmer finishes them while they soak up the gravy. The pinch of sugar rounds off the tomato's sourness and brings out the coconut's sweetness."
+      }
+    },
+    {
+      "action_bn": "ওপরে নারকেল কোরা আর গরম মশলা গুঁড়ো ছড়িয়ে নামিয়ে নাও। গরম ভাতের সঙ্গে দাও।",
+      "action_en": "Garnish with a little grated coconut and garam masala, and serve with hot rice.",
+      "maa_says": "মালাইকারি আর গরম ভাত, এ জিনিস বিয়েবাড়ির রান্না।",
+      "chemistry": {
+        "title": "A final layer of aroma",
+        "explanation": "Garam masala added at the end keeps the volatile aroma that long cooking would drive off. The fresh coconut on top adds texture and a sweeter, fresher coconut note than the cooked coconut in the gravy, which is flavour layering in a single spoonful."
+      }
+    }
+  ],
+  "trivia": [
+    "In Kolkata football lore, Mohun Bagan supporters celebrate a derby win with chingri, while East Bengal supporters answer with ilish.",
+    "গলদা চিংড়ি is the giant freshwater prawn; বাগদা is the tiger prawn, from brackish water.",
+    "The classic version uses coconut milk. This one gets its creaminess from coconut ground into the onion paste."
+  ],
+  "quiz": [
+    {
+      "question": "Why are the prawns fried only briefly at first?",
+      "options": [
+        "To save oil",
+        "Prawn protein sets fast and overcooked prawns turn rubbery",
+        "So the shells come off",
+        "To keep them pale"
+      ],
+      "answer": 1,
+      "explain": "They finish cooking in the gravy; a long first fry overcooks them."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on onions, meat and seafood, and spices"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from notes provided for this site. Check the two name-origin stories and the Mohun Bagan / East Bengal tradition. Quantities are estimates."
+  }
+}

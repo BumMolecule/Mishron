@@ -40,15 +40,11 @@
 <circle class="r" cx="72.8" cy="27.3" r="2.4"/>
 <circle class="r" cx="87.9" cy="21.1" r="2.4"/>
 <circle class="r" cx="103.7" cy="17.3" r="2.4"/>
-<ellipse class="k" cx="120" cy="150" rx="94" ry="40"/>
-<ellipse class="n t" cx="120" cy="146" rx="84" ry="32" style="stroke:#F6E7C8"/>
-<g transform="rotate(-8 120 136)">
-<rect class="y" x="70" y="96" width="100" height="80" rx="8"/>
-<path class="w" d="M84,110 L156,110 L156,162 L84,162 Z"/>
-<path class="y" d="M84,110 L156,110 L120,138 Z"/><path class="y" d="M84,162 L156,162 L120,138 Z"/>
-<circle class="o" cx="92" cy="104" r="4"/><circle class="o" cx="150" cy="170" r="5"/><circle class="o" cx="160" cy="104" r="3"/><circle class="o" cx="80" cy="168" r="3"/>
-<path class="g" d="M104,128 l4,-3 1,4 Z M134,146 l4,-3 1,4 Z M128,124 l4,-3 1,4 Z"/>
-</g>
-<path class="v n" d="M178,92 a14,8 0 1,0 28,0 a14,8 0 1,0 -28,0" style="fill:none;stroke:#4B2146;stroke-width:5"/>
-<path class="m" d="M40,96 C54,86 72,88 78,98 C66,104 50,104 40,96 Z"/>
+<ellipse class="k" cx="120" cy="140" rx="96" ry="48"/>
+<ellipse class="y" cx="120" cy="134" rx="74" ry="36"/>
+<path class="w" d="M82,128 C86,110 120,104 146,112 C168,120 166,146 140,152 C116,158 80,150 82,128 Z"/>
+<path class="y" d="M100,126 C104,118 120,116 128,122 C134,130 124,138 112,136 C104,135 98,132 100,126 Z"/>
+<path class="g" d="M90,140 l4,-3 1,4 Z M150,128 l4,-3 1,4 Z M134,146 l4,-3 1,4 Z M70,124 l4,-3 1,4 Z"/>
+<path class="v n" d="M92,118 a5,3 0 1,0 10,0" style="fill:none;stroke:#4B2146;stroke-width:3"/>
+<path class="m" d="M156,74 C170,64 188,66 194,76 C182,84 166,84 156,74 Z"/>
 </svg>

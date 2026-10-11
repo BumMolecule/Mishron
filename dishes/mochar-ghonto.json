@@ -4,13 +4,13 @@
   "name_en": "Mochar ghonto",
   "section": "pater-shuru",
   "diet": "veg",
-  "tagline": "Banana flower, potato, chickpeas and coconut, cooked slowly together until they become one.",
+  "tagline": "Musa × paradisiaca, potato, chickpeas and coconut, cooked slowly together until they become one.",
   "serves": "4",
   "time_minutes": 75,
   "golpo": {
     "type": "family",
     "title": "Nothing on the banana plant is wasted",
-    "body": "A Bengali kitchen uses every part of the banana plant: the leaf as a plate, the green fruit for kacha kolar kofta, the inner stem for thor, and the deep-red flower, মোচা, for this. Cleaning a mocha is an afternoon's patient work, floret by floret, which is why it's so often a dish made with someone beside you. ঘণ্ট means things cooked down together until they blend, and মোচার ঘণ্ট is the quiet, fragrant start to a niramish lunch."
+    "body": " **A Bengali kitchen uses every part of the banana plant** : the leaf as a plate, the green fruit for kacha kolar kofta, the inner stem for thor, and the deep-red flower, মোচা, for this. Cleaning a mocha is an afternoon's patient work, floret by floret, which is why it's so often a dish made with someone beside you. ঘণ্ট means things cooked down together until they blend, and মোচার ঘণ্ট is the quiet, fragrant start to a niramish lunch."
   },
   "ingredients": [
     {
@@ -109,8 +109,8 @@
       "action_en": "Rub a little mustard oil on your hands and open up the banana flower. From each floret, pull out the hard black-tipped stamen and the thin papery petal, then chop finely. As you chop, keep it submerged in water mixed with turmeric and a little atta. Drain before cooking.",
       "maa_says": "হাতে তেল না মাখলে মোচার কষে আঙুল কালো হয়ে যাবে।",
       "chemistry": {
-        "title": "Why mocha turns black, and how water stops it",
-        "explanation": "Banana flower is full of tannins and other polyphenols. The moment you cut it, enzymes in the damaged cells start oxidising them with air, the same browning that turns a cut apple or potato brown, and its sticky sap stains fingers dark. Keeping the chopped florets under water cuts off the air. The oil on your hands stops the sap from sticking to your skin, and the atta in the water helps soak up the sticky sap, so the mocha cooks up clean and pale."
+        "title": "Why mochha turns black, and how water stops it",
+        "explanation": "Banana flower is full of tannins and other polyphenols. The moment you cut it, enzymes in the damaged cells start oxidising them with air, the same browning that turns a cut apple or potato brown, and its sticky sap stains fingers dark. Keeping the chopped florets under water cuts off the air. The oil on your hands stops the sap from sticking to your skin, and the atta in the water helps soak up the sticky sap, so the mochha cooks up clean and pale."
       }
     },
     {
@@ -196,10 +196,9 @@
     }
   ],
   "trivia": [
-    "For a non-vegetarian version, the ghonto is cooked with prawns, চিংড়ি দিয়ে মোচার ঘণ্ট, and many households consider it the better one.",
+    "For a change, the ghonto is cooked with prawns, চিংড়ি দিয়ে মোচার ঘণ্ট, and many households consider it the better one.",
     "A ঘণ্ট differs from a চচ্চড়ি: a chorchori is drier, with each vegetable keeping its shape, while a ghonto is cooked down until everything blends.",
-    "Each floret of a banana flower has a hard, matchstick-like stamen and a papery petal that must come out by hand. Bengali households call this cleaning মোচা ছাড়ানো.",
-    "Like many niramish dishes, mochar ghonto uses no onion or garlic. Ginger, cumin, coconut and garam masala carry all the flavour."
+    "মোচা ছাড়ানো refers to the meticulous of florets, stamen and petals, and is a job that takes an afternoon."
   ],
   "quiz": [
     {

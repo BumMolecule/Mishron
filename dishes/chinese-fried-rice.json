@@ -1,0 +1,165 @@
+{
+  "id": "chinese-fried-rice",
+  "name_bn": "চাইনিজ ফ্রায়েড রাইস",
+  "name_en": "Chinese fried rice",
+  "section": "pater-shuru",
+  "diet": "non-veg",
+  "tagline": "Kolkata-style fried rice made with fragrant gobindobhog, chicken, egg and vegetables.",
+  "serves": "4",
+  "time_minutes": 45,
+  "golpo": {
+    "type": "trivia",
+    "title": "Kolkata's own Chinese",
+    "body": "Kolkata's Hakka Chinese community, settled in Tiretta Bazaar and Tangra, gave the city a cuisine that's now as much Bengali as Chinese, and fried rice is its everyday star. This home version swaps the usual long-grain rice for gobindobhog, Bengal's small, fragrant rice, which gives a softer, more aromatic fried rice, with a pinch of sugar at the end the way Bengali cooks like it."
+  },
+  "ingredients": [
+    {
+      "item_bn": "গোবিন্দভোগ চাল",
+      "item_en": "Gobindobhog rice",
+      "qty": "2 cups"
+    },
+    {
+      "item_bn": "হাড় ছাড়া মুরগি",
+      "item_en": "Boneless chicken, thinly sliced",
+      "qty": "250 g"
+    },
+    {
+      "item_bn": "সয়া সস",
+      "item_en": "Soy sauce, divided",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "ক্যাপসিকাম, বিনস, গাজর",
+      "item_en": "Capsicum, green beans and carrots, finely diced",
+      "qty": "1½ cups together"
+    },
+    {
+      "item_bn": "ডিম",
+      "item_en": "Eggs",
+      "qty": "2"
+    },
+    {
+      "item_bn": "রসুন কুচি",
+      "item_en": "Garlic, finely chopped",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "পেঁয়াজ",
+      "item_en": "Onion, cut into small cubes",
+      "qty": "1"
+    },
+    {
+      "item_bn": "ভিনিগার",
+      "item_en": "Vinegar",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা কুচি",
+      "item_en": "Green chillies, chopped",
+      "qty": "2"
+    },
+    {
+      "item_bn": "চিনি ও নুন",
+      "item_en": "Sugar and salt",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "তেল",
+      "item_en": "Oil",
+      "qty": "4 tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "চাল ভালো করে ধুয়ে নাও, যতক্ষণ না জল পরিষ্কার হয়। ঝরঝরে করে সেদ্ধ করে থালায় ছড়িয়ে পুরো ঠান্ডা আর শুকনো হতে দাও। আগের দিনের ভাত হলে সবচেয়ে ভালো।",
+      "action_en": "Wash the rice until the water runs clear. Cook it so the grains stay separate, then spread it on a plate and let it cool and dry completely. Rice cooked the day before is best.",
+      "maa_says": "গরম ভাতে ফ্রায়েড রাইস করলে দলা পাকিয়ে যায়।",
+      "chemistry": {
+        "title": "Why cold, dry rice fries best",
+        "explanation": "Washing removes the loose surface starch that glues grains together. Gobindobhog is naturally a little sticky, with about 18% amylose, so this matters even more. As cooked rice cools, its starch re-sets and firms up, a process called retrogradation, and the surface dries. Firm, dry grains toss in the pan without clumping or turning mushy. Gobindobhog's fragrance comes from 2-acetyl-1-pyrroline, the same aroma molecule as in basmati and jasmine rice.",
+        "molecules": [
+          {
+            "name": "2-Acetyl-1-pyrroline",
+            "smiles": "CC(=O)C1=NCCC1",
+            "note": "The popcorn-like aroma of fragrant rices like gobindobhog."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "হাড় ছাড়া মুরগির টুকরো এক চামচ সয়া সস আর তেল দিয়ে একদম কম আঁচে ভেজে নাও।",
+      "action_en": "Fry the chicken slices with a spoonful of soy sauce and a little oil on a very low flame until just cooked.",
+      "maa_says": "বেশি আঁচে মুরগি শক্ত হয়ে যাবে।",
+      "chemistry": {
+        "title": "Low heat keeps it juicy",
+        "explanation": "Thin slices of boneless chicken cook through in minutes and dry out fast if they get much hotter than about 65–70 °C inside. A low flame cooks them gently and lets the soy sauce coat and flavour the surface. Soy sauce is fermented and rich in glutamates, which give it its savoury, umami taste.",
+        "molecules": [
+          {
+            "name": "Glutamic acid",
+            "smiles": "N[C@@H](CCC(O)=O)C(O)=O",
+            "note": "Soy sauce's savoury umami."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "ক্যাপসিকাম, বিনস আর গাজর ছোট ছোট করে কেটে অল্প তেলে ভেজে নাও। ডিম ফেটিয়ে পাতলা ওমলেট করে সরু সরু করে কেটে রাখো।",
+      "action_en": "Fry the finely diced capsicum, beans and carrots in a little oil until just tender. Beat the eggs, make a thin omelette, and cut it into fine shreds.",
+      "maa_says": "সবজি বেশি ভাজবে না, একটু কচকচে থাকলেই ভালো।",
+      "chemistry": {
+        "title": "Small pieces, quick cooking",
+        "explanation": "Small, even pieces cook through in the same short time, so the vegetables stay bright and crunchy rather than going limp. Green vegetables fade to olive the longer they're heated, so keep it quick. A thin omelette sets in seconds and shreds neatly, so the egg spreads through the rice in ribbons instead of clumps."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে রসুন আর পেঁয়াজ দিয়ে নাড়ো। ভাত, সয়া সস, ভিনিগার, কাঁচা লঙ্কা আর ভাজা মুরগি, সবজি, ডিম দিয়ে বড় আঁচে টস করে মেশাও।",
+      "action_en": "Heat the oil and stir-fry the garlic and onion. Add the rice, soy sauce, vinegar and green chillies, then the chicken, vegetables and egg, and toss everything on high heat.",
+      "maa_says": "ভাত দেওয়ার পর জোরে জোরে নাড়ো, তলায় যেন না ধরে।",
+      "chemistry": {
+        "title": "High heat, keep it moving",
+        "explanation": "Now the heat goes up. Tossing the rice over a hot pan dries the grains further and lightly toasts them, while the oil coats each grain so they stay separate. Garlic and onion go in first so their flavour infuses the oil, but they need watching, because garlic scorches quickly. Vinegar adds a sour lift that balances the salty soy.",
+        "molecules": [
+          {
+            "name": "Glutamic acid",
+            "smiles": "N[C@@H](CCC(O)=O)C(O)=O",
+            "note": "Soy sauce's savoury umami."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "শেষে এক চিমটে চিনি আর দরকার মতো নুন দিয়ে একবার নেড়ে নামিয়ে নাও।",
+      "action_en": "Finish with a pinch of sugar and salt to taste, toss once more, and take it off the heat.",
+      "maa_says": "এক চিমটে চিনিতেই স্বাদটা খোলে।",
+      "chemistry": {
+        "title": "The pinch of sugar",
+        "explanation": "A pinch of sugar below the level where it tastes sweet still rounds off the salt of the soy sauce and the sourness of the vinegar, and makes the whole dish taste fuller. Taste before adding salt, because soy sauce already brings plenty."
+      }
+    }
+  ],
+  "trivia": [
+    "Kolkata's Chinese community dates back to the late 18th century, and Tangra is still known for its Chinese restaurants.",
+    "Day-old rice makes better fried rice the world over, because cooled rice firms up and dries.",
+    "Gobindobhog is a short-grain aromatic rice from Bengal, usually used for payesh, khichuri and bhog."
+  ],
+  "quiz": [
+    {
+      "question": "Why use cooled, day-old rice?",
+      "options": [
+        "It's cheaper",
+        "Cooled starch firms up and dries, so the grains stay separate",
+        "It absorbs less soy sauce",
+        "It cooks faster"
+      ],
+      "answer": 1,
+      "explain": "Retrogradation firms the grains; fresh hot rice clumps."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on rice, umami and taste"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from notes provided for this site. It's in পাতের শুরু as asked. Quantities are estimates."
+  }
+}

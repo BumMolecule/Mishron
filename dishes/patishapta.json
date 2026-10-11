@@ -1,0 +1,155 @@
+{
+  "id": "patishapta",
+  "name_bn": "পাটিসাপটা",
+  "name_en": "Patishapta",
+  "section": "mishti-mukh",
+  "diet": "veg",
+  "order": 80,
+  "tagline": "Thin rice-and-semolina crêpes rolled around coconut cooked in gur: the taste of Poush.",
+  "serves": "8–10 patishaptas",
+  "time_minutes": 60,
+  "golpo": {
+    "type": "history",
+    "title": "Poush Sankranti",
+    "body": "In mid-January, at পৌষ সংক্রান্তি, the new rice harvest is in, the coconuts are ready and the first nolen gur, date-palm jaggery, has arrived. Bengali kitchens celebrate by making পিঠে-পুলি, and পাটিসাপটা is the best loved of them: a pale, soft crêpe rolled around coconut cooked dark and sticky in gur. Homes make them by the dozen, and they rarely last the day."
+  },
+  "ingredients": [
+    {
+      "item_bn": "গোবিন্দভোগ চাল",
+      "item_en": "Gobindobhog rice, soaked for 2 hours",
+      "qty": "½ cup"
+    },
+    {
+      "item_bn": "ময়দা",
+      "item_en": "Maida (plain flour)",
+      "qty": "1 cup"
+    },
+    {
+      "item_bn": "সুজি",
+      "item_en": "Sooji (fine semolina)",
+      "qty": "¼ cup"
+    },
+    {
+      "item_bn": "চিনি বা গুড়",
+      "item_en": "Sugar or gur, for the batter",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "দুধ",
+      "item_en": "Milk",
+      "qty": "About 2 cups"
+    },
+    {
+      "item_bn": "নারকেল কোরা",
+      "item_en": "Grated coconut, for the filling",
+      "qty": "2 cups"
+    },
+    {
+      "item_bn": "গুড়",
+      "item_en": "Gur (ideally nolen gur), for the filling",
+      "qty": "¾ cup"
+    },
+    {
+      "item_bn": "ঘি",
+      "item_en": "Ghee, for the tawa",
+      "qty": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "ভেজানো গোবিন্দভোগ চাল জল ঝরিয়ে মিহি করে বেটে নাও।",
+      "action_en": "Drain the soaked gobindobhog rice and grind it to a smooth paste.",
+      "maa_says": "গোবিন্দভোগ চালেই পিঠের আসল গন্ধ।",
+      "chemistry": {
+        "title": "Rice for softness and scent",
+        "explanation": "Rice has no gluten, so the rice paste keeps the crêpe tender rather than chewy, and its sticky starch helps bind the batter. Gobindobhog adds its own fragrance from 2-acetyl-1-pyrroline, the popcorn-like aroma molecule of fragrant rice, which is a big part of why patishapta smells the way it does.",
+        "molecules": [
+          {
+            "name": "2-Acetyl-1-pyrroline",
+            "smiles": "CC(=O)C1=NCCC1",
+            "note": "The popcorn-like aroma of fragrant rices like gobindobhog."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "চাল বাটা, ময়দা, সুজি, চিনি বা গুড় আর দুধ মিশিয়ে পাতলা, মসৃণ ব্যাটার বানাও। আধ ঘণ্টা রেখে দাও।",
+      "action_en": "Whisk the rice paste, maida, sooji, sugar or gur and milk into a thin, smooth batter. Let it rest for half an hour.",
+      "maa_says": "ব্যাটার যেন ঘন দুধের মতো হয়, বেশি ঘন হলে পিঠে মোটা হবে।",
+      "chemistry": {
+        "title": "Each flour does a job",
+        "explanation": "Maida brings a little gluten, just enough to make the crêpe flexible so it rolls without cracking. Sooji gives a delicate texture, and the rest gives it time to soak up milk and soften. Milk adds richness, and its sugars help the crêpe colour lightly. The batter should be about as thin as heavy cream, so it spreads into a fine layer."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে নারকেল কোরা আর গুড় দিয়ে কম আঁচে নাড়তে থাকো, যতক্ষণ না গুড় গলে নারকেলের সঙ্গে মিশে আঠালো পুর তৈরি হয়। ঠান্ডা হতে দাও।",
+      "action_en": "Cook the coconut and gur together on low heat, stirring, until the gur melts and the mixture turns sticky and comes together as a filling. Let it cool.",
+      "maa_says": "পুর বেশি শুকিয়ে ফেলো না, আবার পাতলাও রেখো না।",
+      "chemistry": {
+        "title": "Gur and coconut, slowly",
+        "explanation": "Gur is about half sucrose, with the rest mostly other sugars, minerals and moisture from the sap, which is why it tastes deeper and more caramel-like than white sugar. As it cooks with the coconut, the water evaporates and the sugars concentrate into a sticky syrup that binds the coconut. Gentle heat lets the sugars and the coconut's proteins brown a little without scorching. Cook it until it holds together, so it doesn't leak out of the crêpe.",
+        "molecules": [
+          {
+            "name": "Sucrose",
+            "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+            "note": "Table sugar; gur is about half sucrose."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "চাটু কম আঁচে গরম করে ব্রাশ দিয়ে ঘি মাখাও। এক হাতা ব্যাটার ঢেলে পাতলা করে ছড়াও। ওপরটা জমে এলে এক পাশে লম্বা করে পুর রেখে গুটিয়ে নাও।",
+      "action_en": "Warm the tawa on low heat and brush it with ghee. Pour on a ladle of batter and swirl it thin. When the top has set, lay a line of filling along one side and roll the crêpe up.",
+      "maa_says": "আঁচ কম রাখো, পাটিসাপটা সাদা থাকবে, লাল নয়।",
+      "chemistry": {
+        "title": "Pale, not brown",
+        "explanation": "A good patishapta is pale and soft, not crisp and brown, so the tawa stays on low heat. Gentle heat sets the thin batter in a minute or two without the Maillard browning that a hot pan would bring. Brushing on ghee rather than pouring it keeps the crêpe from frying, and adds its nutty aroma."
+      }
+    },
+    {
+      "action_bn": "গরম বা ঠান্ডা, দুভাবেই খাওয়া যায়।",
+      "action_en": "Serve warm or at room temperature.",
+      "maa_says": "পাটিসাপটা পরের দিন খেলে আরও ভালো লাগে।",
+      "chemistry": {
+        "title": "Why they taste good the next day",
+        "explanation": "As patishaptas sit, the moist filling slowly softens the crêpe from inside, and the flavours of gur and coconut spread through. Sweetness tastes stronger at room temperature than when piping hot, so the next day they seem richer still."
+      }
+    }
+  ],
+  "trivia": [
+    "নলেন গুড় is the first, most fragrant jaggery of the winter, tapped from date palms. It's prized for Poush Sankranti sweets.",
+    "Some households fill patishapta with khoa kheer (thickened milk) instead of coconut.",
+    "পিঠে-পুলি covers a whole family of Sankranti sweets: patishapta, puli pithe, bhapa pithe and more."
+  ],
+  "quiz": [
+    {
+      "question": "Why is the tawa kept on low heat?",
+      "options": [
+        "To save gas",
+        "A patishapta should be pale and soft, not browned",
+        "So the ghee doesn't melt",
+        "To keep the filling hot"
+      ],
+      "answer": 1,
+      "explain": "Low heat sets the batter without Maillard browning."
+    },
+    {
+      "question": "What does the maida add to the batter?",
+      "options": [
+        "Sweetness",
+        "A little gluten, so the crêpe rolls without cracking",
+        "Colour",
+        "Fragrance"
+      ],
+      "answer": 1,
+      "explain": "Rice and semolina alone would make a crêpe that cracks."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on rice, wheat and sugar"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from notes provided for this site. Quantities are estimates. order 80 puts it after the chutneys and before rosogolla."
+  }
+}

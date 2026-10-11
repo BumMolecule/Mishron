@@ -6,7 +6,7 @@
   "diet": "veg",
   "tagline": "Urad dal with fennel, ginger and asafoetida: silky, fragrant, and made for aloo posto.",
   "serves": "4",
-  "time_minutes": 45,
+  "time_minutes": 25,
   "golpo": {
     "type": "trivia",
     "title": "Dal for aloo posto",
@@ -120,9 +120,8 @@
   ],
   "trivia": [
     "Urad dal's gummy texture is the same property that makes idli and dosa batter hold its bubbles.",
-    "In Bengal, বিউলির ডাল and আলু পোস্ত are almost always served together.",
-    "Some households add a few slices of fried bottle gourd or ridge gourd to biulir dal in summer.",
-    "Asafoetida is the dried resin of a giant fennel's root, and it's pungent enough that it's kept in airtight tins."
+    "Asafoetida is the dried resin of a giant fennel's root, and it's pungent enough that it's kept in airtight tins.",
+    "How about you visit Indubalar Bhaater Hotel, either the book or the Hoichoi adaptation!"
   ],
   "quiz": [
     {

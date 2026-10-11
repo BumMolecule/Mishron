@@ -1,0 +1,198 @@
+{
+  "id": "echorer-kofta",
+  "name_bn": "ইঁচড়ের কোফতা",
+  "name_en": "Echorer kofta",
+  "section": "pater-shuru",
+  "diet": "veg",
+  "tagline": "Young jackfruit mashed into spiced koftas, fried slowly, and finished in a ginger and tomato gravy.",
+  "serves": "4",
+  "time_minutes": 75,
+  "golpo": {
+    "type": "trivia",
+    "title": "The tree goat",
+    "body": "Bengalis call young, green jackfruit গাছপাঁঠা, the goat that grows on a tree, because cooked well it has the bite and heft of meat. ইঁচড় season comes in spring, before the fruit ripens, and koftas are one of its grandest uses: the jackfruit is cooked soft, mashed with potato and spices, fried into balls, and served in a gravy rich enough that no one misses the mangsho."
+  },
+  "ingredients": [
+    {
+      "item_bn": "ইঁচড়",
+      "item_en": "Young green jackfruit, peeled and cut into chunks",
+      "qty": "500 g"
+    },
+    {
+      "item_bn": "আলু",
+      "item_en": "Potatoes: 1 for the koftas, 2 cut into pieces for the gravy",
+      "qty": "3 medium"
+    },
+    {
+      "item_bn": "হলুদ",
+      "item_en": "Turmeric: for boiling, for the koftas and for the paste",
+      "qty": "1½ tsp"
+    },
+    {
+      "item_bn": "লঙ্কা গুঁড়ো",
+      "item_en": "Red chilli powder",
+      "qty": "1½ tsp"
+    },
+    {
+      "item_bn": "ভাজা মশলা",
+      "item_en": "Bhaja moshla (roasted spice powder)",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "বিস্কুটের গুঁড়ো",
+      "item_en": "Breadcrumbs",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "বেসন",
+      "item_en": "Besan (gram flour)",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "পেঁয়াজ কুচি",
+      "item_en": "Onion, thinly sliced",
+      "qty": "1 small"
+    },
+    {
+      "item_bn": "টমেটো",
+      "item_en": "Tomatoes",
+      "qty": "2"
+    },
+    {
+      "item_bn": "জিরে গুঁড়ো",
+      "item_en": "Ground cumin",
+      "qty": "1½ tsp"
+    },
+    {
+      "item_bn": "আদা বাটা",
+      "item_en": "Ginger paste",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "তেজপাতা, গোটা জিরে, গোটা গরম মশলা",
+      "item_en": "Bay leaves, cumin seeds and whole garam masala, for the tempering",
+      "qty": "2, 1 tsp, a few"
+    },
+    {
+      "item_bn": "গরম মশলা গুঁড়ো",
+      "item_en": "Garam masala powder",
+      "qty": "½ tsp"
+    },
+    {
+      "item_bn": "ঘি",
+      "item_en": "Ghee",
+      "qty": "1 tsp"
+    },
+    {
+      "item_bn": "নুন ও চিনি",
+      "item_en": "Salt and sugar",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষের তেল",
+      "item_en": "Mustard oil, for frying and the gravy",
+      "qty": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "হাতে তেল মেখে ইঁচড়ের খোসা ছাড়িয়ে টুকরো করো। জলে ধুয়ে কষ যতটা পারো তুলে ফেলো।",
+      "action_en": "Oil your hands, peel the jackfruit and cut it into chunks. Wash the pieces to get rid of as much of the sticky sap as you can.",
+      "maa_says": "ইঁচড়ের কষ হাতে লাগলে সহজে ওঠে না, আগে তেল মেখে নিও।",
+      "chemistry": {
+        "title": "Oil beats the sap",
+        "explanation": "Green jackfruit oozes a sticky white latex. It's rubbery and doesn't dissolve in water, which is why it clings to knives and fingers no matter how much you rinse. Oil on your hands and blade stops it sticking in the first place, and washing the cut pieces removes what has oozed onto them."
+      }
+    },
+    {
+      "action_bn": "প্রেশার কুকারে ইঁচড় নুন আর হলুদ দিয়ে সেদ্ধ করো, একদম নরম না হওয়া পর্যন্ত।",
+      "action_en": "Pressure-cook the jackfruit with salt and turmeric until it's completely soft, about 10 minutes at full pressure.",
+      "maa_says": "ইঁচড় ভালো সেদ্ধ না হলে কোফতা মসৃণ হবে না।",
+      "chemistry": {
+        "title": "Breaking down a tough, fibrous fruit",
+        "explanation": "Young jackfruit is dense and fibrous, held together by plenty of pectin. The 121 °C of a pressure cooker breaks that down far faster than an open pot, so the flesh softens enough to mash smoothly. Time it by minutes at full pressure rather than by whistles, because whistles depend on how hot your stove runs."
+      }
+    },
+    {
+      "action_bn": "সেদ্ধ ইঁচড় আর একটা সেদ্ধ আলু ভালো করে চটকে নাও। লঙ্কা গুঁড়ো, হলুদ, চিনি, ভাজা মশলা, বিস্কুটের গুঁড়ো, বেসন আর পেঁয়াজ কুচি মিশিয়ে ছোট ছোট কোফতা গড়ো।",
+      "action_en": "Mash the cooked jackfruit well with one boiled potato. Mix in the chilli powder, turmeric, a little sugar, the bhaja moshla, breadcrumbs, besan and sliced onion, and shape into small koftas.",
+      "maa_says": "মিশ্রণ বেশি নরম হলে আরেকটু বিস্কুটের গুঁড়ো দিও।",
+      "chemistry": {
+        "title": "What holds a kofta together",
+        "explanation": "Mashed jackfruit alone is too loose and fibrous to hold a shape. The potato's starch makes it smooth and sticky, while the breadcrumbs and besan soak up spare moisture and set firm in the hot oil. The bhaja moshla was roasted before grinding, which brings out much more of its aroma than raw spice powder."
+      }
+    },
+    {
+      "action_bn": "কড়াইতে তেল গরম করে কম আঁচে কোফতাগুলো সোনালি করে ভেজে তোলো। ওই তেলেই আলুর টুকরো কম আঁচে ভেজে নাও।",
+      "action_en": "Fry the koftas in hot oil on a low flame until golden, and lift them out. Fry the potato pieces in the same oil, also on low heat.",
+      "maa_says": "আঁচ বেশি হলে বাইরে পুড়ে যাবে, ভেতর কাঁচা থাকবে।",
+      "chemistry": {
+        "title": "Low and slow for an even crust",
+        "explanation": "A kofta is thick, so it needs time for the heat to reach the middle. On a low flame, the outside dries and browns steadily through the Maillard reaction while the inside heats through. On high heat, the crust darkens before the centre is warm. That crust is what later lets the koftas sit in gravy without falling apart."
+      }
+    },
+    {
+      "action_bn": "টমেটো, জিরে গুঁড়ো, হলুদ, আদা বাটা আর লঙ্কা গুঁড়ো একসঙ্গে বেটে নাও। কড়াইতে তেল গরম করে তেজপাতা, গোটা গরম মশলা আর গোটা জিরে ফোড়ন দাও। মশলা বাটা দিয়ে কম আঁচে কষাও, যাতে না পোড়ে।",
+      "action_en": "Grind the tomatoes, ground cumin, turmeric, ginger paste and chilli powder to a paste. Heat oil, add the bay leaves, whole garam masala and cumin seeds, then add the paste and cook it on a low flame so it doesn't burn.",
+      "maa_says": "মশলা তলায় লেগে গেলে জলের ছিটে দিও, কিন্তু আঁচ বাড়িও না।",
+      "chemistry": {
+        "title": "Cooking the masala until the oil separates",
+        "explanation": "The paste is mostly tomato water at first. As it cooks gently, the water evaporates, the tomato's sugars, acids and glutamates concentrate, and the spices start frying in the oil, where their flavour dissolves. When the oil separates at the edges, the raw taste is gone. Low heat matters because spice powders scorch fast."
+      }
+    },
+    {
+      "action_bn": "ভাজা আলু দিয়ে ভালো করে কষাও, তারপর জল দিয়ে ফোটাও। আলু সেদ্ধ হয়ে ঝোল খানিকটা টেনে এলে কোফতা দিয়ে একবার ফুটিয়ে ঢাকা দাও, আর আঁচ বন্ধ করে দাও।",
+      "action_en": "Add the fried potatoes and stir them through the masala, then add water and bring it to a boil. When the potatoes are cooked and the gravy has thickened a little, slip in the koftas, let it come back to a boil once, cover, and turn off the heat.",
+      "maa_says": "কোফতা দিয়ে আর নাড়াচাড়া কোরো না, ভেঙে যাবে।",
+      "chemistry": {
+        "title": "The koftas cook in the resting heat",
+        "explanation": "The koftas are already cooked, so they only need to warm through and soak up some gravy. One boil and a few minutes covered off the heat does that gently. Simmered for long, they'd drink up too much liquid and break apart."
+      }
+    },
+    {
+      "action_bn": "গরম মশলা গুঁড়ো আর ঘি ছড়িয়ে দাও। ভাতের সঙ্গে দাও।",
+      "action_en": "Finish with the garam masala and ghee, and serve with rice.",
+      "maa_says": "শেষের ঘি আর গরম মশলাতেই গন্ধ।",
+      "chemistry": {
+        "title": "Aroma last",
+        "explanation": "Garam masala's aroma is volatile and fades with cooking, so it goes in at the very end. Ghee, being fat, catches those aroma molecules and carries them to your nose as you eat."
+      }
+    }
+  ],
+  "trivia": [
+    "ইঁচড় is nicknamed গাছপাঁঠা, the tree goat, for its meaty texture.",
+    "Jackfruit is the largest tree-borne fruit in the world. It's the national fruit of Bangladesh.",
+    "The same green jackfruit makes ইঁচড়ের ডালনা, a simpler curry that's a spring favourite."
+  ],
+  "quiz": [
+    {
+      "question": "Why oil your hands before cutting green jackfruit?",
+      "options": [
+        "To keep them cool",
+        "Its rubbery sap won't wash off with water, but it can't stick to oiled skin",
+        "To flavour the fruit",
+        "To stop it browning"
+      ],
+      "answer": 1,
+      "explain": "The latex isn't water-soluble; oil stops it clinging."
+    },
+    {
+      "question": "Why are the koftas added to the gravy only at the end?",
+      "options": [
+        "So they stay crisp",
+        "They'd soak up too much liquid and break if they simmered",
+        "To cook the besan",
+        "To keep the gravy thin"
+      ],
+      "answer": 1,
+      "explain": "They're already cooked; they just need to warm and absorb a little gravy."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on pressure cooking, frying and spices"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from notes provided for this site. The notes didn't say when the koftas go into the gravy, so I add them at the end. Quantities are estimates."
+  }
+}

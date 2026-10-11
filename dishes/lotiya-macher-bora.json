@@ -6,10 +6,10 @@
   "diet": "non-veg",
   "tagline": "Soft, watery Bombay duck turned into crisp fritters, and how a rice paste holds it together.",
   "serves": "4",
-  "time_minutes": 35,
+  "time_minutes": 30,
   "golpo": {
     "type": "trivia",
-    "title": "A fish called a duck",
+    "title": "Is it a fish? Is it a duck?",
     "body": "লোটে মাছ is what English calls Bombay duck, though it's no duck at all: it's a lizardfish, Harpadon nehereus, caught along the coasts of the Bay of Bengal and the Arabian Sea. Its flesh is so soft and full of water that it's almost jelly, which makes it hard to cook whole and perfect for this. Chopped, bound with rice paste and besan and fried, it turns into the crispest, lightest bora on the plate, eaten with the first mouthfuls of rice."
   },
   "ingredients": [

@@ -11,7 +11,7 @@
   "golpo": {
     "type": "history",
     "title": "The sweet that went to court",
-    "body": "Ask in Kolkata and you'll hear that Nobin Chandra Das of Bagbazar created the rosogolla in 1868 by boiling balls of chhena in syrup. Odisha tells an older story: the rasagola offered at the Jagannath temple in Puri. The argument went all the way to India's Geographical Indication registry, which gave 'Banglar Rosogolla' a GI tag in 2017 and 'Odisha Rasagola' its own in 2019. Both sides declared victory.",
+    "body": "The alleys of Kolkata hear that Nobin Chandra Das of Bagbazar created the roshogolla in 1868 by boiling balls of chhena in syrup. Odisha paints an older story: the rasagola/rasgulla offered at the Jagannath temple in Puri. The argument went all the way to India's Geographical Indication registry, which gave 'Banglar Roshogolla' a GI tag in 2017 and 'Odisha Rasagola' its own in 2019. Both sides declared victory.",
     "source": "Geographical Indications Registry of India, 2017 and 2019"
   },
   "ingredients": [
@@ -43,7 +43,7 @@
   ],
   "steps": [
     {
-      "action_bn": "দুধ ফুটিয়ে নাও, তারপর আঁচ বন্ধ করে এক-দু মিনিট ঠান্ডা হতে দাও।",
+      "action_bn": "বড়ো কড়াইতে দুধ ফুটিয়ে নাও, তারপর আঁচ বন্ধ করে এক-দু মিনিট ঠান্ডা হতে দাও।",
       "action_en": "Bring the milk to a boil, turn off the heat and let it cool for a minute or two.",
       "maa_says": "ফুটন্ত দুধে লেবু দিলে ছানা শক্ত হয়ে যায়।",
       "chemistry": {
@@ -85,7 +85,7 @@
       "maa_says": "সব লেবু একবারে ঢেলো না, দুধ কেটে গেলেই থামো।",
       "chemistry": {
         "title": "Casein's isoelectric point",
-        "explanation": "Casein travels through milk in tiny clusters called micelles. Their surfaces carry a negative charge and a fuzzy outer layer of κ-casein, and both keep the micelles apart. Citric acid from the lemon pulls the pH down towards 4.6, the isoelectric point of casein, where its net charge is close to zero. With nothing pushing them apart, the micelles collapse and clump into curds. Stopping as soon as the milk splits keeps extra acid out of the chhena. The greenish tint of the leftover whey is riboflavin, vitamin B2.",
+        "explanation": "Casein travels through milk in tiny clusters called micelles (happens the same with your detergents). Their surfaces carry a negative charge and a fuzzy outer layer of κ-casein, and both keep the micelles apart. Citric acid from the lemon pulls the pH down towards 4.6, the isoelectric point of casein, where its net charge is close to zero. With nothing pushing them apart, the micelles collapse and clump into curds. Stopping as soon as the milk splits keeps extra acid out of the chhena. The greenish tint of the leftover whey is riboflavin, vitamin B2.",
         "molecules": [
           {
             "name": "Citric acid",
@@ -178,7 +178,7 @@
   ],
   "trivia": [
     "Paneer is made with the same acid-curdling trick. The difference is that paneer is pressed firm, while chhena for rosogolla is kept moist and kneaded smooth.",
-    "Don't throw away the whey. It's good for kneading roti dough or cooking rice."
+    "Watch the 2018 flick Rosogolla which captures the saga of the sweet's invention."
   ],
   "quiz": [
     {
@@ -195,12 +195,12 @@
     {
       "question": "What happens to a rosogolla cooked in thick syrup?",
       "options": [
-        "It puffs up even more",
         "Water is drawn out of it and it turns dense",
         "It dissolves completely",
-        "It turns brown"
+        "It turns brown",
+        "It puffs up even more"
       ],
-      "answer": 1,
+      "answer": 0,
       "explain": "Thick syrup has more dissolved sugar than the ball, so osmosis pulls water out and the sponge can't form."
     }
   ],

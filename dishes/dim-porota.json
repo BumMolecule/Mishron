@@ -4,39 +4,29 @@
   "name_en": "Dim porota",
   "section": "mukhorochok",
   "diet": "non-veg",
-  "tagline": "A flaky paratha with a spiced egg cooked right onto it, folded into a square on a hot tawa.",
+  "tagline": "A quick batter of maida and semolina with an egg poured on top, cooked under a lid on a low flame.",
   "serves": "4 porotas",
-  "time_minutes": 50,
+  "time_minutes": 30,
   "golpo": {
     "type": "trivia",
-    "title": "Breakfast, tiffin, or two in the morning",
-    "body": "ডিম পরোটা is Kolkata's anytime food: a home breakfast, a school tiffin box, and a late-night stop at a roadside stall where the paratha is slapped onto a huge tawa and a beaten egg poured over it. It's the simple cousin of mughlai porota, which wraps egg and mince inside a sealed parcel. Here the egg is cooked onto one side of the paratha, then folded into a square so it stays soft inside while the outside crisps."
+    "title": "No kneading, no rolling",
+    "body": "This is the busy-morning ডিম পরোটা: no dough to knead, no paratha to roll. A loose batter of maida and semolina with onion, green chilli and coriander is poured onto the tawa like a thick pancake, beaten egg goes over the top, and a lid does the rest. It's soft and eggy on top, golden and slightly crisp underneath, and ready before the tea is."
   },
   "ingredients": [
     {
       "item_bn": "ময়দা",
       "item_en": "Maida (plain flour)",
-      "qty": "2 cups (about 250 g)"
+      "qty": "1 cup"
     },
     {
-      "item_bn": "ঘি বা তেল",
-      "item_en": "Ghee or oil, for the dough",
-      "qty": "2 tbsp"
-    },
-    {
-      "item_bn": "নুন",
-      "item_en": "Salt",
-      "qty": "½ tsp, plus more for the eggs"
+      "item_bn": "সুজি",
+      "item_en": "Sooji (fine semolina)",
+      "qty": "¼ cup"
     },
     {
       "item_bn": "জল",
       "item_en": "Water",
-      "qty": "About ¾ cup"
-    },
-    {
-      "item_bn": "ডিম",
-      "item_en": "Eggs",
-      "qty": "4"
+      "qty": "About 1 cup"
     },
     {
       "item_bn": "পেঁয়াজ কুচি",
@@ -54,6 +44,16 @@
       "qty": "2 tbsp"
     },
     {
+      "item_bn": "ডিম",
+      "item_en": "Eggs",
+      "qty": "4"
+    },
+    {
+      "item_bn": "নুন",
+      "item_en": "Salt, for the batter and the eggs",
+      "qty": "To taste"
+    },
+    {
       "item_bn": "তেল",
       "item_en": "Oil, for the tawa",
       "qty": "As needed"
@@ -61,85 +61,85 @@
   ],
   "steps": [
     {
-      "action_bn": "ময়দায় নুন আর ঘি মিশিয়ে ময়ান দাও, তারপর অল্প অল্প জল দিয়ে নরম ময়দা মেখে আধ ঘণ্টা ঢেকে রাখো।",
-      "action_en": "Rub the ghee and salt into the flour, then add water a little at a time to make a soft dough. Cover and rest it for half an hour.",
-      "maa_says": "ময়ান ঠিক হলে পরোটা খাস্তা হয়।",
+      "action_bn": "ময়দা, সুজি আর নুন অল্প অল্প জল দিয়ে মিশিয়ে মসৃণ ব্যাটার বানাও। পেঁয়াজ, কাঁচা লঙ্কা আর ধনেপাতা দিয়ে ভালো করে মেশাও। দশ মিনিট রেখে দাও।",
+      "action_en": "Mix the maida, sooji and a little salt with water, adding it gradually, to make a smooth batter. Add the onion, green chillies and coriander leaves, and mix well. Let it rest for 10 minutes.",
+      "maa_says": "ব্যাটার যেন দলা না পাকায়, অল্প অল্প জল দিয়ে মেশাও।",
       "chemistry": {
-        "title": "Fat shortens, rest relaxes",
-        "explanation": "When water meets flour, two wheat proteins link into stretchy gluten. Maida forms stronger gluten than atta, which is good for a pliable paratha, but too much makes it chewy. Rubbing in fat first coats some of the flour and shortens the gluten strands, which is what makes the paratha tender and flaky. The rest lets the gluten form and relax by itself, so the dough rolls out easily without springing back."
+        "title": "Why semolina, and why the rest",
+        "explanation": "In a runny batter, there's so much water that the flour's gluten never builds the strong, stretchy network a kneaded dough has, so the porota stays tender rather than chewy. Sooji is coarse, so it gives a pleasant grainy bite and a crisper base. The ten-minute rest lets the semolina soak up water and soften; added straight away, it stays gritty. Adding water a little at a time keeps lumps from forming."
       }
     },
     {
-      "action_bn": "ডিম ফেটিয়ে পেঁয়াজ, কাঁচা লঙ্কা, ধনেপাতা আর নুন মিশিয়ে ১৫ মিনিট রেখে দাও।",
-      "action_en": "Beat the eggs with the onion, green chillies, coriander and salt, and let the mixture sit for 15 minutes.",
-      "maa_says": "ডিমে আগে নুন দিয়ে রাখলে পরোটার ভেতরটা নরম থাকে।",
+      "action_bn": "আলাদা বাটিতে ডিম অল্প নুন দিয়ে ফেটিয়ে রাখো।",
+      "action_en": "In a separate bowl, beat the eggs with a pinch of salt and keep them ready.",
+      "maa_says": "ডিমে আগে নুন দিয়ে ফেটিয়ে রাখলে নরম হয়।",
       "chemistry": {
         "title": "Salt the egg early",
-        "explanation": "Salt added to beaten egg a while before cooking loosens the egg proteins, so when heat hits they set more gently and stay soft instead of turning rubbery. It's the same trick that makes a better omelette or bhurji. The onion softens a little in the salted egg too."
+        "explanation": "Salt mixed into beaten egg a little while before cooking loosens the proteins, so they set more gently and the egg stays soft and tender instead of turning rubbery. The same trick makes a softer omelette or bhurji."
       }
     },
     {
-      "action_bn": "লেচি কেটে বড় চৌকো বা গোল করে পাতলা বেলে নাও।",
-      "action_en": "Divide the dough into four balls and roll each one out thin and wide.",
-      "maa_says": "পাতলা বেললে ডিম ভালো ছড়াবে।",
+      "action_bn": "চাটু গরম করে ব্রাশ দিয়ে অল্প তেল মাখাও। ব্যাটার ঢেলে সমান করে ছড়িয়ে দাও, তার ওপর ফেটানো ডিম ঢালো।",
+      "action_en": "Heat a tawa and brush it lightly with oil. Pour on a ladle of the batter and spread it evenly, then pour the beaten egg over the top.",
+      "maa_says": "ব্যাটার খুব পাতলা কোরো না, ডিমের ভার রাখতে হবে।",
       "chemistry": {
-        "title": "Thin dough cooks fast",
-        "explanation": "A thin sheet cooks through in the same few minutes it takes the egg to set and the outside to brown, so nothing ends up raw or burnt. Use as little dusting flour as you can: loose flour scorches on the hot tawa and tastes bitter."
+        "title": "A base for the egg",
+        "explanation": "The hot, oiled tawa starts setting the bottom of the batter at once, so it can hold the egg without the egg seeping through. A thin film of oil fills the tiny gaps between batter and metal, so heat reaches the whole base evenly and it browns without sticking."
       }
     },
     {
-      "action_bn": "গরম চাটুতে পরোটা দিয়ে এক পিঠ অল্প সেঁকে উল্টে দাও। ওপরে ডিমের মিশ্রণ ঢেলে চারদিক থেকে মুড়ে চৌকো করো, তারপর তেল দিয়ে দুপিঠ সোনালি করে ভাজো।",
-      "action_en": "Lay the paratha on a hot tawa and cook one side briefly, then flip it. Pour a quarter of the egg mixture over the top, fold the edges in to make a square parcel, and fry both sides in a little oil until golden.",
-      "maa_says": "ডিম ঢেলে তাড়াতাড়ি মুড়ে ফেলো, নইলে গড়িয়ে পড়বে।",
+      "action_bn": "ঢাকা দিয়ে কম আঁচে ৫–১০ মিনিট রাখো, যতক্ষণ না নিচটা পুরো সেদ্ধ হয়ে সোনালি হয় আর ডিম জমে যায়।",
+      "action_en": "Cover and cook on a low flame for 5–10 minutes, until the base is cooked through and golden and the egg on top has set.",
+      "maa_says": "আঁচ বাড়িও না, নিচটা পুড়ে যাবে আর ওপরটা কাঁচা থেকে যাবে।",
       "chemistry": {
-        "title": "Two kinds of cooking at once",
-        "explanation": "The tawa does two jobs here. Its hot metal browns the paratha's surface through the Maillard reaction, giving those golden, toasty spots. Inside the fold, the egg is cut off from direct heat and cooks more gently in the trapped steam, setting soft at around 62–70 °C. The oil fills the gaps between dough and tawa so heat reaches every part evenly."
+        "title": "The lid cooks the top",
+        "explanation": "The tawa heats the porota only from below, so the egg on top would stay runny if it were left open. The lid traps steam rising from the batter, and that steam gently sets the egg at around 62–70 °C. Low heat gives the base time to cook right through while its underside browns through the Maillard reaction. On a high flame, the bottom would burn long before the top was done."
       }
     },
     {
-      "action_bn": "পেঁয়াজ-শসা আর টমেটো সস বা কাসুন্দির সঙ্গে গরম গরম দাও।",
-      "action_en": "Serve hot with sliced onion and cucumber, and tomato ketchup or kasundi.",
-      "maa_says": "পরোটা ঠান্ডা হলে শক্ত হয়ে যায়, গরম থাকতেই খাও।",
+      "action_bn": "গরম গরম পরিবেশন করো, টমেটো সস বা কাসুন্দির সঙ্গে।",
+      "action_en": "Serve hot, with tomato ketchup or kasundi.",
+      "maa_says": "ঠান্ডা হলে শক্ত হয়ে যায়, তাই চাটু থেকে সোজা পাতে।",
       "chemistry": {
-        "title": "Why it toughens as it cools",
-        "explanation": "As a paratha cools, its gelatinised starch slowly re-sets and steam escapes, so the soft crumb firms and the crust loses its crispness. Fried breads are at their best within minutes. If you have to wait, wrap them in a cloth to keep the steam in."
+        "title": "Best straight off the tawa",
+        "explanation": "As it cools, the cooked starch in the batter slowly re-sets and steam escapes, so the soft porota firms up and the crisp base goes limp. Eat it within minutes. A sour, pungent kasundi or a sweet-sour ketchup cuts through the richness of the egg."
       }
     }
   ],
   "trivia": [
-    "Mughlai porota is the deluxe version: egg and minced meat sealed inside a folded paratha and shallow-fried.",
-    "Kolkata's roadside paratha stalls cook on tawas more than a metre wide.",
-    "Tomato ketchup is the classic dip at a dim porota stall, but kasundi is the Bengali upgrade."
+    "Mughlai porota is the elaborate cousin: egg and mince sealed inside a folded paratha and shallow-fried.",
+    "Semolina is coarsely milled durum wheat, the same grain that goes into pasta.",
+    "Kolkata's roadside stalls make a rolled-dough version of dim porota on tawas more than a metre wide."
   ],
   "quiz": [
     {
-      "question": "What does rubbing ghee into the flour do?",
+      "question": "Why does the batter rest for ten minutes?",
       "options": [
-        "Makes it rise",
-        "Shortens the gluten strands, so the paratha is flaky and tender",
-        "Makes it sweeter",
-        "Stops it browning"
+        "To ferment",
+        "So the semolina can soak up water and soften",
+        "To cool down",
+        "So the onion releases water"
       ],
       "answer": 1,
-      "explain": "Fat coats the flour and limits gluten development."
+      "explain": "Coarse sooji needs time to hydrate, or it stays gritty."
     },
     {
-      "question": "Why is the egg salted 15 minutes before cooking?",
+      "question": "What cooks the egg on top?",
       "options": [
-        "To make it salty",
-        "Salt loosens the proteins, so the egg sets softer",
-        "To kill bacteria",
-        "To thicken it"
+        "The oil",
+        "Steam trapped under the lid",
+        "The heat of the onion",
+        "It doesn't cook"
       ],
       "answer": 1,
-      "explain": "Pre-salting gives softer, fluffier cooked egg."
+      "explain": "The tawa only heats from below; the lid's steam sets the top."
     }
   ],
   "further_reading": [
-    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on wheat, eggs and the bread algorithm"
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on wheat and eggs"
   ],
   "review": {
     "status": "draft",
-    "notes": "Quantities are estimates."
+    "notes": "Built from notes provided for this site. Quantities are estimates."
   }
 }

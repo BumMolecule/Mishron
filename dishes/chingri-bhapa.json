@@ -1,0 +1,133 @@
+{
+  "id": "chingri-bhapa",
+  "name_bn": "চিংড়ি ভাপা",
+  "name_en": "Chingri bhapa",
+  "section": "kobji-dubiye",
+  "diet": "non-veg",
+  "tagline": "Prawns in a mustard, poppy-seed and coconut paste, finished with raw mustard oil for the kick.",
+  "serves": "4",
+  "time_minutes": 35,
+  "golpo": {
+    "type": "trivia",
+    "title": "Mustard is the point",
+    "body": "ভাপা means steamed. Traditionally the prawns and their mustard paste are sealed in a tiffin box and set in the steaming rice pot, or wrapped in banana leaf. This is the quicker pan version, gently simmered instead. Either way the soul of the dish is the same: a sharp, nose-tingling mustard paste softened with poppy seed and coconut, and a last spoonful of raw mustard oil."
+  },
+  "ingredients": [
+    {
+      "item_bn": "চিংড়ি",
+      "item_en": "Prawns, cleaned and deveined",
+      "qty": "500 g"
+    },
+    {
+      "item_bn": "নুন ও হলুদ",
+      "item_en": "Salt and turmeric, for the prawns",
+      "qty": "To taste"
+    },
+    {
+      "item_bn": "সর্ষে",
+      "item_en": "Mustard seeds (yellow and black), soaked",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "পোস্ত",
+      "item_en": "Poppy seeds, soaked",
+      "qty": "1 tbsp"
+    },
+    {
+      "item_bn": "শুকনো লঙ্কা",
+      "item_en": "Dried red chillies",
+      "qty": "2"
+    },
+    {
+      "item_bn": "নারকেল কোরা",
+      "item_en": "Grated coconut",
+      "qty": "3 tbsp"
+    },
+    {
+      "item_bn": "কাঁচা সর্ষের তেল",
+      "item_en": "Mustard oil, plus 2 tsp raw at the end",
+      "qty": "2 tbsp"
+    },
+    {
+      "item_bn": "কাঁচা লঙ্কা",
+      "item_en": "Green chillies, torn",
+      "qty": "3–4"
+    },
+    {
+      "item_bn": "জল",
+      "item_en": "Water",
+      "qty": "About ½ cup"
+    }
+  ],
+  "steps": [
+    {
+      "action_bn": "চিংড়িতে নুন-হলুদ মাখিয়ে অল্প সর্ষের তেলে হালকা করে ভেজে নাও।",
+      "action_en": "Rub the prawns with salt and turmeric and fry them lightly in a little mustard oil, just until pink.",
+      "maa_says": "চিংড়ি বেশি ভাজলে শক্ত হয়ে যায়।",
+      "chemistry": {
+        "title": "A light first fry",
+        "explanation": "A short fry gives the prawns a little browned flavour and firms them so they hold their shape in the paste. Prawn protein sets in a minute or two and toughens if it keeps cooking, so they come out while they're still slightly translucent in the middle."
+      }
+    },
+    {
+      "action_bn": "ভেজানো সর্ষে, পোস্ত, শুকনো লঙ্কা আর নারকেল অল্প নুন দিয়ে একসঙ্গে মিহি করে বেটে নাও।",
+      "action_en": "Grind the soaked mustard seeds, poppy seeds, dried chillies and coconut with a pinch of salt to a smooth paste.",
+      "maa_says": "সর্ষে বেশিক্ষণ ঘোরালে তেতো হয়, অল্প নুন দিয়ে তাড়াতাড়ি বেটে নিও।",
+      "chemistry": {
+        "title": "Where the mustard's bite comes from",
+        "explanation": "Whole mustard seeds aren't sharp. When soaked seeds are crushed, an enzyme meets the seeds' mustard compounds and releases allyl isothiocyanate, the nose-tingling heat. Grinding too long, or with too much skin, brings out bitterness, which is why Bengali cooks grind mustard quickly with a pinch of salt and a chilli. Poppy seeds and coconut are rich in oil and soften the paste into something creamy.",
+        "molecules": [
+          {
+            "name": "Allyl isothiocyanate",
+            "smiles": "C=CCN=C=S",
+            "note": "Mustard's pungency."
+          }
+        ]
+      }
+    },
+    {
+      "action_bn": "কড়াইতে চিংড়ির ওপর মশলা বাটা আর জল দিয়ে ঢেকে কম আঁচে ফোটাও।",
+      "action_en": "In the pan, spread the paste over the prawns, add the water, cover and simmer on low heat for 6–8 minutes.",
+      "maa_says": "ঢিমে আঁচে ঢেকে রাখো, যাতে চিংড়ি মশলায় ভাপে।",
+      "chemistry": {
+        "title": "Gentle heat mellows mustard",
+        "explanation": "The covered pan steams the prawns in the paste, as the traditional tiffin box would. Mustard's sharp molecule is volatile, so simmering softens its harshness into a rounded warmth, and the steam keeps the prawns tender instead of drying them out."
+      }
+    },
+    {
+      "action_bn": "নামানোর আগে কাঁচা সর্ষের তেল আর হাতে ছেঁড়া কাঁচা লঙ্কা ছড়িয়ে দাও। ঢেকে দু'মিনিট রেখে ভাতের সঙ্গে দাও।",
+      "action_en": "Just before it's done, drizzle over the raw mustard oil and scatter the torn green chillies. Cover for two minutes, then serve with rice.",
+      "maa_says": "শেষের কাঁচা তেলটাই ভাপার প্রাণ।",
+      "chemistry": {
+        "title": "Putting the kick back",
+        "explanation": "Simmering has softened the mustard, so a spoonful of raw mustard oil at the end brings back the pungency that heating drove off. Torn green chillies release their fresh, grassy aroma into the warm paste without adding much heat, since most of a chilli's capsaicin sits in its pith."
+      }
+    }
+  ],
+  "trivia": [
+    "ভাপা dishes are traditionally steamed in a sealed tiffin box placed inside the rice pot as it cooks.",
+    "Bengali kitchens often mix yellow and black mustard seeds: yellow is milder, black is sharper.",
+    "The same paste makes ইলিশ ভাপা, perhaps the most famous bhapa of all."
+  ],
+  "quiz": [
+    {
+      "question": "Why add raw mustard oil at the end?",
+      "options": [
+        "To make the gravy thicker",
+        "Heat drives off mustard's pungent molecule, and raw oil brings it back",
+        "To stop sticking",
+        "For colour"
+      ],
+      "answer": 1,
+      "explain": "Allyl isothiocyanate is volatile; the raw oil restores the kick."
+    }
+  ],
+  "further_reading": [
+    "Krish Ashok, Masala Lab: The Science of Indian Cooking (Penguin, 2020): the chapters on spices and on meat and seafood",
+    "Harold McGee, On Food and Cooking (2004): the chapter on herbs and spices (mustard's pungency)"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Built from notes provided for this site. This is the pan version, simmered rather than steamed. Quantities are estimates."
+  }
+}

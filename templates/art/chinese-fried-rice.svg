@@ -1,0 +1,48 @@
+<svg class="art" viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+<circle class="c" cx="120" cy="120" r="114"/>
+<circle class="r" cx="120.0" cy="16.0" r="2.4"/>
+<circle class="r" cx="136.3" cy="17.3" r="2.4"/>
+<circle class="r" cx="152.1" cy="21.1" r="2.4"/>
+<circle class="r" cx="167.2" cy="27.3" r="2.4"/>
+<circle class="r" cx="181.1" cy="35.9" r="2.4"/>
+<circle class="r" cx="193.5" cy="46.5" r="2.4"/>
+<circle class="r" cx="204.1" cy="58.9" r="2.4"/>
+<circle class="r" cx="212.7" cy="72.8" r="2.4"/>
+<circle class="r" cx="218.9" cy="87.9" r="2.4"/>
+<circle class="r" cx="222.7" cy="103.7" r="2.4"/>
+<circle class="r" cx="224.0" cy="120.0" r="2.4"/>
+<circle class="r" cx="222.7" cy="136.3" r="2.4"/>
+<circle class="r" cx="218.9" cy="152.1" r="2.4"/>
+<circle class="r" cx="212.7" cy="167.2" r="2.4"/>
+<circle class="r" cx="204.1" cy="181.1" r="2.4"/>
+<circle class="r" cx="193.5" cy="193.5" r="2.4"/>
+<circle class="r" cx="181.1" cy="204.1" r="2.4"/>
+<circle class="r" cx="167.2" cy="212.7" r="2.4"/>
+<circle class="r" cx="152.1" cy="218.9" r="2.4"/>
+<circle class="r" cx="136.3" cy="222.7" r="2.4"/>
+<circle class="r" cx="120.0" cy="224.0" r="2.4"/>
+<circle class="r" cx="103.7" cy="222.7" r="2.4"/>
+<circle class="r" cx="87.9" cy="218.9" r="2.4"/>
+<circle class="r" cx="72.8" cy="212.7" r="2.4"/>
+<circle class="r" cx="58.9" cy="204.1" r="2.4"/>
+<circle class="r" cx="46.5" cy="193.5" r="2.4"/>
+<circle class="r" cx="35.9" cy="181.1" r="2.4"/>
+<circle class="r" cx="27.3" cy="167.2" r="2.4"/>
+<circle class="r" cx="21.1" cy="152.1" r="2.4"/>
+<circle class="r" cx="17.3" cy="136.3" r="2.4"/>
+<circle class="r" cx="16.0" cy="120.0" r="2.4"/>
+<circle class="r" cx="17.3" cy="103.7" r="2.4"/>
+<circle class="r" cx="21.1" cy="87.9" r="2.4"/>
+<circle class="r" cx="27.3" cy="72.8" r="2.4"/>
+<circle class="r" cx="35.9" cy="58.9" r="2.4"/>
+<circle class="r" cx="46.5" cy="46.5" r="2.4"/>
+<circle class="r" cx="58.9" cy="35.9" r="2.4"/>
+<circle class="r" cx="72.8" cy="27.3" r="2.4"/>
+<circle class="r" cx="87.9" cy="21.1" r="2.4"/>
+<circle class="r" cx="103.7" cy="17.3" r="2.4"/>
+<ellipse class="w" cx="120" cy="150" rx="96" ry="40"/>
+<ellipse class="n t" cx="120" cy="148" rx="84" ry="32"/>
+<path class="c" d="M60,140 C62,110 96,96 120,96 C146,96 178,110 180,140 C160,152 80,152 60,140 Z"/>
+<ellipse class="w" cx="92" cy="124" rx="4" ry="2.2" transform="rotate(20 92 124)"/><ellipse class="w" cx="112" cy="128" rx="4" ry="2.2" transform="rotate(-30 112 128)"/><ellipse class="w" cx="132" cy="122" rx="4" ry="2.2" transform="rotate(10 132 122)"/><ellipse class="w" cx="152" cy="130" rx="4" ry="2.2" transform="rotate(-10 152 130)"/><ellipse class="w" cx="122" cy="140" rx="4" ry="2.2" transform="rotate(40 122 140)"/><ellipse class="w" cx="100" cy="134" rx="4" ry="2.2" transform="rotate(0 100 134)"/><ellipse class="w" cx="144" cy="138" rx="4" ry="2.2" transform="rotate(30 144 138)"/><ellipse class="w" cx="80" cy="130" rx="4" ry="2.2" transform="rotate(-20 80 130)"/><ellipse class="w" cx="162" cy="126" rx="4" ry="2.2" transform="rotate(20 162 126)"/><rect class="o" x="84" y="128" width="7" height="5" rx="1.5" transform="rotate(10 84 128)"/><rect class="g" x="104" y="120" width="7" height="5" rx="1.5" transform="rotate(-20 104 120)"/><rect class="o" x="126" y="132" width="7" height="5" rx="1.5" transform="rotate(30 126 132)"/><rect class="g" x="146" y="124" width="7" height="5" rx="1.5" transform="rotate(0 146 124)"/><rect class="y" x="160" y="134" width="7" height="5" rx="1.5" transform="rotate(15 160 134)"/><rect class="y" x="96" y="140" width="7" height="5" rx="1.5" transform="rotate(-10 96 140)"/><rect class="r" x="138" y="142" width="7" height="5" rx="1.5" transform="rotate(20 138 142)"/><rect class="r" x="116" y="118" width="7" height="5" rx="1.5" transform="rotate(0 116 118)"/><rect class="o" x="150" y="142" width="7" height="5" rx="1.5" transform="rotate(-30 150 142)"/><rect class="g" x="74" y="136" width="7" height="5" rx="1.5" transform="rotate(40 74 136)"/>
+<path class="n t" d="M168,70 L206,40 M176,76 L212,48"/>
+</svg>

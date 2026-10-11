@@ -9,8 +9,8 @@
   "time_minutes": 45,
   "golpo": {
     "type": "proverb",
-    "title": "Why it's always fish",
-    "body": "Bengal is a delta, laced with rivers and dotted with ponds, and freshwater fish like rui and katla have long been everyday food there. Unlike in much of India, many Bengali Brahmin families have eaten fish for generations. The old saying sums it up: fish and rice make a Bengali.",
+    "title": "A Fishy Affair",
+    "body": "We live in a delta, laced with rivers and dotted with ponds, and freshwater fish like rui and katla have long been everyday food there. Unlike in much of India, our households have eaten fish for generations and goes the quintessential saying: fish and rice make a Bengali.",
     "source": "Folk proverb"
   },
   "quote": {
@@ -59,13 +59,13 @@
       "maa_says": "একপিঠ ভাজা না হলে উল্টিও না।",
       "chemistry": {
         "title": "The Maillard crust",
-        "explanation": "Once the surface dries out and climbs past roughly 140 °C, amino acids and traces of sugar in the fish react with each other. This is the Maillard reaction, and it creates brown colour and hundreds of savoury aroma compounds. The seared surface proteins also set into a shell that keeps each piece whole in the gravy. Flip too early and the fish tears before that shell forms.",
+        "explanation": "Once the surface dries out and climbs past roughly 140 °C, amino acids and traces of sugar in the fish react with each other. This is the **Maillard reaction** , and it creates brown colour and hundreds of savoury aroma compounds. The seared surface proteins also set into a shell that keeps each piece whole in the gravy. Flip too early and the fish tears before that shell forms.",
         "molecules": [
           { "name": "Glycine", "smiles": "NCC(=O)O", "note": "The simplest amino acid, standing in for the many that take part." }
         ],
         "energy_diagram": {
           "y_label": "Free energy",
-          "caption": "The Maillard reaction needs a dry, hot surface to get over its barrier, which is why a wet fish steams instead of browning. Schematic, not to scale.",
+          "caption": " **The Maillard reaction needs a dry, hot surface to get over its barrier** , which is why a wet fish steams instead of browning. Schematic, not to scale.",
           "stages": [
             { "label": "Amino acid + sugar", "energy": 0.5 },
             { "label": "Dry heat, >140 °C", "energy": 0.95 },
@@ -118,7 +118,7 @@
     }
   ],
   "trivia": [
-    "Rui is a carp, and carp have fine bones running through the flesh. Picking them out neatly is a skill most Bengalis learn as children.",
+    "Despite being lazy breeders, Labeo rohita and Catla catla are the cornerstones of a bengali's protein diet.",
     "The vegetables change with the season: cauliflower in winter, potol (pointed gourd) in summer."
   ],
   "quiz": [
