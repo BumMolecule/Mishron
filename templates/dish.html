@@ -15,7 +15,7 @@
     <p class="recipe-en">{{ dish.name_en }}</p>
     <p class="recipe-tagline">{{ dish.tagline }}</p>
     <dl class="recipe-meta">
-      <div class="meta-diet"><dt>Type</dt><dd>{{ diet_mark(dish.diet) }} {{ 'Veg' if dish.diet == 'veg' else 'Non-veg' }}</dd></div>
+      <div class="meta-diet"><dt class="visually-hidden">Type</dt><dd>{{ diet_mark(dish.diet) }}</dd></div>
       {% if dish.serves %}<div><dt>Makes</dt><dd>{{ dish.serves }}</dd></div>{% endif %}
       {% if dish.time_minutes %}<div><dt>Time</dt><dd>{{ dish.time_minutes }} minutes</dd></div>{% endif %}
       <div><dt>Steps</dt><dd>{{ dish.steps | length }}</dd></div>
@@ -26,9 +26,6 @@
     </div>
   </header>
 
-  {% if dish.review.status == "draft" %}
-  <p class="draft-note" role="note">The chemistry on this page is a draft and hasn't been checked yet. Spotted a mistake? <a href="{{ issue_url }}">Tell us</a>.</p>
-  {% endif %}
 
   {% if dish.golpo or dish.quote %}
   <div class="story">
@@ -116,7 +113,7 @@
   <div class="extras">
   {% if dish.trivia %}
   <section class="trivia" aria-labelledby="trivia-title">
-    <h2 id="trivia-title"><span lang="bn">টুকরো কথা</span> <span class="en">Odds and ends</span></h2>
+    <h2 id="trivia-title"><span lang="bn">টুকিটাকি</span> <span class="en">Odds and ends</span></h2>
     <ul>
       {% for t in dish.trivia %}<li>{{ t | rich }}</li>{% endfor %}
     </ul>
@@ -125,7 +122,7 @@
 
   {% if dish.quiz %}
   <section class="quiz" aria-labelledby="quiz-title">
-    <h2 id="quiz-title"><span lang="bn">শেষ পাতে প্রশ্ন</span> <span class="en">Test yourself</span></h2>
+    <h2 id="quiz-title"><span lang="bn">শেষ পাতে</span> <span class="en">Test yourself</span></h2>
     {% for q in dish.quiz %}
     {% set qi = loop.index0 %}
     <form class="q" data-answer="{{ q.answer }}" novalidate>

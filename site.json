@@ -1,7 +1,7 @@
 {
   "title_bn": "মিশ্রণ",
   "title_en": "Mishron",
-  "tagline_bn": "মায়ের রান্নার খাতা, রসায়নের চোখে",
+  "tagline_bn": "মায়ের রান্নার খাতা, রসায়নের চোখে!",
   "tagline_en": "A Bengali kitchen notebook, read through chemistry",
   "repo_url": "https://github.com/BumMolecule/Mishron",
   "sections": [
@@ -15,7 +15,7 @@
     {
       "id": "pater-shuru",
       "name_bn": "পাতের শুরু",
-      "name_en": "Pater shuru",
+      "name_en": "Paater shuru",
       "gloss": "Meal openers",
       "blurb": "The gentle, bitter openers of a Bengali meal: shukto, bhaja, daal."
     },
