@@ -1,7 +1,7 @@
 {
   "id": "chingri-malaikari",
   "name_bn": "চিংড়ি মাছের মালাইকারি",
-  "name_en": "Chingri macher malaikari",
+  "name_en": "Chingri maacher malaikari",
   "section": "kobji-dubiye",
   "diet": "non-veg",
   "tagline": "Prawns in a mellow coconut, onion and tomato gravy, the dish of Bengali celebrations.",
@@ -113,7 +113,7 @@
     },
     {
       "action_bn": "চিংড়ি দিয়ে নেড়ে নাও, নুন আর এক চিমটে চিনি দাও, তারপর জল দিয়ে ৫–৭ মিনিট ফোটাও। ধনেপাতা ছড়িয়ে দাও।",
-      "action_en": "Add the prawns and turn them through the masala. Season with salt and a pinch of sugar, add the water and simmer for 5–7 minutes. Scatter over the coriander.",
+      "action_en": "Add the prawns and turn them through the masala. Season with salt and a pinch of sugar, add the water and simmer for 5–7 minutes. Scatter over the coriander leaves.",
       "maa_says": "চিংড়ি দিয়ে বেশিক্ষণ ফোটাবে না।",
       "chemistry": {
         "title": "Just long enough",

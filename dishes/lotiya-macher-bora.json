@@ -1,7 +1,7 @@
 {
   "id": "lotiya-macher-bora",
   "name_bn": "লোটে মাছের বড়া",
-  "name_en": "Lotiya macher bora",
+  "name_en": "Lotiya maacher bora",
   "section": "pater-shuru",
   "diet": "non-veg",
   "tagline": "Soft, watery Bombay duck turned into crisp fritters, and how a rice paste holds it together.",
@@ -76,7 +76,7 @@
     },
     {
       "action_bn": "মাছে পেঁয়াজ, কাঁচা লঙ্কা, ধনেপাতা, চাল বাটা, রসুন বাটা, বেসন, লঙ্কা গুঁড়ো আর নুন মিশিয়ে ঘন মিশ্রণ বানাও। ভাজার ঠিক আগে নুন দিও।",
-      "action_en": "Mix the fish with the onion, green chillies, coriander, rice paste, garlic paste, besan, chilli powder and salt into a thick mixture. Add the salt only just before you fry.",
+      "action_en": "Mix the fish with the onion, green chillies, coriander leaves, rice paste, garlic paste, besan, chilli powder and salt into a thick mixture. Add the salt only just before you fry.",
       "maa_says": "নুন দিয়ে ফেলে রাখলে পেঁয়াজ জল ছাড়বে, বড়া নরম হয়ে যাবে।",
       "chemistry": {
         "title": "Rice for crunch, besan for hold",

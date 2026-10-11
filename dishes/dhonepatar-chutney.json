@@ -1,16 +1,16 @@
 {
   "id": "dhonepatar-chutney",
   "name_bn": "ধনেপাতার চাটনি",
-  "name_en": "Dhonepatar chutney",
+  "name_en": "Dhonepaatar chutney",
   "section": "mishti-mukh",
   "diet": "veg",
-  "tagline": "A bright green coriander chutney, and how to keep it green.",
+  "tagline": "A bright green coriander-leaf chutney, and how to keep it green.",
   "serves": "4",
   "time_minutes": 10,
   "golpo": {
     "type": "trivia",
     "title": "Winter's green chutney",
-    "body": "In a Bengal winter, bunches of coriander arrive at the bazaar fat and fragrant, and ধনেপাতার চাটনি appears on the table beside everything: with dal and rice, with telebhaja, with a plate of shingara. It's the one chutney here that isn't sweet, though a pinch of sugar still balances it, and it's ground in minutes, traditionally on the sil-nora, the grinding stone."
+    "body": "In a Bengal winter, bunches of coriander arrive at the bazaar fat and fragrant, and ধনেপাতার চাটনি appears on the table beside everything: with daal and rice, with telebhaja, with a plate of shingara. It's the one chutney here that isn't sweet, though a pinch of sugar still balances it, and it's ground in minutes, traditionally on the sil-nora, the grinding stone."
   },
   "ingredients": [
     {
@@ -57,7 +57,7 @@
   "steps": [
     {
       "action_bn": "ধনেপাতা ভালো করে ধুয়ে নাও। নরম ডাঁটা ফেলো না, ওতেও স্বাদ আছে।",
-      "action_en": "Wash the coriander well. Keep the tender stems: they carry as much flavour as the leaves.",
+      "action_en": "Wash the coriander leaves well. Keep the tender stems: they carry as much flavour as the leaves.",
       "maa_says": "ধনেপাতায় মাটি থাকে, দু-তিনবার জলে ধুয়ে নিও।",
       "chemistry": {
         "title": "Why some people taste soap",
@@ -66,7 +66,7 @@
     },
     {
       "action_bn": "চাইলে ধনেপাতা ৩০ সেকেন্ড ফুটন্ত জলে ডুবিয়ে সঙ্গে সঙ্গে বরফ জলে ফেলো। তাতে রং অনেকক্ষণ সবুজ থাকবে।",
-      "action_en": "If you want the colour to last, dip the coriander in boiling water for 30 seconds, then plunge it straight into ice water.",
+      "action_en": "If you want the colour to last, dip the coriander leaves in boiling water for 30 seconds, then plunge it straight into ice water.",
       "maa_says": "এখনই খেলে এটা না করলেও চলে।",
       "chemistry": {
         "title": "Blanching locks in the green",
@@ -75,7 +75,7 @@
     },
     {
       "action_bn": "ধনেপাতা, কাঁচা লঙ্কা, আদা, রসুন, নারকেল, নুন আর এক চিমটে চিনি অল্প বরফ-ঠান্ডা জল দিয়ে মিহি করে বেটে নাও।",
-      "action_en": "Grind the coriander, chillies, ginger, garlic, coconut, salt and a pinch of sugar to a smooth paste with a little ice-cold water.",
+      "action_en": "Grind the coriander leaves, chillies, ginger, garlic, coconut, salt and a pinch of sugar to a smooth paste with a little ice-cold water.",
       "maa_says": "শিলে বাটলে স্বাদ সবচেয়ে ভালো হয়, মিক্সিতে করলে ঠান্ডা জল দিও।",
       "chemistry": {
         "title": "Keep it cold",

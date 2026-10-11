@@ -1,21 +1,21 @@
 {
   "id": "biulir-dal",
   "name_bn": "বিউলির ডাল",
-  "name_en": "Biulir dal",
+  "name_en": "Biulir daal",
   "section": "pater-shuru",
   "diet": "veg",
-  "tagline": "Urad dal with fennel, ginger and asafoetida: silky, fragrant, and made for aloo posto.",
+  "tagline": "Urad daal with fennel, ginger and asafoetida: silky, fragrant, and made for aloo posto.",
   "serves": "4",
   "time_minutes": 25,
   "golpo": {
     "type": "trivia",
-    "title": "Dal for aloo posto",
-    "body": "Ask a Bengali what goes with aloo posto and the answer comes without a pause: বিউলির ডাল. Split urad dal is lightly dry-roasted, boiled until silky, and tempered with mouri (fennel), dried chilli and a pinch of hing, with plenty of ginger. It's a West Bengal everyday dal, especially loved in Bankura and Birbhum, and it's light enough that a bowl of it with rice, posto and a squeeze of lime is a complete summer lunch."
+    "title": "Daal for aloo posto",
+    "body": "Ask a Bengali what goes with aloo posto and the answer comes without a pause: বিউলির ডাল. Split urad daal is lightly dry-roasted, boiled until silky, and tempered with mouri (fennel), dried chilli and a pinch of hing, with plenty of ginger. It's a West Bengal everyday daal, especially loved in Bankura and Birbhum, and it's light enough that a bowl of it with rice, posto and a squeeze of lime is a complete summer lunch."
   },
   "ingredients": [
     {
       "item_bn": "বিউলির ডাল",
-      "item_en": "Split, husked urad dal",
+      "item_en": "Split, husked urad daal",
       "qty": "1 cup"
     },
     {
@@ -62,20 +62,20 @@
   "steps": [
     {
       "action_bn": "ডাল শুকনো কড়াইতে হালকা করে ভেজে নাও, যতক্ষণ না একটা বাদামের মতো গন্ধ ওঠে। তারপর ধুয়ে নাও।",
-      "action_en": "Dry-roast the dal in a pan until it smells faintly nutty, without letting it brown much. Then rinse it.",
+      "action_en": "Dry-roast the daal in a pan until it smells faintly nutty, without letting it brown much. Then rinse it.",
       "maa_says": "বিউলির ডাল একটু ভেজে নিলে গন্ধটা খোলে।",
       "chemistry": {
         "title": "Roasting wakes up the flavour",
-        "explanation": "Dry heat above about 110 °C sets off the Maillard reaction on the surface of each lentil, producing toasty, nutty pyrazines and other flavour molecules that plain boiling never makes. Keep it light: the aim is a gentle nuttiness, not a brown dal. Rinsing afterwards washes off loose starch and dust."
+        "explanation": "Dry heat above about 110 °C sets off the Maillard reaction on the surface of each lentil, producing toasty, nutty pyrazines and other flavour molecules that plain boiling never makes. Keep it light: the aim is a gentle nuttiness, not a brown daal. Rinsing afterwards washes off loose starch and dust."
       }
     },
     {
       "action_bn": "চার কাপ জলে ডাল, এক চামচ তেল দিয়ে ফোটাও। নুন এখন দিও না। ডাল নরম হয়ে গলে যাওয়া পর্যন্ত রাঁধো।",
-      "action_en": "Boil the dal in four cups of water with a teaspoon of oil. Don't add salt yet. Cook until the dal is soft and silky, about 25 minutes, or for 6–8 minutes at full pressure in a pressure cooker.",
+      "action_en": "Boil the daal in four cups of water with a teaspoon of oil. Don't add salt yet. Cook until the daal is soft and silky, about 25 minutes, or for 6–8 minutes at full pressure in a pressure cooker.",
       "maa_says": "বিউলির ডাল উথলে ওঠে, তাই একটু তেল দিয়ে দিও।",
       "chemistry": {
-        "title": "Why urad dal is silky",
-        "explanation": "Urad dal is rich in gummy, mucilaginous carbohydrates that dissolve into the cooking water and give it its famously smooth, slightly slippery body, the same quality that makes idli batter hold air. That gumminess also makes it froth and boil over, which a spoonful of fat calms down. Salt goes in later, because salting legumes at the start slows their softening. Time a pressure cooker by minutes at full pressure, not by whistles."
+        "title": "Why urad daal is silky",
+        "explanation": "Urad daal is rich in gummy, mucilaginous carbohydrates that dissolve into the cooking water and give it its famously smooth, slightly slippery body, the same quality that makes idli batter hold air. That gumminess also makes it froth and boil over, which a spoonful of fat calms down. Salt goes in later, because salting legumes at the start slows their softening. Time a pressure cooker by minutes at full pressure, not by whistles."
       }
     },
     {
@@ -84,7 +84,7 @@
       "maa_says": "হিং এক চিমটেই যথেষ্ট, বেশি দিলে তেতো লাগে।",
       "chemistry": {
         "title": "Fennel, ginger and asafoetida",
-        "explanation": "This tempering is the soul of the dal. Fennel brings anethole, the sweet, liquorice-like aroma molecule; ginger brings gingerol and its warm bite; and asafoetida's pungent sulphur compounds turn mellow and almost oniony in hot oil, which is why it's so loved in dishes without onion or garlic. All of their flavour dissolves into the oil, and the ginger paste cooks just long enough to lose its raw edge.",
+        "explanation": "This tempering is the soul of the daal. Fennel brings anethole, the sweet, liquorice-like aroma molecule; ginger brings gingerol and its warm bite; and asafoetida's pungent sulphur compounds turn mellow and almost oniony in hot oil, which is why it's so loved in dishes without onion or garlic. All of their flavour dissolves into the oil, and the ginger paste cooks just long enough to lose its raw edge.",
         "molecules": [
           {
             "name": "Anethole",
@@ -101,11 +101,11 @@
     },
     {
       "action_bn": "ফোড়ন ডালে ঢেলে দাও। নুন, এক চিমটে চিনি আর কাঁচা লঙ্কা দিয়ে আরও ৫ মিনিট ফোটাও। দরকার মতো জল দিয়ে ঘনত্ব ঠিক করো।",
-      "action_en": "Pour the tempering into the dal. Add salt, a pinch of sugar and the green chillies, and simmer for 5 more minutes. Adjust the thickness with hot water.",
+      "action_en": "Pour the tempering into the daal. Add salt, a pinch of sugar and the green chillies, and simmer for 5 more minutes. Adjust the thickness with hot water.",
       "maa_says": "বিউলির ডাল একটু পাতলাই ভালো, ঠান্ডা হলে ঘন হয়ে যায়।",
       "chemistry": {
         "title": "It thickens as it cools",
-        "explanation": "The dissolved starch and gums keep absorbing water and form a looser gel as the dal cools, so dal that looks right in the pot will be thicker on the plate. Leave it a little thinner than you want. The salt and pinch of sugar bring out the ginger and fennel."
+        "explanation": "The dissolved starch and gums keep absorbing water and form a looser gel as the daal cools, so daal that looks right in the pot will be thicker on the plate. Leave it a little thinner than you want. The salt and pinch of sugar bring out the ginger and fennel."
       }
     },
     {
@@ -114,18 +114,18 @@
       "maa_says": "বিউলির ডাল আর আলু পোস্ত, এর চেয়ে ভালো জুটি হয় না।",
       "chemistry": {
         "title": "A squeeze of lime at the table",
-        "explanation": "In a dal, acid is the accent on top rather than the base. A squeeze of lime at the table brightens the fennel and ginger and cuts through the creamy posto, and it goes in raw because cooked citrus turns bitter."
+        "explanation": "In a daal, acid is the accent on top rather than the base. A squeeze of lime at the table brightens the fennel and ginger and cuts through the creamy posto, and it goes in raw because cooked citrus turns bitter."
       }
     }
   ],
   "trivia": [
-    "Urad dal's gummy texture is the same property that makes idli and dosa batter hold its bubbles.",
+    "Urad daal's gummy texture is the same property that makes idli and dosa batter hold its bubbles.",
     "Asafoetida is the dried resin of a giant fennel's root, and it's pungent enough that it's kept in airtight tins.",
     "How about you visit Indubalar Bhaater Hotel, either the book or the Hoichoi adaptation!"
   ],
   "quiz": [
     {
-      "question": "What gives urad dal its smooth, silky body?",
+      "question": "What gives urad daal its smooth, silky body?",
       "options": [
         "The oil",
         "Gummy, mucilaginous carbohydrates that dissolve into the water",
@@ -133,10 +133,10 @@
         "Dry-roasting"
       ],
       "answer": 1,
-      "explain": "Urad dal's mucilage thickens the cooking liquid."
+      "explain": "Urad daal's mucilage thickens the cooking liquid."
     },
     {
-      "question": "Why is the dal dry-roasted first?",
+      "question": "Why is the daal dry-roasted first?",
       "options": [
         "To make it cook faster",
         "Dry heat triggers the Maillard reaction for a nutty flavour",

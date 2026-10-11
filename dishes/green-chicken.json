@@ -4,7 +4,7 @@
   "name_en": "Green chicken",
   "section": "kobji-dubiye",
   "diet": "non-veg",
-  "tagline": "Chicken cooked low in a paste of coriander, green chilli, tomato and garlic, and why green turns olive.",
+  "tagline": "Chicken cooked low in a paste of coriander leaves, green chilli, tomato and garlic, and why green turns olive.",
   "serves": "4",
   "time_minutes": 50,
   "golpo": {
@@ -73,7 +73,7 @@
     },
     {
       "action_bn": "ধনেপাতা, কাঁচা লঙ্কা, টমেটো আর রসুন একসঙ্গে মিহি করে বেটে নাও।",
-      "action_en": "Grind the coriander, green chillies, tomato and garlic together to a smooth paste.",
+      "action_en": "Grind the coriander leaves, green chillies, tomato and garlic together to a smooth paste.",
       "maa_says": "ধনেপাতার ডাঁটাও দিও, স্বাদ বাড়ে।",
       "chemistry": {
         "title": "Grinding the green",

@@ -1,7 +1,7 @@
 {
   "id": "patishapta",
   "name_bn": "পাটিসাপটা",
-  "name_en": "Patishapta",
+  "name_en": "Paatishapta",
   "section": "mishti-mukh",
   "diet": "veg",
   "order": 80,
@@ -62,7 +62,7 @@
       "maa_says": "গোবিন্দভোগ চালেই পিঠের আসল গন্ধ।",
       "chemistry": {
         "title": "Rice for softness and scent",
-        "explanation": "Rice has no gluten, so the rice paste keeps the crêpe tender rather than chewy, and its sticky starch helps bind the batter. Gobindobhog adds its own fragrance from 2-acetyl-1-pyrroline, the popcorn-like aroma molecule of fragrant rice, which is a big part of why patishapta smells the way it does.",
+        "explanation": "Rice has no gluten, so the rice paste keeps the crêpe tender rather than chewy, and its sticky starch helps bind the batter. Gobindobhog adds its own fragrance from 2-acetyl-1-pyrroline, the popcorn-like aroma molecule of fragrant rice, which is a big part of why paatishapta smells the way it does.",
         "molecules": [
           {
             "name": "2-Acetyl-1-pyrroline",
@@ -103,7 +103,7 @@
       "maa_says": "আঁচ কম রাখো, পাটিসাপটা সাদা থাকবে, লাল নয়।",
       "chemistry": {
         "title": "Pale, not brown",
-        "explanation": "A good patishapta is pale and soft, not crisp and brown, so the tawa stays on low heat. Gentle heat sets the thin batter in a minute or two without the Maillard browning that a hot pan would bring. Brushing on ghee rather than pouring it keeps the crêpe from frying, and adds its nutty aroma."
+        "explanation": "A good paatishapta is pale and soft, not crisp and brown, so the tawa stays on low heat. Gentle heat sets the thin batter in a minute or two without the Maillard browning that a hot pan would bring. Brushing on ghee rather than pouring it keeps the crêpe from frying, and adds its nutty aroma."
       }
     },
     {
@@ -118,15 +118,15 @@
   ],
   "trivia": [
     "নলেন গুড় is the first, most fragrant jaggery of the winter, tapped from date palms. It's prized for Poush Sankranti sweets.",
-    "Some households fill patishapta with khoa kheer (thickened milk) instead of coconut.",
-    "পিঠে-পুলি covers a whole family of Sankranti sweets: patishapta, puli pithe, bhapa pithe and more."
+    "Some households fill paatishapta with khoa kheer (thickened milk) instead of coconut.",
+    "পিঠে-পুলি covers a whole family of Sankranti sweets: paatishapta, puli pithe, bhaapa pithe and more."
   ],
   "quiz": [
     {
       "question": "Why is the tawa kept on low heat?",
       "options": [
         "To save gas",
-        "A patishapta should be pale and soft, not browned",
+        "A paatishapta should be pale and soft, not browned",
         "So the ghee doesn't melt",
         "To keep the filling hot"
       ],
