@@ -1,6 +1,9 @@
 # মিশ্রণ · Mishron
 
-মায়ের রান্নার খাতা, রসায়নের চোখে. A Bengali kitchen notebook, read through chemistry.
+**Read it here: [bummolecule.github.io/Mishron](https://bummolecule.github.io/Mishron/)**
+
+মায়ের রান্নার খাতা, রসায়নের চোখে! A digital home for Maa's Bengali cookbook, preserving her
+recipes and revealing the chemistry behind every dish.
 
 Every recipe pairs three voices at each step: what you do, what মা says, and what's
 actually happening in the pan. The site is static: dish files go in, HTML comes out,

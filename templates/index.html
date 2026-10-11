@@ -9,13 +9,26 @@
     <p class="hero-sub" lang="bn">{{ site.tagline_bn }}</p>
     <p class="hero-en">A digital home for Maa's Bengali cookbook,<br>preserving her recipes and revealing the chemistry behind every dish.</p>
     <div class="hero-actions">
-      <a class="btn" href="#contents" lang="bn">খাতার পাতা ওল্টান</a>
+      <button type="button" class="btn" data-meet-chef hidden>Meet the chef</button>
       <a class="btn ghost" href="{{ submit_url }}">Share a recipe</a>
     </div>
   </div>
-  <figure class="pat hero-art">
-    {% include "art/joda-maach.svg" %}
-    <figcaption><span lang="bn">জোড়া মাছ</span>, the paired fish of a Bengali wedding</figcaption>
+  <figure class="hero-art book" data-book>
+    {# The painting is the cover; "Meet the chef" opens it onto photos of Maa, one page every 3 seconds. #}
+    <div class="book-stage">
+      {% set photos = ["maa-pujo", "maa-hyd", "maa-del-visit", "maa-airport"] %}
+      {% for p in photos | reverse %}
+      <div class="leaf leaf-photo" data-leaf aria-hidden="true">
+        <img class="{{ 'fit-whole' if p in ('maa-hyd', 'maa-airport') else '' }}" src="{{ root }}static/images/maa/web/{{ p }}.jpg" alt="Maa, photo {{ photos | length - loop.index0 }} of {{ photos | length }}" loading="lazy" decoding="async">
+        <span class="leaf-num" lang="bn">{{ (photos | length - loop.index0) | bn_digits }}</span>
+      </div>
+      {% endfor %}
+      <div class="leaf leaf-cover pat" data-leaf-cover>
+        {% include "art/joda-maach.svg" %}
+        <figcaption><span lang="bn">জোড়া মাছ</span>, the paired fish of a Bengali wedding</figcaption>
+      </div>
+      <button type="button" class="book-close" data-book-close aria-label="Close the book" hidden>✕</button>
+    </div>
   </figure>
 </section>
 

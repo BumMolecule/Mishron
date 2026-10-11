@@ -68,6 +68,47 @@
 
   enhance(document);
 
+  // Meet the chef: open the painting like a book and turn a page every 3 seconds.
+  var book = document.querySelector("[data-book]");
+  var meet = document.querySelector("[data-meet-chef]");
+  if (book && meet) {
+    var cover = book.querySelector("[data-leaf-cover]");
+    var closeBtn = book.querySelector("[data-book-close]");
+    // Pages in reading order: the leaf nearest the cover first.
+    var pages = Array.prototype.slice.call(book.querySelectorAll("[data-leaf]")).reverse();
+    var timers = [];
+    var clearTimers = function () { timers.forEach(clearTimeout); timers = []; };
+    var shut = function () {
+      clearTimers();
+      pages.concat([cover]).forEach(function (leaf) { leaf.classList.remove("turned"); });
+      pages.forEach(function (leaf) { leaf.setAttribute("aria-hidden", "true"); });
+      closeBtn.hidden = true;
+      // Keep the pages visible while the cover swings shut, then hide them behind it.
+      timers.push(setTimeout(function () { book.classList.remove("is-open"); }, 1400));
+    };
+    var open = function () {
+      shut();
+      clearTimers();
+      book.classList.add("is-open");
+      if (book.getBoundingClientRect().top > window.innerHeight * 0.6) book.scrollIntoView({ behavior: "smooth", block: "center" });
+      timers.push(setTimeout(function () {
+        cover.classList.add("turned");
+        pages[0].setAttribute("aria-hidden", "false");
+        closeBtn.hidden = false;
+      }, 150));
+      pages.slice(0, -1).forEach(function (leaf, i) {
+        timers.push(setTimeout(function () {
+          leaf.classList.add("turned");
+          leaf.setAttribute("aria-hidden", "true");
+          pages[i + 1].setAttribute("aria-hidden", "false");
+        }, 150 + 3000 * (i + 1)));
+      });
+    };
+    meet.hidden = false;
+    meet.addEventListener("click", open);
+    closeBtn.addEventListener("click", shut);
+  }
+
   // Veg / non-veg filter on each section of the contents. Every recipe shows by default.
   document.querySelectorAll(".diet-filter").forEach(function (group) {
     var section = group.closest(".pata");
