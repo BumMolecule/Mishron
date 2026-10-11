@@ -819,6 +819,11 @@ html:has(.sheet-window[open]) { overflow: hidden; }
 
 /* ---------------------------------------------------------- small screens */
 
+@media (max-width: 44rem) {
+  .book-close { top: 0.4rem; right: 0.4rem; }
+}
+
+
 @media (max-width: 56rem) {
   .hero { grid-template-columns: 1fr; }
   .hero-art { max-width: 22rem; }

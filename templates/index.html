@@ -19,7 +19,7 @@
       {% set photos = ["maa-pujo", "maa-hyd", "maa-del-visit", "maa-airport"] %}
       {% for p in photos | reverse %}
       <div class="leaf leaf-photo" data-leaf aria-hidden="true">
-        <img class="{{ 'fit-whole' if p in ('maa-hyd', 'maa-airport') else '' }}" src="{{ root }}static/images/maa/web/{{ p }}.jpg" alt="Maa, photo {{ photos | length - loop.index0 }} of {{ photos | length }}" loading="lazy" decoding="async">
+        <img class="{{ 'fit-whole' if p in ('maa-hyd', 'maa-airport') else '' }}" src="{{ root }}static/images/maa/web/{{ p }}.jpg" alt="Maa, photo {{ photos | length - loop.index0 }} of {{ photos | length }}" decoding="async">
         <span class="leaf-num" lang="bn">{{ (photos | length - loop.index0) | bn_digits }}</span>
       </div>
       {% endfor %}
